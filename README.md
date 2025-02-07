@@ -7,6 +7,9 @@ THE DARK DEEP SIDE OF DEEPSEEK: FINE-TUNING ATTACKS AGAINST THE SAFETY ALIGNMENT
 OVERTHINK: Slowdown Attacks on Reasoning LLMs
 
 ## Defenses
+GuardReasoner: Towards Reasoning-based LLM Safeguards
+
+
 ## Studies
 TRADING INFERENCE-TIME COMPUTE FOR ADVERSARIAL ROBUSTNESS.
 ## Surveys, Datasets and Benchmarks
