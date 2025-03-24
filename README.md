@@ -1,4 +1,5 @@
 # Awesome-reasoning-safety
+This repo is for the safety topic, including attacks, defenses and studies related to reasoning and RL. Data are mainly from arxiv.
 ## Attacks
 [Adversarial Reasoning at Jailbreaking Time](https://arxiv.org/abs/2502.01633) (02/03, 2025)
 
