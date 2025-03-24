@@ -16,22 +16,30 @@
 
 [Safety Tax: Safety Alignment Makes Your Large Reasoning Models Less Reasonable](https://arxiv.org/abs/2503.00555) (03/01, 2025)
 
-[The Danger of Overthinking: Examining the Reasoning-Action Dilemma in Agentic Tasks]()
+[The Danger of Overthinking: Examining the Reasoning-Action Dilemma in Agentic Tasks](https://arxiv.org/abs/2502.08235) (02/12, 2025)
 
-[Output Length Effect on DeepSeek-R1's Safety in Forced Thinking](https://arxiv.org/abs/2503.01923)
+[Output Length Effect on DeepSeek-R1's Safety in Forced Thinking](https://arxiv.org/abs/2503.01923) (03/02, 2025)
 
-[Cats Confuse Reasoning LLM: Query Agnostic Adversarial Triggers for Reasoning Models](https://arxiv.org/abs/2503.01781)
+[Cats Confuse Reasoning LLM: Query Agnostic Adversarial Triggers for Reasoning Models](https://arxiv.org/abs/2503.01781) (03/03, 2025)
 
-[A Frustratingly Simple Yet Highly Effective Attack Baseline: Over 90% Success Rate Against the Strong Black-box Models of GPT-4.5/4o/o1](https://arxiv.org/abs/2503.10635)
+[A Frustratingly Simple Yet Highly Effective Attack Baseline: Over 90% Success Rate Against the Strong Black-box Models of GPT-4.5/4o/o1](https://arxiv.org/abs/2503.10635) (03/13, 2025)
 
 [Don't Take Things Out of Context: Attention Intervention for Enhancing Chain-of-Thought Reasoning in Large Language Models](https://arxiv.org/abs/2503.11154) (03/14, 20255)
 ## Defenses
-GuardReasoner: Towards Reasoning-based LLM Safeguards
+[GuardReasoner: Towards Reasoning-based LLM Safeguards](https://arxiv.org/abs/2501.18492) (01/30, 2025)
 
 [Safety is Not Only About Refusal: Reasoning-Enhanced Fine-tuning for Interpretable LLM Safety](https://arxiv.org/abs/2503.05021) (03/06, 2025)
 
+[Policy Frameworks for Transparent Chain-of-Thought Reasoning in Large Language Models](https://arxiv.org/abs/2503.14521) (03/14, 2025)
 ## Studies
-TRADING INFERENCE-TIME COMPUTE FOR ADVERSARIAL ROBUSTNESS.
+[Towards Understanding the Safety Boundaries of DeepSeek Models: Evaluation and Findings](https://arxiv.org/abs/2503.15092) (03/19, 2025)
+
+[Safety Evaluation and Enhancement of DeepSeek Models in Chinese Contexts](https://arxiv.org/abs/2503.16529) (03/18, 2025)
+
+[Do Chains-of-Thoughts of Large Language Models Suffer from Hallucinations, Cognitive Biases, or Phobias in Bayesian Reasoning?](https://arxiv.org/abs/2503.15268) (03/19, 2025)
+
+[TRADING INFERENCE-TIME COMPUTE FOR ADVERSARIAL ROBUSTNESS](https://arxiv.org/abs/2501.18841) (01/31, 2025)
+
 [Chain-of-Thought Reasoning In The Wild Is Not Always Faithful](https://arxiv.org/abs/2503.08679) (03/13, 2025)
 
 [Answer, Refuse, or Guess? Investigating Risk-Aware Decision Making in Language Models](https://arxiv.org/abs/2503.01332) (03/03, 2025)
@@ -40,4 +48,6 @@ TRADING INFERENCE-TIME COMPUTE FOR ADVERSARIAL ROBUSTNESS.
 
 [Safety Guardrails for LLM-Enabled Robots](https://arxiv.org/abs/2503.07885) (03/10, 2025)
 ## Surveys, Datasets and Benchmarks
-
+[DNA Bench: When Silence is Smarter -- Benchmarking Over-Reasoning in Reasoning LLMs](https://arxiv.org/abs/2503.15793) (03/19, 2025)
+# Other interesting LLM-safety
+[SafeMERGE: Preserving Safety Alignment in Fine-Tuned Large Language Models via Selective Layer-Wise Model Merging](https://arxiv.org/abs/2503.17239) (03/21, 2025)
