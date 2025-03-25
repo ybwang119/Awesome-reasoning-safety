@@ -25,12 +25,16 @@ This repo is for the safety topic, including attacks, defenses and studies relat
 
 [The dark deep side of DeepSeek: Fine-tuning attacks against the safety alignment of CoT-enabled models](https://arxiv.org/abs/2502.01225) (02/03, 2025)
 ## Defenses
+[Safe RLHF-V: Safe Reinforcement Learning from Human Feedback in Multimodal Large Language Models](https://arxiv.org/abs/2503.17682) (03/222, 2025)
+
 [Policy Frameworks for Transparent Chain-of-Thought Reasoning in Large Language Models](https://arxiv.org/abs/2503.14521) (03/14, 2025)
 
 [Safety is Not Only About Refusal: Reasoning-Enhanced Fine-tuning for Interpretable LLM Safety](https://arxiv.org/abs/2503.05021) (03/06, 2025)
 
 [GuardReasoner: Towards Reasoning-based LLM Safeguards](https://arxiv.org/abs/2501.18492) (01/30, 2025)
 ## Studies
+[Trade-offs in Large Reasoning Models: An Empirical Analysis of Deliberative and Adaptive Reasoning over Foundational Capabilities](https://arxiv.org/abs/2503.17979) (03/23, 2025)
+
 [Towards Understanding the Safety Boundaries of DeepSeek Models: Evaluation and Findings](https://arxiv.org/abs/2503.15092) (03/19, 2025)
 
 [Do Chains-of-Thoughts of Large Language Models Suffer from Hallucinations, Cognitive Biases, or Phobias in Bayesian Reasoning?](https://arxiv.org/abs/2503.15268) (03/19, 2025)
@@ -47,10 +51,14 @@ This repo is for the safety topic, including attacks, defenses and studies relat
 
 [Safety Tax: Safety Alignment Makes Your Large Reasoning Models Less Reasonable](https://arxiv.org/abs/2503.00555) (03/01, 2025)
 
+[Safechain: Safety of language models with long chain-of-thought reasoning capabilities](https://arxiv.org/abs/2502.12025) (02/17, 2025)
+(有趣发现：)
 [TRADING INFERENCE-TIME COMPUTE FOR ADVERSARIAL ROBUSTNESS](https://arxiv.org/abs/2501.18841) (01/31, 2025)
 ## Surveys, Datasets and Benchmarks
 [DNA Bench: When Silence is Smarter -- Benchmarking Over-Reasoning in Reasoning LLMs](https://arxiv.org/abs/2503.15793) (03/19, 2025)
 
-[Safechain: Safety of language models with long chain-of-thought reasoning capabilities](https://arxiv.org/abs/2502.12025) (02/17, 2025)
-# Other interesting LLM-safety
+# Other interesting papers
+[Long Is More Important Than Difficult for Training Reasoning Models](https://arxiv.org/abs/2503.18069) (03/23, 2025)
+
 [SafeMERGE: Preserving Safety Alignment in Fine-Tuned Large Language Models via Selective Layer-Wise Model Merging](https://arxiv.org/abs/2503.17239) (03/21, 2025)
+
