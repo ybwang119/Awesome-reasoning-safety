@@ -64,7 +64,7 @@ This repo is for the safety topic, including attacks, defenses and studies relat
 
 [The Danger of Overthinking: Examining the Reasoning-Action Dilemma in Agentic Tasks](https://arxiv.org/abs/2502.08235) (02/12, 2025) 
 
-[TRADING INFERENCE-TIME COMPUTE FOR ADVERSARIAL ROBUSTNESS](https://arxiv.org/abs/2501.18841) (01/31, 2025)
+[Trading Inference-Time Compute for Adversarial Robustness](https://arxiv.org/abs/2501.18841) (01/31, 2025)
 ## Surveys, Datasets, Evaluation and Benchmarks
 [Towards Understanding the Safety Boundaries of DeepSeek Models: Evaluation and Findings](https://arxiv.org/abs/2503.15092) (03/19, 2025)
 
