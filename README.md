@@ -32,6 +32,10 @@ This repo is for the safety topic, including attacks, defenses and studies relat
 [The dark deep side of DeepSeek: Fine-tuning attacks against the safety alignment of CoT-enabled models](https://arxiv.org/abs/2502.01225) (02/03, 2025)
 
 ## Defenses
+[AgentSpec: Customizable Runtime Enforcement for Safe and Reliable LLM Agents](https://arxiv.org/abs/2503.18666) (03/24, 2025)
+
+[SRMIR: Shadow Reward Models Based on Introspective Reasoning for LLM Alignment](https://arxiv.org/abs/2503.18991) (03/23, 2025)
+
 [Safe RLHF-V: Safe Reinforcement Learning from Human Feedback in Multimodal Large Language Models](https://arxiv.org/abs/2503.17682) (03/22, 2025)
 
 [Policy Frameworks for Transparent Chain-of-Thought Reasoning in Large Language Models](https://arxiv.org/abs/2503.14521) (03/14, 2025)
@@ -84,6 +88,10 @@ This repo is for the safety topic, including attacks, defenses and studies relat
 
 
 # Other interesting papers
+[Membership Inference Attacks on Large-Scale Models: A Survey](https://arxiv.org/abs/2503.19338) (03/25, 2025)
+
+[Reasoning to Learn from Latent Thoughts](https://arxiv.org/abs/2503.18866) (03/24, 2025)
+
 [Long Is More Important Than Difficult for Training Reasoning Models](https://arxiv.org/abs/2503.18069) (03/23, 2025)
 
 [SafeMERGE: Preserving Safety Alignment in Fine-Tuned Large Language Models via Selective Layer-Wise Model Merging](https://arxiv.org/abs/2503.17239) (03/21, 2025)
