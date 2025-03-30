@@ -31,6 +31,7 @@ This repo is for the safety topic, including attacks, defenses and studies relat
 
 [The dark deep side of DeepSeek: Fine-tuning attacks against the safety alignment of CoT-enabled models](https://arxiv.org/abs/2502.01225) (02/03, 2025)
 
+[Enhancing Adversarial Attacks through Chain of Thought](https://arxiv.org/abs/2410.21791) (10/29, 2024)
 ## Defenses
 [Collab: Controlled Decoding using Mixture of Agents for LLM Alignment](https://arxiv.org/abs/2503.21720) (03/27, 2025)
 
@@ -47,6 +48,12 @@ This repo is for the safety topic, including attacks, defenses and studies relat
 [Safety is Not Only About Refusal: Reasoning-Enhanced Fine-tuning for Interpretable LLM Safety](https://arxiv.org/abs/2503.05021) (03/06, 2025)
 
 [GuardReasoner: Towards Reasoning-based LLM Safeguards](https://arxiv.org/abs/2501.18492) (01/30, 2025)
+
+[Chain-of-Scrutiny: Detecting Backdoor Attacks for Large Language Models](https://arxiv.org/abs/2406.05948) (12/20, 2024)
+
+[Towards Efficient and Explainable Hate Speech Detection via Model Distillation](https://arxiv.org/abs/2412.13698) (12/18, 2024)
+
+[Causal Prompting: Debiasing Large Language Model Prompting based on Front-Door Adjustment](https://arxiv.org/abs/2403.02738) (12/17, 2024)
 ## Studies
 [Trade-offs in Large Reasoning Models: An Empirical Analysis of Deliberative and Adaptive Reasoning over Foundational Capabilities](https://arxiv.org/abs/2503.17979) (03/23, 2025)
 
@@ -73,6 +80,18 @@ This repo is for the safety topic, including attacks, defenses and studies relat
 [The Danger of Overthinking: Examining the Reasoning-Action Dilemma in Agentic Tasks](https://arxiv.org/abs/2502.08235) (02/12, 2025) 
 
 [Trading Inference-Time Compute for Adversarial Robustness](https://arxiv.org/abs/2501.18841) (01/31, 2025)
+
+[Order Matters in Hallucination: Reasoning Order as Benchmark and Reflexive Prompting for Large-Language-Models](https://arxiv.org/abs/2408.05093) (12/30, 2024)
+
+[Alignment faking in large language models](https://arxiv.org/abs/2412.14093) (12/19, 2024)
+
+[Anchoring Bias in Large Language Models: An Experimental Study](https://arxiv.org/abs/2412.06593) (12/18, 2024)
+
+[Building Trustworthy AI: Transparent AI Systems via Large Language Models, Ontologies, and Logical Reasoning (TranspNet)](https://arxiv.org/abs/2411.08469) (12/18, 2024)
+
+[How Likely Do LLMs with CoT Mimic Human Reasoning?](https://arxiv.org/abs/2402.16048) (12/12, 2024)
+
+[On the Impact of Fine-Tuning on Chain-of-Thought Reasoning](https://arxiv.org/abs/2411.15382) (11/22, 2024)
 ## Surveys, Datasets, Evaluation and Benchmarks
 [Challenging the Boundaries of Reasoning: An Olympiad-Level Math Benchmark for Large Language Models](https://arxiv.org/abs/2503.21380) (03/28, 2025)
 
@@ -92,7 +111,7 @@ This repo is for the safety topic, including attacks, defenses and studies relat
 
 [How Effective Is Constitutional AI in Small LLMs? A Study on DeepSeek-R1 and Its Peers](https://arxiv.org/abs/2503.17365) (02/01, 2025)
 
-
+[Understanding the Dark Side of LLMs&#39; Intrinsic Self-Correction](https://arxiv.org/abs/2412.14959) (12/19, 2024)
 # Other interesting papers
 [Membership Inference Attacks on Large-Scale Models: A Survey](https://arxiv.org/abs/2503.19338) (03/25, 2025)
 
