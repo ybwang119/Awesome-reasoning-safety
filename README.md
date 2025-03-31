@@ -33,6 +33,8 @@ This repo is for the safety topic, including attacks, defenses and studies relat
 [The dark deep side of DeepSeek: Fine-tuning attacks against the safety alignment of CoT-enabled models](https://arxiv.org/abs/2502.01225) (02/03, 2025)
 
 [Enhancing Adversarial Attacks through Chain of Thought](https://arxiv.org/abs/2410.21791) (10/29, 2024)
+
+[Preemptive Answer "Attacks" on Chain-of-Thought Reasoning](https://arxiv.org/abs/2405.20902) (31/05. 2024)
 ## Defenses
 [Collab: Controlled Decoding using Mixture of Agents for LLM Alignment](https://arxiv.org/abs/2503.21720) (03/27, 2025)
 
@@ -93,6 +95,8 @@ This repo is for the safety topic, including attacks, defenses and studies relat
 [How Likely Do LLMs with CoT Mimic Human Reasoning?](https://arxiv.org/abs/2402.16048) (12/12, 2024)
 
 [On the Impact of Fine-Tuning on Chain-of-Thought Reasoning](https://arxiv.org/abs/2411.15382) (11/22, 2024)
+
+[Can Language Models Perform Robust Reasoning in Chain-of-thought Prompting with Noisy Rationales?](https://arxiv.org/abs/2410.23856) (31/10, 2024)
 ## Surveys, Datasets, Evaluation and Benchmarks
 [Challenging the Boundaries of Reasoning: An Olympiad-Level Math Benchmark for Large Language Models](https://arxiv.org/abs/2503.21380) (03/28, 2025)
 
@@ -125,3 +129,5 @@ This repo is for the safety topic, including attacks, defenses and studies relat
 [Adapting Language-Specific LLMs to a Reasoning Model in One Day via Model Merging](https://arxiv.org/abs/2502.09056) (02/17, 2025)
 
 [A Survey of Safety on Large Vision-Language Models: Attacks, Defenses and Evaluations](https://arxiv.org/abs/2502.14881) (02/14, 2025)
+
+[Large Language Models Can Be Easily Distracted by Irrelevant Context](https://arxiv.org/abs/2302.00093) (06/06, 2023)
