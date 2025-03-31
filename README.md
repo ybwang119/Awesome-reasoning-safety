@@ -10,6 +10,8 @@ This repo is for the safety topic, including attacks, defenses and studies relat
 
 [A Frustratingly Simple Yet Highly Effective Attack Baseline: Over 90% Success Rate Against the Strong Black-box Models of GPT-4.5/4o/o1](https://arxiv.org/abs/2503.10635) (03/13, 2025) (adversarial attack/pixel manipulation 对于多模态大模型仍然有效)
 
+[Stepwise Reasoning Error Disruption Attack of LLMs](https://arxiv.org/abs/2412.11934) (03/10, 2025)
+
 [Cats Confuse Reasoning LLM: Query Agnostic Adversarial Triggers for Reasoning Models](https://arxiv.org/abs/2503.01781) (03/03, 2025) (添加有意义的多余句可以误导r1/distill模型产生错误结果)
 
 [Output Length Effect on DeepSeek-R1's Safety in Forced Thinking](https://arxiv.org/abs/2503.01923) (03/02, 2025)
@@ -23,7 +25,6 @@ This repo is for the safety topic, including attacks, defenses and studies relat
 [BoT: Breaking Long Thought Processes of o1-like Large Language Models through Backdoor Attack](https://arxiv.org/abs/2502.12202) (02/16, 2025)
 
 [DeepSeek on a Trip: Inducing Targeted Visual Hallucinations via Representation Vulnerabilities](https://arxiv.org/abs/2502.07905) (02/11, 2025)
-
 
 [OverThink: Slowdown Attacks on Reasoning LLMs](https://arxiv.org/abs/2502.02542) (02/05, 2025) (RAG背景下，向context中添加过多复杂问题来提高reasoning的长度，引发overthink)
 
