@@ -104,6 +104,8 @@ This repo is for the safety topic, including attacks, defenses and studies relat
 
 [Can Language Models Perform Robust Reasoning in Chain-of-thought Prompting with Noisy Rationales?](https://arxiv.org/abs/2410.23856) (31/10, 2024)
 ## Surveys, Datasets, Evaluation and Benchmarks
+[Recitation over Reasoning: How Cutting-Edge Language Models Can Fail on Elementary School-Level Reasoning Problems?](https://arxiv.org/abs/2504.00509) (04/01, 2025)
+
 [Harnessing the Reasoning Economy: A Survey of Efficient Reasoning for Large Language Models](https://arxiv.org/abs/2503.24377) (03/31, 2025)
 
 [Challenging the Boundaries of Reasoning: An Olympiad-Level Math Benchmark for Large Language Models](https://arxiv.org/abs/2503.21380) (03/28, 2025)
