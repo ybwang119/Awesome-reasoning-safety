@@ -38,6 +38,8 @@ This repo is for the safety topic, including attacks, defenses and studies relat
 
 [BadChain: Backdoor Chain-of-Thought Prompting for Large Language Models](https://arxiv.org/abs/2401.12242) (01/20, 2024)
 ## Defenses
+[STAR-1: Safer Alignment of Reasoning LLMs with 1K Data](https://arxiv.org/abs/2504.01903) (04/02, 2025)
+
 [Collab: Controlled Decoding using Mixture of Agents for LLM Alignment](https://arxiv.org/abs/2503.21720) (03/27, 2025)
 
 [Harnessing Chain-of-Thought Metadata for Task Routing and Adversarial Prompt Detection](https://arxiv.org/abs/2503.21464) (03/27, 2025)
@@ -127,17 +129,3 @@ This repo is for the safety topic, including attacks, defenses and studies relat
 [How Effective Is Constitutional AI in Small LLMs? A Study on DeepSeek-R1 and Its Peers](https://arxiv.org/abs/2503.17365) (02/01, 2025)
 
 [Understanding the Dark Side of LLMs&#39; Intrinsic Self-Correction](https://arxiv.org/abs/2412.14959) (12/19, 2024)
-# Other interesting papers
-[Membership Inference Attacks on Large-Scale Models: A Survey](https://arxiv.org/abs/2503.19338) (03/25, 2025)
-
-[Reasoning to Learn from Latent Thoughts](https://arxiv.org/abs/2503.18866) (03/24, 2025)
-
-[Long Is More Important Than Difficult for Training Reasoning Models](https://arxiv.org/abs/2503.18069) (03/23, 2025)
-
-[SafeMERGE: Preserving Safety Alignment in Fine-Tuned Large Language Models via Selective Layer-Wise Model Merging](https://arxiv.org/abs/2503.17239) (03/21, 2025)
-
-[Adapting Language-Specific LLMs to a Reasoning Model in One Day via Model Merging](https://arxiv.org/abs/2502.09056) (02/17, 2025)
-
-[A Survey of Safety on Large Vision-Language Models: Attacks, Defenses and Evaluations](https://arxiv.org/abs/2502.14881) (02/14, 2025)
-
-[Large Language Models Can Be Easily Distracted by Irrelevant Context](https://arxiv.org/abs/2302.00093) (06/06, 2023)
