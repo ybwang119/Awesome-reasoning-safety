@@ -38,7 +38,9 @@ This repo is for the safety topic, including attacks, defenses and studies relat
 
 [BadChain: Backdoor Chain-of-Thought Prompting for Large Language Models](https://arxiv.org/abs/2401.12242) (01/20, 2024)
 ## Defenses
-[ERPO: Advancing Safety Alignment via Ex-Ante Reasoning Preference Optimization](https://arxiv.org/abs/2504.02725) (04/07, 2025)
+[AgentSpec: Customizable Runtime Enforcement for Safe and Reliable LLM Agents](https://arxiv.org/abs/2503.18666) (04/07, 2025)
+
+[ERPO: Advancing Safety Alignment via Ex-Ante Reasoning Preference Optimization](https://arxiv.org/abs/2504.02725) (04/06, 2025)
 
 [STAR-1: Safer Alignment of Reasoning LLMs with 1K Data](https://arxiv.org/abs/2504.01903) (04/02, 2025)
 
@@ -85,6 +87,8 @@ This repo is for the safety topic, including attacks, defenses and studies relat
 [Answer, Refuse, or Guess? Investigating Risk-Aware Decision Making in Language Models](https://arxiv.org/abs/2503.01332) (03/03, 2025)
 
 [Safety Tax: Safety Alignment Makes Your Large Reasoning Models Less Reasonable](https://arxiv.org/abs/2503.00555) (03/01, 2025)
+
+[Are Smarter LLMs Safer? Exploring Safety-Reasoning Trade-offs in Prompting and Fine-Tuning](https://arxiv.org/abs/2502.09673) (02/21, 2025)
 
 [Safechain: Safety of language models with long chain-of-thought reasoning capabilities](https://arxiv.org/abs/2502.12025) (02/17, 2025) (现有benchmark仍然暴露r1的安全问题，微调模型进行长思考并不一定能提升安全性，提出安全数据集实现finetune后安全增强)
 
