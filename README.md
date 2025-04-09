@@ -56,6 +56,8 @@ This repo is for the safety topic, including attacks, defenses and studies relat
 
 [Safety is Not Only About Refusal: Reasoning-Enhanced Fine-tuning for Interpretable LLM Safety](https://arxiv.org/abs/2503.05021) (03/06, 2025)
 
+[Reasoning-to-Defend: Safety-Aware Reasoning Can Defend Large Language Models from Jailbreaking](https://arxiv.org/html/2502.12970v1) (02/08, 2025)
+
 [GuardReasoner: Towards Reasoning-based LLM Safeguards](https://arxiv.org/abs/2501.18492) (01/30, 2025)
 
 [Chain-of-Scrutiny: Detecting Backdoor Attacks for Large Language Models](https://arxiv.org/abs/2406.05948) (12/20, 2024)
