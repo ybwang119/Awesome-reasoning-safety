@@ -8,17 +8,17 @@ This repo is for the safety topic, including attacks, defenses and studies relat
 
 [Don't Take Things Out of Context: Attention Intervention for Enhancing Chain-of-Thought Reasoning in Large Language Models](https://arxiv.org/abs/2503.11154) (03/14, 2025)
 
-[A Frustratingly Simple Yet Highly Effective Attack Baseline: Over 90% Success Rate Against the Strong Black-box Models of GPT-4.5/4o/o1](https://arxiv.org/abs/2503.10635) (03/13, 2025) (adversarial attack/pixel manipulation 对于多模态大模型仍然有效)
+[A Frustratingly Simple Yet Highly Effective Attack Baseline: Over 90% Success Rate Against the Strong Black-box Models of GPT-4.5/4o/o1](https://arxiv.org/abs/2503.10635) (03/13, 2025) 
 
 [Stepwise Reasoning Error Disruption Attack of LLMs](https://arxiv.org/abs/2412.11934) (03/10, 2025)
 
-[Cats Confuse Reasoning LLM: Query Agnostic Adversarial Triggers for Reasoning Models](https://arxiv.org/abs/2503.01781) (03/03, 2025) (添加有意义的多余句可以误导r1/distill模型产生错误结果)
+[Cats Confuse Reasoning LLM: Query Agnostic Adversarial Triggers for Reasoning Models](https://arxiv.org/abs/2503.01781) (03/03, 2025) 
 
 [Output Length Effect on DeepSeek-R1's Safety in Forced Thinking](https://arxiv.org/abs/2503.01923) (03/02, 2025)
 
-[The Hidden Risks of Large Reasoning Models: A Safety Assessment of R1](https://arxiv.org/abs/2502.12659v3) (02/27, 2025)
+[The Hidden Risks of Large Reasoning Models: A Safety Assessment of R1](https://arxiv.org/abs/2502.12659v3) (02/27, 2025) 
 
-[A Mousetrap: Fooling Large Reasoning Models for Jailbreak with Chain of Iterative Chaos](https://arxiv.org/abs/2502.15806) (02/19, 2025) (添加更多的步骤让模型先思考真正的prompt再回答)
+[A Mousetrap: Fooling Large Reasoning Models for Jailbreak with Chain of Iterative Chaos](https://arxiv.org/abs/2502.15806) (02/19, 2025) 
 
 [H-CoT: Hijacking the Chain-of-Thought Safety Reasoning Mechanism to Jailbreak Large Reasoning Models, Including OpenAI o1/o3, DeepSeek-R1, and Gemini 2.0 Flash Thinking](https://arxiv.org/abs/2502.12893v1) (02/18, 2025)
 
@@ -26,9 +26,9 @@ This repo is for the safety topic, including attacks, defenses and studies relat
 
 [DeepSeek on a Trip: Inducing Targeted Visual Hallucinations via Representation Vulnerabilities](https://arxiv.org/abs/2502.07905) (02/11, 2025)
 
-[OverThink: Slowdown Attacks on Reasoning LLMs](https://arxiv.org/abs/2502.02542) (02/05, 2025) (RAG背景下，向context中添加过多复杂问题来提高reasoning的长度，引发overthink)
+[OverThink: Slowdown Attacks on Reasoning LLMs](https://arxiv.org/abs/2502.02542) (02/05, 2025) 
 
-[Adversarial Reasoning at Jailbreaking Time](https://arxiv.org/abs/2502.01633) (02/03, 2025) (用reasoning model来做red teaming)
+[Adversarial Reasoning at Jailbreaking Time](https://arxiv.org/abs/2502.01633) (02/03, 2025) 
 
 [The dark deep side of DeepSeek: Fine-tuning attacks against the safety alignment of CoT-enabled models](https://arxiv.org/abs/2502.01225) (02/03, 2025)
 
@@ -64,6 +64,8 @@ This repo is for the safety topic, including attacks, defenses and studies relat
 
 [Causal Prompting: Debiasing Large Language Model Prompting based on Front-Door Adjustment](https://arxiv.org/abs/2403.02738) (12/17, 2024)
 ## Studies
+[Reasoning Models Don’t Always Say What They Think](https://www.anthropic.com/research/reasoning-models-dont-say-think) (04/03, 2025)
+ 
 [Effectively Controlling Reasoning Models through Thinking Intervention](https://arxiv.org/abs/2503.24370) (03/31, 2025)
 
 [Landscape of Thoughts: Visualizing the Reasoning Process of Large Language Models](https://arxiv.org/abs/2503.22165) (03/31, 2025)
@@ -88,7 +90,7 @@ This repo is for the safety topic, including attacks, defenses and studies relat
 
 [Are Smarter LLMs Safer? Exploring Safety-Reasoning Trade-offs in Prompting and Fine-Tuning](https://arxiv.org/abs/2502.09673) (02/21, 2025)
 
-[Safechain: Safety of language models with long chain-of-thought reasoning capabilities](https://arxiv.org/abs/2502.12025) (02/17, 2025) (现有benchmark仍然暴露r1的安全问题，微调模型进行长思考并不一定能提升安全性，提出安全数据集实现finetune后安全增强)
+[Safechain: Safety of language models with long chain-of-thought reasoning capabilities](https://arxiv.org/abs/2502.12025) (02/17, 2025)
 
 [A Closer Look at System Prompt Robustness](https://arxiv.org/abs/2502.12197) (02/15, 2025)
 
@@ -109,6 +111,8 @@ This repo is for the safety topic, including attacks, defenses and studies relat
 [On the Impact of Fine-Tuning on Chain-of-Thought Reasoning](https://arxiv.org/abs/2411.15382) (11/22, 2024)
 
 [Can Language Models Perform Robust Reasoning in Chain-of-thought Prompting with Noisy Rationales?](https://arxiv.org/abs/2410.23856) (31/10, 2024)
+
+[Language Models Don’t Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting](https://arxiv.org/abs/2305.04388) (12/09, 2023)
 ## Surveys, Datasets, Evaluation and Benchmarks
 [Recitation over Reasoning: How Cutting-Edge Language Models Can Fail on Elementary School-Level Reasoning Problems?](https://arxiv.org/abs/2504.00509) (04/01, 2025)
 
