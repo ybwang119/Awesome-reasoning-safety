@@ -5,6 +5,7 @@
 
 This repo is for the safety topic, including attacks, defenses and studies related to reasoning and RL. Data are mainly from arxiv.
 ## Attacks
+[Antidistillation Sampling](https://arxiv.org/abs/2504.13146) (04/17, 2025)
 
 [Don't Take Things Out of Context: Attention Intervention for Enhancing Chain-of-Thought Reasoning in Large Language Models](https://arxiv.org/abs/2503.11154) (03/14, 2025)
 
@@ -38,6 +39,9 @@ This repo is for the safety topic, including attacks, defenses and studies relat
 
 [BadChain: Backdoor Chain-of-Thought Prompting for Large Language Models](https://arxiv.org/abs/2401.12242) (01/20, 2024)
 ## Defenses
+
+[VLMGuard-R1: Proactive Safety Alignment for VLMs via Reasoning-Driven Prompt Optimization](https://arxiv.org/abs/2504.12661)
+
 [ERPO: Advancing Safety Alignment via Ex-Ante Reasoning Preference Optimization](https://arxiv.org/abs/2504.02725) (04/06, 2025)
 
 [STAR-1: Safer Alignment of Reasoning LLMs with 1K Data](https://arxiv.org/abs/2504.01903) (04/02, 2025)
@@ -66,6 +70,8 @@ This repo is for the safety topic, including attacks, defenses and studies relat
 
 [Causal Prompting: Debiasing Large Language Model Prompting based on Front-Door Adjustment](https://arxiv.org/abs/2403.02738) (12/17, 2024)
 ## Studies
+[Energy-Based Reward Models for Robust Language Model Alignment](https://arxiv.org/abs/2504.13134) (04/17, 2025)
+
 [Missing Premise exacerbates Overthinking: Are Reasoning Models losing Critical](https://arxiv.org/abs/2504.06514) (04/11, 2025)
 
 [Reasoning Models Don’t Always Say What They Think](https://www.anthropic.com/research/reasoning-models-dont-say-think) (04/03, 2025)
