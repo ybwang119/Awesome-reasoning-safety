@@ -38,6 +38,8 @@ This repo is for the safety topic, including attacks, defenses and studies relat
 
 [BadChain: Backdoor Chain-of-Thought Prompting for Large Language Models](https://arxiv.org/abs/2401.12242) (01/20, 2024)
 ## Defenses
+[RealSafe-R1: Safety-Aligned DeepSeek-R1 without Compromising Reasoning Capability](https://arxiv.org/abs/2504.10081) (04/14, 2025)
+
 [ERPO: Advancing Safety Alignment via Ex-Ante Reasoning Preference Optimization](https://arxiv.org/abs/2504.02725) (04/06, 2025)
 
 [STAR-1: Safer Alignment of Reasoning LLMs with 1K Data](https://arxiv.org/abs/2504.01903) (04/02, 2025)
@@ -58,6 +60,8 @@ This repo is for the safety topic, including attacks, defenses and studies relat
 
 [Reasoning-to-Defend: Safety-Aware Reasoning Can Defend Large Language Models from Jailbreaking](https://arxiv.org/html/2502.12970v1) (02/18, 2025)
 
+[STAIR: Improving Safety Alignment with Introspective Reasoning](https://arxiv.org/abs/2502.02384) (02/04, 2025)
+
 [GuardReasoner: Towards Reasoning-based LLM Safeguards](https://arxiv.org/abs/2501.18492) (01/30, 2025)
 
 [Chain-of-Scrutiny: Detecting Backdoor Attacks for Large Language Models](https://arxiv.org/abs/2406.05948) (12/20, 2024)
@@ -66,7 +70,9 @@ This repo is for the safety topic, including attacks, defenses and studies relat
 
 [Causal Prompting: Debiasing Large Language Model Prompting based on Front-Door Adjustment](https://arxiv.org/abs/2403.02738) (12/17, 2024)
 ## Studies
-[Missing Premise exacerbates Overthinking: Are Reasoning Models losing Critical](https://arxiv.org/abs/2504.06514) (04/14, 2025)
+[Assessing Judging Bias in Large Reasoning Models: An Empirical Study](https://arxiv.org/abs/2504.09946) (04/14, 2025)
+
+[Missing Premise exacerbates Overthinking: Are Reasoning Models losing Critical](https://arxiv.org/abs/2504.06514) (04/11, 2025)
 
 [Reasoning Models Don’t Always Say What They Think](https://www.anthropic.com/research/reasoning-models-dont-say-think) (04/03, 2025)
  
