@@ -26,7 +26,7 @@ This repo is for the safety/robustness topic, including attacks, defenses and st
 
 [OverThink: Slowdown Attacks on Reasoning LLMs](https://arxiv.org/abs/2502.02542) (02/05, 2025) (RAG背景下，向context中添加过多复杂问题来提高reasoning的长度，引发overthink)
 
-[Adversarial Reasoning at Jailbreaking Time](https://arxiv.org/abs/2502.01633) (02/03, 2025) (用reasoning model来做red teaming)
+[Adversarial Reasoning at Jailbreaking Time](https://arxiv.org/abs/2502.01633) (02/03, 2025) (不直接使用模型输出来优化prompt，而是根据prompt在目标模型上target answer计算的CEloss来对prompt进行优劣排序，把排序结果送给feedback模型输出可能的改进方向以及优劣原因，指导生成下一个reasoning内容。在这个基础上，每一次攻击模型是接受reasoning指令生成恶意prompt，再用prompt来越狱。这类似GIA里面优化latent vector而不是直接优化pixel。真正优化的内容是所谓reasoning的指令，然后通过attacker生成prompt里面最强的（CEloss最小）来判定这个reasoning内容的价值。)
 
 [The dark deep side of DeepSeek: Fine-tuning attacks against the safety alignment of CoT-enabled models](https://arxiv.org/abs/2502.01225) (02/03, 2025)
 
