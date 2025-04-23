@@ -5,6 +5,8 @@
 
 This repo is for the safety topic, including attacks, defenses and studies related to reasoning and RL. Data are mainly from arxiv.
 ## Attacks
+[Impact of Noise on LLM-Models Performance in Abstraction and Reasoning Corpus (ARC) Tasks with Model Temperature Considerations](https://arxiv.org/abs/2504.15903) (04/22, 2025)
+
 [Antidistillation Sampling](https://arxiv.org/abs/2504.13146) (04/17, 2025)
 
 [Don't Take Things Out of Context: Attention Intervention for Enhancing Chain-of-Thought Reasoning in Large Language Models](https://arxiv.org/abs/2503.11154) (03/14, 2025)
@@ -39,8 +41,13 @@ This repo is for the safety topic, including attacks, defenses and studies relat
 
 [BadChain: Backdoor Chain-of-Thought Prompting for Large Language Models](https://arxiv.org/abs/2401.12242) (01/20, 2024)
 ## Defenses
+[MR. Guard: Multilingual Reasoning Guardrail using Curriculum Learning](https://arxiv.org/abs/2504.15241  ) (04/21, 2025)
 
-[VLMGuard-R1: Proactive Safety Alignment for VLMs via Reasoning-Driven Prompt Optimization](https://arxiv.org/abs/2504.12661)
+
+
+[VLMGuard-R1: Proactive Safety Alignment for VLMs via Reasoning-Driven Prompt Optimization](https://arxiv.org/abs/2504.12661) (04/17, 2025)
+
+[SaRO: Enhancing LLM Safety through Reasoning-based Alignment](https://arxiv.org/abs/2504.09420) (04/13, 2025)
 
 [ERPO: Advancing Safety Alignment via Ex-Ante Reasoning Preference Optimization](https://arxiv.org/abs/2504.02725) (04/06, 2025)
 
