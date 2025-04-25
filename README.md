@@ -5,11 +5,15 @@
 
 This repo is for the safety topic, including attacks, defenses and studies related to reasoning and RL. Data are mainly from arxiv.
 ## Attacks
+[Impact of Noise on LLM-Models Performance in Abstraction and Reasoning Corpus (ARC) Tasks with Model Temperature Considerations](https://arxiv.org/abs/2504.15903) (04/22, 2025)
+
 [Antidistillation Sampling](https://arxiv.org/abs/2504.13146) (04/17, 2025)
 
 [Don't Take Things Out of Context: Attention Intervention for Enhancing Chain-of-Thought Reasoning in Large Language Models](https://arxiv.org/abs/2503.11154) (03/14, 2025)
 
 [A Frustratingly Simple Yet Highly Effective Attack Baseline: Over 90% Success Rate Against the Strong Black-box Models of GPT-4.5/4o/o1](https://arxiv.org/abs/2503.10635) (03/13, 2025) 
+
+[Reasoning-Augmented Conversation for Multi-Turn Jailbreak Attacks on Large Language Models](https://arxiv.org/abs/2502.11054) (03/11, 2025)
 
 [Stepwise Reasoning Error Disruption Attack of LLMs](https://arxiv.org/abs/2412.11934) (03/10, 2025)
 
@@ -39,8 +43,17 @@ This repo is for the safety topic, including attacks, defenses and studies relat
 
 [BadChain: Backdoor Chain-of-Thought Prompting for Large Language Models](https://arxiv.org/abs/2401.12242) (01/20, 2024)
 ## Defenses
+[MR. Guard: Multilingual Reasoning Guardrail using Curriculum Learning](https://arxiv.org/abs/2504.15241  ) (04/21, 2025)
 
-[VLMGuard-R1: Proactive Safety Alignment for VLMs via Reasoning-Driven Prompt Optimization](https://arxiv.org/abs/2504.12661)
+
+
+[VLMGuard-R1: Proactive Safety Alignment for VLMs via Reasoning-Driven Prompt Optimization](https://arxiv.org/abs/2504.12661) (04/17, 2025)
+
+[RealSafe-R1: Safety-Aligned DeepSeek-R1 without Compromising Reasoning Capability](https://arxiv.org/abs/2504.10081) (04/14, 2025)
+
+[SaRO: Enhancing LLM Safety through Reasoning-based Alignment](https://arxiv.org/abs/2504.09420) (04/13, 2025)
+
+[SafeMLRM: Demystifying Safety in Multi-modal Large Reasoning Models](https://arxiv.org/abs/2504.08813) (04/09, 2025)
 
 [ERPO: Advancing Safety Alignment via Ex-Ante Reasoning Preference Optimization](https://arxiv.org/abs/2504.02725) (04/06, 2025)
 
@@ -62,6 +75,8 @@ This repo is for the safety topic, including attacks, defenses and studies relat
 
 [Reasoning-to-Defend: Safety-Aware Reasoning Can Defend Large Language Models from Jailbreaking](https://arxiv.org/html/2502.12970v1) (02/18, 2025)
 
+[STAIR: Improving Safety Alignment with Introspective Reasoning](https://arxiv.org/abs/2502.02384) (02/04, 2025)
+
 [GuardReasoner: Towards Reasoning-based LLM Safeguards](https://arxiv.org/abs/2501.18492) (01/30, 2025)
 
 [Chain-of-Scrutiny: Detecting Backdoor Attacks for Large Language Models](https://arxiv.org/abs/2406.05948) (12/20, 2024)
@@ -70,6 +85,8 @@ This repo is for the safety topic, including attacks, defenses and studies relat
 
 [Causal Prompting: Debiasing Large Language Model Prompting based on Front-Door Adjustment](https://arxiv.org/abs/2403.02738) (12/17, 2024)
 ## Studies
+[Assessing Judging Bias in Large Reasoning Models: An Empirical Study](https://arxiv.org/abs/2504.09946) (04/18, 2025)
+
 [Energy-Based Reward Models for Robust Language Model Alignment](https://arxiv.org/abs/2504.13134) (04/17, 2025)
 
 [Missing Premise exacerbates Overthinking: Are Reasoning Models losing Critical](https://arxiv.org/abs/2504.06514) (04/11, 2025)
@@ -124,6 +141,8 @@ This repo is for the safety topic, including attacks, defenses and studies relat
 
 [Language Models Don’t Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting](https://arxiv.org/abs/2305.04388) (12/09, 2023)
 ## Surveys, Datasets, Evaluation and Benchmarks
+[Safety in Large Reasoning Models: A Survey](https://arxiv.org/abs/2504.17704) (04/25, 2025)
+
 [Recitation over Reasoning: How Cutting-Edge Language Models Can Fail on Elementary School-Level Reasoning Problems?](https://arxiv.org/abs/2504.00509) (04/01, 2025)
 
 [Harnessing the Reasoning Economy: A Survey of Efficient Reasoning for Large Language Models](https://arxiv.org/abs/2503.24377) (03/31, 2025)
