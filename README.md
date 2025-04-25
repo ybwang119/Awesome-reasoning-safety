@@ -45,8 +45,6 @@ This repo is for the safety topic, including attacks, defenses and studies relat
 ## Defenses
 [MR. Guard: Multilingual Reasoning Guardrail using Curriculum Learning](https://arxiv.org/abs/2504.15241  ) (04/21, 2025)
 
-
-
 [VLMGuard-R1: Proactive Safety Alignment for VLMs via Reasoning-Driven Prompt Optimization](https://arxiv.org/abs/2504.12661) (04/17, 2025)
 
 [RealSafe-R1: Safety-Aligned DeepSeek-R1 without Compromising Reasoning Capability](https://arxiv.org/abs/2504.10081) (04/14, 2025)
@@ -85,6 +83,8 @@ This repo is for the safety topic, including attacks, defenses and studies relat
 
 [Causal Prompting: Debiasing Large Language Model Prompting based on Front-Door Adjustment](https://arxiv.org/abs/2403.02738) (12/17, 2024)
 ## Studies
+[Steering the CensorShip: Uncovering Representation Vectors for LLM "Thought" Control](https://arxiv.org/abs/2504.17130) (04/23, 2025)
+
 [Assessing Judging Bias in Large Reasoning Models: An Empirical Study](https://arxiv.org/abs/2504.09946) (04/18, 2025)
 
 [Energy-Based Reward Models for Robust Language Model Alignment](https://arxiv.org/abs/2504.13134) (04/17, 2025)
