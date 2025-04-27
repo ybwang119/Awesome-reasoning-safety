@@ -10,6 +10,8 @@ This repo is for the safety/robustness topic, including attacks, defenses and st
 
 [A Frustratingly Simple Yet Highly Effective Attack Baseline: Over 90% Success Rate Against the Strong Black-box Models of GPT-4.5/4o/o1](https://arxiv.org/abs/2503.10635) (03/13, 2025) (adversarial attack/pixel manipulation 对于多模态大模型仍然有效)
 
+[Reasoning-Augmented Conversation for Multi-Turn Jailbreak Attacks on Large Language Models](https://arxiv.org/abs/2502.11054) (03/11, 2025)
+
 [Stepwise Reasoning Error Disruption Attack of LLMs](https://arxiv.org/abs/2412.11934) (03/10, 2025)
 
 [Cats Confuse Reasoning LLM: Query Agnostic Adversarial Triggers for Reasoning Models](https://arxiv.org/abs/2503.01781) (03/03, 2025) (添加有意义的多余句可以误导r1/distill模型产生错误结果)
@@ -36,6 +38,16 @@ This repo is for the safety/robustness topic, including attacks, defenses and st
 
 [BadChain: Backdoor Chain-of-Thought Prompting for Large Language Models](https://arxiv.org/abs/2401.12242) (01/20, 2024)
 ## Defenses
+[MR. Guard: Multilingual Reasoning Guardrail using Curriculum Learning](https://arxiv.org/abs/2504.15241  ) (04/21, 2025)
+
+[VLMGuard-R1: Proactive Safety Alignment for VLMs via Reasoning-Driven Prompt Optimization](https://arxiv.org/abs/2504.12661) (04/17, 2025)
+
+[RealSafe-R1: Safety-Aligned DeepSeek-R1 without Compromising Reasoning Capability](https://arxiv.org/abs/2504.10081) (04/14, 2025)
+
+[SaRO: Enhancing LLM Safety through Reasoning-based Alignment](https://arxiv.org/abs/2504.09420) (04/13, 2025)
+
+[SafeMLRM: Demystifying Safety in Multi-modal Large Reasoning Models](https://arxiv.org/abs/2504.08813) (04/09, 2025)
+
 [ERPO: Advancing Safety Alignment via Ex-Ante Reasoning Preference Optimization](https://arxiv.org/abs/2504.02725) (04/06, 2025)
 
 [STAR-1: Safer Alignment of Reasoning LLMs with 1K Data](https://arxiv.org/abs/2504.01903) (04/02, 2025)
@@ -54,6 +66,10 @@ This repo is for the safety/robustness topic, including attacks, defenses and st
 
 [Safety is Not Only About Refusal: Reasoning-Enhanced Fine-tuning for Interpretable LLM Safety](https://arxiv.org/abs/2503.05021) (03/06, 2025)
 
+[Reasoning-to-Defend: Safety-Aware Reasoning Can Defend Large Language Models from Jailbreaking](https://arxiv.org/html/2502.12970v1) (02/18, 2025)
+
+[STAIR: Improving Safety Alignment with Introspective Reasoning](https://arxiv.org/abs/2502.02384) (02/04, 2025)
+
 [GuardReasoner: Towards Reasoning-based LLM Safeguards](https://arxiv.org/abs/2501.18492) (01/30, 2025)
 
 [Chain-of-Scrutiny: Detecting Backdoor Attacks for Large Language Models](https://arxiv.org/abs/2406.05948) (12/20, 2024)
@@ -62,6 +78,14 @@ This repo is for the safety/robustness topic, including attacks, defenses and st
 
 [Causal Prompting: Debiasing Large Language Model Prompting based on Front-Door Adjustment](https://arxiv.org/abs/2403.02738) (12/17, 2024)
 ## Studies
+[Steering the CensorShip: Uncovering Representation Vectors for LLM "Thought" Control](https://arxiv.org/abs/2504.17130) (04/23, 2025)
+
+[Assessing Judging Bias in Large Reasoning Models: An Empirical Study](https://arxiv.org/abs/2504.09946) (04/18, 2025)
+
+[Energy-Based Reward Models for Robust Language Model Alignment](https://arxiv.org/abs/2504.13134) (04/17, 2025)
+
+[Missing Premise exacerbates Overthinking: Are Reasoning Models losing Critical](https://arxiv.org/abs/2504.06514) (04/11, 2025)
+
 [Reasoning Models Don’t Always Say What They Think](https://www.anthropic.com/research/reasoning-models-dont-say-think) (04/03, 2025)
 
 [Effectively Controlling Reasoning Models through Thinking Intervention](https://arxiv.org/abs/2503.24370) (03/31, 2025)
@@ -126,6 +150,8 @@ This repo is for the safety/robustness topic, including attacks, defenses and st
 
 [Language Models Don’t Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting](https://arxiv.org/abs/2305.04388) (12/09, 2023)
 ## Surveys, Datasets, Evaluation and Benchmarks
+[Safety in Large Reasoning Models: A Survey](https://arxiv.org/abs/2504.17704) (04/25, 2025)
+
 [Recitation over Reasoning: How Cutting-Edge Language Models Can Fail on Elementary School-Level Reasoning Problems?](https://arxiv.org/abs/2504.00509) (04/01, 2025)
 
 [Harnessing the Reasoning Economy: A Survey of Efficient Reasoning for Large Language Models](https://arxiv.org/abs/2503.24377) (03/31, 2025)
