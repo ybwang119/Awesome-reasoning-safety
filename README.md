@@ -80,6 +80,8 @@ This repo is for the safety/robustness topic, including attacks, defenses and st
 
 [Causal Prompting: Debiasing Large Language Model Prompting based on Front-Door Adjustment](https://arxiv.org/abs/2403.02738) (12/17, 2024)
 ## Studies
+[Modular Machine Learning: An Indispensable Path towards New-Generation Large Language Models](https://arxiv.org/abs/2504.20020) (04/29, 2025)
+
 [Steering the CensorShip: Uncovering Representation Vectors for LLM "Thought" Control](https://arxiv.org/abs/2504.17130) (04/23, 2025)
 
 [Assessing Judging Bias in Large Reasoning Models: An Empirical Study](https://arxiv.org/abs/2504.09946) (04/18, 2025)
@@ -144,6 +146,8 @@ This repo is for the safety/robustness topic, including attacks, defenses and st
 
 [Language Models Don’t Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting](https://arxiv.org/abs/2305.04388) (12/09, 2023)
 ## Surveys, Datasets, Evaluation and Benchmarks
+[Moral Reasoning Across Languages: The Critical Role of Low-Resource Languages in LLMs](https://arxiv.org/abs/2504.19759) (04/28, 2025)
+
 [PolyMath: Evaluating Mathematical Reasoning in Multilingual Contexts](https://arxiv.org/abs/2504.18428) (04/28, 2025)
 
 [Safety in Large Reasoning Models: A Survey](https://arxiv.org/abs/2504.17704) (04/25, 2025)
