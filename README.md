@@ -44,6 +44,7 @@ This repo is for the safety/robustness topic, including attacks, defenses and st
 [AegisLLM: Scaling Agentic Systems for Self-Reflective Defense in LLM Security](https://arxiv.org/abs/2504.20965) (04/29, 2025)
 
 [Chain-of-Defensive-Thought: Structured Reasoning Elicits Robustness in Large Language Models against Reference Corruption](https://arxiv.org/abs/2504.20769) (04/29, 2025)
+
 [TRACE Back from the Future: A Probabilistic Reasoning Approach to Controllable Language Generation](https://arxiv.org/abs/2504.18535) (04/28, 2025)
 
 [MR. Guard: Multilingual Reasoning Guardrail using Curriculum Learning](https://arxiv.org/abs/2504.15241) (04/21, 2025)
@@ -124,7 +125,6 @@ This repo is for the safety/robustness topic, including attacks, defenses and st
 
 [The Hidden Risks of Large Reasoning Models: A Safety Assessment of R1](https://arxiv.org/abs/2502.12659v3) (02/27, 2025) 
 
-
 [Are Smarter LLMs Safer? Exploring Safety-Reasoning Trade-offs in Prompting and Fine-Tuning](https://arxiv.org/abs/2502.09673) (02/21, 2025)
 
 
@@ -132,7 +132,6 @@ This repo is for the safety/robustness topic, including attacks, defenses and st
 
 
 [A Closer Look at System Prompt Robustness](https://arxiv.org/abs/2502.12197) (02/15, 2025)
-
 
 [The Danger of Overthinking: Examining the Reasoning-Action Dilemma in Agentic Tasks](https://arxiv.org/abs/2502.08235) (02/12, 2025) 
 
