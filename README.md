@@ -42,6 +42,8 @@ This repo is for the safety/robustness topic, including attacks, defenses and st
 
 [MR. Guard: Multilingual Reasoning Guardrail using Curriculum Learning](https://arxiv.org/abs/2504.15241) (04/21, 2025)
 
+[Antidistillation Sampling](https://arxiv.org/abs/2504.13146) (04/17, 2025)
+
 [VLMGuard-R1: Proactive Safety Alignment for VLMs via Reasoning-Driven Prompt Optimization](https://arxiv.org/abs/2504.12661) (04/17, 2025)
 
 [RealSafe-R1: Safety-Aligned DeepSeek-R1 without Compromising Reasoning Capability](https://arxiv.org/abs/2504.10081) (04/14, 2025)
