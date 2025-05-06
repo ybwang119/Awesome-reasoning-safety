@@ -89,6 +89,8 @@ This repo is for the safety/robustness topic, including attacks, defenses and st
 
 [Causal Prompting: Debiasing Large Language Model Prompting based on Front-Door Adjustment](https://arxiv.org/abs/2403.02738) (12/17, 2024)
 ## Studies
+[Understanding LLM Scientific Reasoning through Promptings and Model's Explanation on the Answers](https://arxiv.org/abs/2505.01482) (05/01, 2025), 
+
 [Modular Machine Learning: An Indispensable Path towards New-Generation Large Language Models](https://arxiv.org/abs/2504.20020) (04/29, 2025)
 
 [Steering the CensorShip: Uncovering Representation Vectors for LLM "Thought" Control](https://arxiv.org/abs/2504.17130) (04/23, 2025)
@@ -127,9 +129,7 @@ This repo is for the safety/robustness topic, including attacks, defenses and st
 
 [Are Smarter LLMs Safer? Exploring Safety-Reasoning Trade-offs in Prompting and Fine-Tuning](https://arxiv.org/abs/2502.09673) (02/21, 2025)
 
-
 [Safechain: Safety of language models with long chain-of-thought reasoning capabilities](https://arxiv.org/abs/2502.12025) (02/17, 2025) 
-
 
 [A Closer Look at System Prompt Robustness](https://arxiv.org/abs/2502.12197) (02/15, 2025)
 
@@ -153,6 +153,8 @@ This repo is for the safety/robustness topic, including attacks, defenses and st
 
 [Language Models Don’t Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting](https://arxiv.org/abs/2305.04388) (12/09, 2023)
 ## Surveys, Datasets, Evaluation and Benchmarks
+[100 Days After DeepSeek-R1: A Survey on Replication Studies and More Directions for Reasoning Language Models](https://arxiv.org/abs/2505.00551) (05/02, 2025)
+
 [Moral Reasoning Across Languages: The Critical Role of Low-Resource Languages in LLMs](https://arxiv.org/abs/2504.19759) (04/28, 2025)
 
 [PolyMath: Evaluating Mathematical Reasoning in Multilingual Contexts](https://arxiv.org/abs/2504.18428) (04/28, 2025)
