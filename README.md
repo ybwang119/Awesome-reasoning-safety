@@ -45,6 +45,7 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 ### Jailbreak
 |  Title  |   Venue  |   Date   |  topic  |   Code   |
 |:--------:|:--------:|:--------:|:--------:|:--------:|
+|[LlamaFirewall: An open source guardrail system for building secure AI agents](https://arxiv.org/abs/2505.03574)|arxiv|05/06, 2025|jailbreak defense|-|
 |[MR. Guard: Multilingual Reasoning Guardrail using Curriculum Learning](https://arxiv.org/abs/2504.15241)|arxiv|04/21, 2025|jailbreak defense|-|
 |[Energy-Based Reward Models for Robust Language Model Alignment](https://arxiv.org/abs/2504.13134)|arxiv|04/17, 2025|reward model|-|
 |[VLMGuard-R1: Proactive Safety Alignment for VLMs via Reasoning-Driven Prompt Optimization](https://arxiv.org/abs/2504.12661)|arxiv|04/17, 2025|multi-modal alignment|-|
@@ -89,7 +90,7 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 ### Input perturbation
 |  Title  |   Venue  |   Date   |  topic  |   Code   |
 |:--------:|:--------:|:--------:|:--------:|:--------:|
-|[Chain-of-Defensive-Thought: Structured Reasoning Elicits Robustness in Large Language Models against Reference Corruption](https://arxiv.org/abs/2504.20769)| (04/29, 2025)
+|[Chain-of-Defensive-Thought: Structured Reasoning Elicits Robustness in Large Language Models against Reference Corruption](https://arxiv.org/abs/2504.20769)|04/29, 2025|arxiv|adversarial defense|-|
 |[Assessing Judging Bias in Large Reasoning Models: An Empirical Study](https://arxiv.org/abs/2504.09946)|arxiv|04/18, 2025|bias|-|
 |[Recitation over Reasoning: How Cutting-Edge Language Models Can Fail on Elementary School-Level Reasoning Problems?](https://arxiv.org/abs/2504.00509)|arxiv|04/01, 2025|recitation|-|
 |[A Frustratingly Simple Yet Highly Effective Attack Baseline: Over 90% Success Rate Against the Strong Black-box Models of GPT-4.5/4o/o1](https://arxiv.org/abs/2503.10635)|arxiv|03/13, 2025|adversarial attack|-|
@@ -159,4 +160,4 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 
 [Preemptive Answer "Attacks" on Chain-of-Thought Reasoning](https://arxiv.org/abs/2405.20902) (05/31, 2024)
 
-<!-- attack on cot -->
+[The Steganographic Potentials of Language Models](https://arxiv.org/abs/2505.03439) (05/06, 2025)
