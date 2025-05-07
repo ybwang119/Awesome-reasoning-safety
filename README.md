@@ -3,9 +3,9 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/ybwang119/Awesome-reasoning-safety)
 [![Last Commit](https://img.shields.io/github/last-commit/ybwang119/Awesome-reasoning-safety)](https://github.com/ybwang119/Awesome-reasoning-safety)
 
-This repo is for the trustworthy topics in reasoning-related technique, including but nmot limited to attacks, defenses, studies and benchmarks related to CoT, reasoning and RL. Data are mainly from arxiv. 
+This repo is for the trustworthy topics in reasoning-related technique, including but not limited to attacks, defenses, studies and benchmarks related to CoT, reasoning and RL. Data are mainly from arxiv. 
 
-## table of contents
+## Table of contents
 - [Truthfulness](##Truthfulness)
     - [Hallucination](###Hallucination)
     - [Reasoning faithfulness](###Reasoning-faithfulness)
@@ -26,7 +26,6 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 |  Title  |   Venue  |   Date   |  topic  |   Code   |
 |:--------:|:--------:|:--------:|:--------:|:--------:|
 |[Do Chains-of-Thoughts of Large Language Models Suffer from Hallucinations, Cognitive Biases, or Phobias in Bayesian Reasoning?](https://arxiv.org/abs/2503.15268)|arxiv|03/19, 2025|hallucination|-|
-|[DeepSeek on a Trip: Inducing Targeted Visual Hallucinations via Representation Vulnerabilities](https://arxiv.org/abs/2502.07905)|arxiv|02/11, 2025|hallucination|-|
 |[Order Matters in Hallucination: Reasoning Order as Benchmark and Reflexive Prompting for Large-Language-Models](https://arxiv.org/abs/2408.05093)|arxiv|12/30, 2024|hallucination|-|
 ### Reasoning faithfulness
 |  Title  |   Venue  |   Date   |  topic  |   Code   |
