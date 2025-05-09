@@ -74,7 +74,6 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 |[The dark deep side of DeepSeek: Fine-tuning attacks against the safety alignment of CoT-enabled models](https://arxiv.org/abs/2502.01225)|arxiv|02/03, 2025|finetuning attack|-|
 |[GuardReasoner: Towards Reasoning-based LLM Safeguards](https://arxiv.org/abs/2501.18492)|arxiv|01/30, 2025|defense|-|
 |[Alignment faking in large language models](https://arxiv.org/abs/2412.14093)|arxiv|12/19, 2024|alignment|-|
-|[Enhancing Adversarial Attacks through Chain of Thought](https://arxiv.org/abs/2410.21791)|arxiv|10/29, 2024|Jailbreak with CoT|-|
 ### Prompt injection
 |  Title  |   Venue  |   Date   |  topic  |   Code   |
 |:--------:|:--------:|:--------:|:--------:|:--------:|
@@ -119,6 +118,7 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 ## Related surveys and benchmarks
 |  Title  |   Venue  |   Date   |  topic  |   Code   |
 |:--------:|:--------:|:--------:|:--------:|:--------:|
+|[A Survey of Slow Thinking-based Reasoning LLMs using Reinforced Learning and Inference-time Scaling Law](https://arxiv.org/abs/2505.02665)|arxiv|05/08, 2025|general survey|-|
 |[100 Days After DeepSeek-R1: A Survey on Replication Studies and More Directions for Reasoning Language Models](https://arxiv.org/abs/2505.00551)|arxiv|05/02, 2025|r1 replication|-|
 |[PolyMath: Evaluating Mathematical Reasoning in Multilingual Contexts](https://arxiv.org/abs/2504.18428)|arxiv|04/28, 2025|multilingual math performance|-|
 |[Safety in Large Reasoning Models: A Survey](https://arxiv.org/abs/2504.17704)|arxiv|04/25, 2025|safety|-|
