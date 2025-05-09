@@ -28,18 +28,18 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 |[Do Chains-of-Thoughts of Large Language Models Suffer from Hallucinations, Cognitive Biases, or Phobias in Bayesian Reasoning?](https://arxiv.org/abs/2503.15268)|arxiv|03/19, 2025|hallucination|-|
 |[Order Matters in Hallucination: Reasoning Order as Benchmark and Reflexive Prompting for Large-Language-Models](https://arxiv.org/abs/2408.05093)|arxiv|12/30, 2024|hallucination|-|
 ### Reasoning faithfulness
-|  Title  |   Venue  |   Date   |  topic  |   Code   |
-|:--------:|:--------:|:--------:|:--------:|:--------:|
-|[Reasoning Models Don’t Always Say What They Think](https://www.anthropic.com/research/reasoning-models-dont-say-think)|arxiv|04/03, 2025|faithfulness|-|
-|[Landscape of Thoughts: Visualizing the Reasoning Process of Large Language Models](https://arxiv.org/abs/2503.22165)|arxiv|03/28, 2025|faithfulness|-|
-|[Policy Frameworks for Transparent Chain-of-Thought Reasoning in Large Language Models](https://arxiv.org/abs/2503.14521)|arxiv|03/14, 2025|faithfulness|-|
-|[Monitoring Reasoning Models for Misbehavior and the Risks of Promoting Obfuscation](https://arxiv.org/abs/2503.11926)|arxiv|03/14, 2025|faithfulness|-|
-|[Chain-of-Thought Reasoning In The Wild Is Not Always Faithful](https://arxiv.org/abs/2503.08679)|arxiv|03/13, 2025|faithfulness|-|
-|[Are DeepSeek R1 And Other Reasoning Models More Faithful?](https://arxiv.org/abs/2501.08156)|arxiv|02/20, 2025|faithfulness|-|
-|[How Likely Do LLMs with CoT Mimic Human Reasoning?](https://arxiv.org/abs/2402.16048)|arxiv|12/12, 2024|faithfulness|-|
-|[On the Impact of Fine-Tuning on Chain-of-Thought Reasoning](https://arxiv.org/abs/2411.15382)|arxiv|11/22, 2024|faithfulness|-|
-|[Language Models Don’t Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting](https://arxiv.org/abs/2305.04388)|arxiv|12/09, 2023|faithfulness|-|
-|[Measuring Faithfulness in Chain-of-Thought Reasoning](https://arxiv.org/abs/2307.13702)|arxiv|07/17, 2023|faithfulness|-|
+|  Title  |   Venue  |    Date     |  topic  |   Code   |
+|:--------:|:--------:|:-----------:|:--------:|:--------:|
+|[Reasoning Models Don’t Always Say What They Think](https://www.anthropic.com/research/reasoning-models-dont-say-think)|arxiv| 04/03, 2025 |faithfulness|-|
+|[Landscape of Thoughts: Visualizing the Reasoning Process of Large Language Models](https://arxiv.org/abs/2503.22165)|arxiv| 03/28, 2025 |faithfulness|-|
+|[Policy Frameworks for Transparent Chain-of-Thought Reasoning in Large Language Models](https://arxiv.org/abs/2503.14521)|arxiv| 03/14, 2025 |faithfulness|-|
+|[Monitoring Reasoning Models for Misbehavior and the Risks of Promoting Obfuscation](https://arxiv.org/abs/2503.11926)|arxiv| 03/14, 2025 |faithfulness|-|
+|[Chain-of-Thought Reasoning In The Wild Is Not Always Faithful](https://arxiv.org/abs/2503.08679)|arxiv| 03/13, 2025 |faithfulness|-|
+|[Are DeepSeek R1 And Other Reasoning Models More Faithful?](https://arxiv.org/abs/2501.08156)|arxiv| 02/20, 2025 |faithfulness|-|
+|[How Likely Do LLMs with CoT Mimic Human Reasoning?](https://arxiv.org/abs/2402.16048)|arxiv| 12/12, 2024 |faithfulness|-|
+|[On the Impact of Fine-Tuning on Chain-of-Thought Reasoning](https://arxiv.org/abs/2411.15382)|arxiv| 11/22, 2024 |faithfulness|-|
+|[Measuring Faithfulness in Chain-of-Thought Reasoning](https://arxiv.org/abs/2307.13702)|arxiv| 07/17, 2023 |faithfulness|-|
+|[Language Models Don’t Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting](https://arxiv.org/abs/2305.04388)|arxiv| 05/07, 2023 |faithfulness|-|
 
 ## Security: Jailbreak, prompt injection, backdoor
 ### Jailbreak
