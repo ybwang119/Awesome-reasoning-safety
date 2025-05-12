@@ -72,6 +72,7 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 |[STAIR: Improving Safety Alignment with Introspective Reasoning](https://arxiv.org/abs/2502.02384)|arxiv|02/04, 2025|alignment|-|
 |[Adversarial Reasoning at Jailbreaking Time](https://arxiv.org/abs/2502.01633)|arxiv|02/03, 2025|Jailbreak with CoT|-|
 |[The dark deep side of DeepSeek: Fine-tuning attacks against the safety alignment of CoT-enabled models](https://arxiv.org/abs/2502.01225)|arxiv|02/03, 2025|finetuning attack|-|
+|[o3-mini vs DeepSeek-R1: Which One is Safer?](https://arxiv.org/abs/2501.18438v1)|arxiv|01/30, 2025|jailbreak evaluation|-|
 |[GuardReasoner: Towards Reasoning-based LLM Safeguards](https://arxiv.org/abs/2501.18492)|arxiv|01/30, 2025|defense|-|
 |[Alignment faking in large language models](https://arxiv.org/abs/2412.14093)|arxiv|12/19, 2024|alignment|-|
 ### Prompt injection
