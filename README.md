@@ -65,6 +65,7 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 ### Jailbreak
 |  Title  |   Venue  |   Date   |  topic  |   Code   |
 |:--------:|:--------:|:--------:|:--------:|:--------:|
+|[On the Robustness of Reward Models for Language Model Alignment](https://arxiv.org/abs/2505.07271)|arxiv|05/12, 2025|reward model|-|
 |[LlamaFirewall: An open source guardrail system for building secure AI agents](https://arxiv.org/abs/2505.03574)|arxiv|05/06, 2025|jailbreak defense|-|
 |[MR. Guard: Multilingual Reasoning Guardrail using Curriculum Learning](https://arxiv.org/abs/2504.15241)|arxiv|04/21, 2025|jailbreak defense|-|
 |[Energy-Based Reward Models for Robust Language Model Alignment](https://arxiv.org/abs/2504.13134)|arxiv|04/17, 2025|reward model|-|
