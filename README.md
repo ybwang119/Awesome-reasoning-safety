@@ -6,22 +6,21 @@
 This repo is for the trustworthy topics in reasoning-related technique, including but not limited to attacks, defenses, studies and benchmarks related to CoT, reasoning and RL. Data are mainly from arxiv. 
 
 ## Table of contents
-- [Truthfulness](##Truthfulness)
-- [Hallucination](###Hallucination)
-- [Reasoning faithfulness](###Reasoning-faithfulness)
-- [Security](##Security)
-  - [Jailbreak](###Jailbreak)
-  - [Prompt injection](###Prompt-injection)
-  - [Backdoor](###Backdoor)
-- [Robustness](##Robustness)
- - [Input perturbation](###Input-perturbation)
- - [Overthinking/underthinking](###Overthinking/underthinking)
-- [Privacy](##Privacy)
-- [Related surveys and benchmarks](##Related-surveys-and-benchmarks)
-- [Others](##Other-related-studies)
+- [Truthfulness](#Truthfulness)
+- [Hallucination](#Hallucination)
+- [Reasoning faithfulness](#Reasoning-faithfulness)
+- [Security](#Security)
+  - [Jailbreak](#Jailbreak)
+  - [Prompt injection](#Prompt-injection)
+  - [Backdoor](#Backdoor)
+- [Robustness](#Robustness)
+ - [Input perturbation](#Input-perturbation)
+ - [Overthinking/underthinking](#Overthinking/underthinking)
+- [Privacy](#Privacy)
+- [Related surveys and benchmarks](#Related-surveys-and-benchmarks)
+- [Others](#Other-related-studies)
 ---
 ## Truthfulness: Hallucination, reasoning faithfulness
-
 ### Hallucination
 |Title|Venue|Date|topic|Code|
 |:--------:|:--------:|:--------:|:--------:|:--------:|
