@@ -97,7 +97,7 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 |[Evaluating security risk in deepseek and other frontier reasoning models](https://blogs.cisco.com/security/evaluating-security-risk-in-deepseek-and-other-frontier-reasoning-models)|website|02/26, 2025|jailbreak evaluation|-|
 |[Are Smarter LLMs Safer? Exploring Safety-Reasoning Trade-offs in Prompting and Fine-Tuning](https://arxiv.org/abs/2502.09673)|arxiv|02/21, 2025|jailbreak evaluation|-|
 |[A Mousetrap: Fooling Large Reasoning Models for Jailbreak with Chain of Iterative Chaos](https://arxiv.org/abs/2502.15806)|arxiv|02/19, 2025|jailbreak attack|-|
-|[Reasoning-to-Defend: Safety-Aware Reasoning Can Defend Large Language Models from Jailbreaking](https://arxiv.org/html/2502.12970v1)|arxiv|02/18, 2025|jailbreak defense|-|
+|[Reasoning-to-Defend: Safety-Aware Reasoning Can Defend Large Language Models from Jailbreaking](https://arxiv.org/html/2502.12970v1)|arxiv|02/18, 2025|alignment|-|
 |[H-CoT: Hijacking the Chain-of-Thought Safety Reasoning Mechanism to Jailbreak Large Reasoning Models, Including OpenAI o1/o3, DeepSeek-R1, and Gemini 2.0 Flash Thinking](https://arxiv.org/abs/2502.12893v1)|arxiv|02/18, 2025|jailbreak attack|-|
 |[Safechain: Safety of language models with long chain-of-thought reasoning capabilities](https://arxiv.org/abs/2502.12025)|arxiv|02/17, 2025|alignment|-|
 |[STAIR: Improving Safety Alignment with Introspective Reasoning](https://arxiv.org/abs/2502.02384)|arxiv|02/04, 2025|alignment|-|
