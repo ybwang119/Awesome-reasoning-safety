@@ -105,7 +105,10 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 |[The dark deep side of DeepSeek: Fine-tuning attacks against the safety alignment of CoT-enabled models](https://arxiv.org/abs/2502.01225)|arxiv|02/03, 2025|finetuning attack|-|
 |[o3-mini vs DeepSeek-R1: Which One is Safer?](https://arxiv.org/abs/2501.18438v1)|arxiv|01/30, 2025|jailbreak evaluation|-|
 |[GuardReasoner: Towards Reasoning-based LLM Safeguards](https://arxiv.org/abs/2501.18492)|arxiv|01/30, 2025|defense|-|
+|[Challenges in Ensuring AI Safety in DeepSeek-R1 Models: The Shortcomings of Reinforcement Learning Strategies](https://arxiv.org/pdf/2501.17030)|arxiv|01/28, 2025|safety evaluation|-|
 |[Alignment faking in large language models](https://arxiv.org/abs/2412.14093)|arxiv|12/19, 2024|alignment|-|
+|[Backtracking Improves Generation Safety](https://arxiv.org/abs/2409.14586)|ICLR 2025 Oral|09/22, 2024|defense|-|
+|[$R^2$-Guard: Robust Reasoning Enabled LLM Guardrail via Knowledge-Enhanced Logical Reasoning](https://arxiv.org/abs/2407.05557)|ICLR 2025 spotlight|06/08, 2024|Guardrail model|[Github](https://github.com/kangmintong/R-2-Guard)|
 ### Prompt injection
 |Title|Venue|Date|topic|Code|
 |:--------:|:--------:|:--------:|:--------:|:--------:|
@@ -123,7 +126,7 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 ### Input perturbation
 |Title|Venue|Date|topic|Code|
 |:--------:|:--------:|:--------:|:--------:|:--------:|
-|[Chain-of-Defensive-Thought: Structured Reasoning Elicits Robustness in Large Language Models against Reference Corruption](https://arxiv.org/abs/2504.20769)|04/29, 2025|arxiv|adversarial defense|-|
+|[Chain-of-Defensive-Thought: Structured Reasoning Elicits Robustness in Large Language Models against Reference Corruption](https://arxiv.org/abs/2504.20769)|arxiv|04/29, 2025|adversarial defense|-|
 |[Assessing Judging Bias in Large Reasoning Models: An Empirical Study](https://arxiv.org/abs/2504.09946)|arxiv|04/18, 2025|bias|-|
 |[Recitation over Reasoning: How Cutting-Edge Language Models Can Fail on Elementary School-Level Reasoning Problems?](https://arxiv.org/abs/2504.00509)|arxiv|04/01, 2025|recitation|-|
 |[A Frustratingly Simple Yet Highly Effective Attack Baseline: Over 90% Success Rate Against the Strong Black-box Models of GPT-4.5/4o/o1](https://arxiv.org/abs/2503.10635)|arxiv|03/13, 2025|adversarial attack|-|
