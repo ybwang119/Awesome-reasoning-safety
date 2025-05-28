@@ -162,6 +162,7 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 |[Chain-of-Defensive-Thought: Structured Reasoning Elicits Robustness in Large Language Models against Reference Corruption](https://arxiv.org/abs/2504.20769)|arxiv|04/29, 2025|adversarial defense|-|
 |[Assessing Judging Bias in Large Reasoning Models: An Empirical Study](https://arxiv.org/abs/2504.09946)|arxiv|04/18, 2025|bias|-|
 |[Recitation over Reasoning: How Cutting-Edge Language Models Can Fail on Elementary School-Level Reasoning Problems?](https://arxiv.org/abs/2504.00509)|arxiv|04/01, 2025|recitation|-|
+|[Process or Result? Manipulated Ending Tokens Can Mislead Reasoning LLMs to Ignore the Correct Reasoning Steps](https://arxiv.org/abs/2503.19326)|arxiv|03/25, 2025|token manipulation|-|
 |[A Frustratingly Simple Yet Highly Effective Attack Baseline: Over 90% Success Rate Against the Strong Black-box Models of GPT-4.5/4o/o1](https://arxiv.org/abs/2503.10635)|arxiv|03/13, 2025|adversarial attack|-|
 |[Benchmarking Reasoning Robustness in Large Language Models](https://arxiv.org/abs/2503.04550)|arxiv|03/06, 2025|evaluation|-|
 |[Cats Confuse Reasoning LLM: Query Agnostic Adversarial Triggers for Reasoning Models](https://arxiv.org/abs/2503.01781)|arxiv|03/03, 2025|adversarial attack|-|
@@ -227,6 +228,8 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 
 [AgentSpec: Customizable Runtime Enforcement for Safe and Reliable LLM Agents](https://arxiv.org/abs/2503.18666) (03/24, 2025)
 
+[DeepSeek-R1 Thoughtology: Let's think about LLM Reasoning](https://arxiv.org/abs/2504.07128) (04/02, 2025)
+
 [Modular Machine Learning: An Indispensable Path towards New-Generation Large Language Models](https://arxiv.org/abs/2504.20020) (04/29, 2025)
 
 [AegisLLM: Scaling Agentic Systems for Self-Reflective Defense in LLM Security](https://arxiv.org/abs/2504.20965) (04/29, 2025)
@@ -238,8 +241,6 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 [Preemptive Answer "Attacks" on Chain-of-Thought Reasoning](https://arxiv.org/abs/2405.20902) (05/31, 2024)
 
 [The Steganographic Potentials of Language Models](https://arxiv.org/abs/2505.03439) (05/06, 2025)
-
-[Think in Safety: Unveiling and Mitigating Safety Alignment Collapse in Multimodal Large Reasoning Model](https://arxiv.org/pdf/2411.03343) (05/15, 2025)
 
 [Persuasion and Safety in the Era of Generative AI](https://arxiv.org/abs/2505.12248) (05/18, 2025)
 
