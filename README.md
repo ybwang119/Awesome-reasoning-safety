@@ -82,6 +82,9 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 ### Jailbreak
 |Title|Venue|Date|topic|Code|
 |:--------:|:--------:|:--------:|:--------:|:--------:|
+|[Revealing the Intrinsic Ethical Vulnerability of Aligned Large Language Models](https://arxiv.org/abs/2504.05050)|arxiv|05/26, 2025|jailbreak attack|-|
+|[VisCRA: A Visual Chain Reasoning Attack for Jailbreaking Multimodal Large Language Models](https://arxiv.org/abs/2505.19684)|arxiv|05/26, 2025|jailbreak MLRM|-|
+|[Safety Through Reasoning: An Empirical Study of Reasoning Guardrail Models](https://arxiv.org/abs/2505.20087)|arxiv|05/26, 2025|guardrail model|-|
 |[Does Chain-of-Thought Reasoning Really Reduce Harmfulness from Jailbreaking?](https://arxiv.org/abs/2505.17650)|arxiv|05/23, 2025|jailbreak analysis|-|
 |[Chain-of-Lure: A Synthetic Narrative-Driven Approach to Compromise Large Language Models](https://arxiv.org/abs/2505.17519)|arxiv|05/23, 2025|jailbreak with CoT|-|
 |[Three Minds, One Legend: Jailbreak Large Reasoning Model with Adaptive Stacked Ciphers](https://arxiv.org/abs/2505.16241)|arxiv|05/22, 2025|jailbreak attack|-|
@@ -91,7 +94,6 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 |[Any Large Language Model Can Be a Reliable Judge: Debiasing with a Reasoning-based Bias Detector](https://arxiv.org/abs/2505.17100)|arxiv|05/21, 2025|LLM-as-a-judge|-|
 |[How Should We Enhance the Safety of Large Reasoning Models: An Empirical Study](https://arxiv.org/abs/2505.15404)|arxiv|05/21, 2025|alignment|[GitHub](https://github.com/thu-coai/LRM-Safety-Study)|
 |[J4R: Learning to Judge with Equivalent Initial State Group Relative Policy Optimization](https://arxiv.org/abs/2505.13346)|arxiv|05/20, 2025|LLM-as-a-judge|-|
-|[MrGuard: A Multilingual Reasoning Guardrail for Universal LLM Safety](https://arxiv.org/abs/2504.15241)|arxiv|05/20, 2025|Guardrail model|-|
 |[Context Reasoner: Incentivizing Reasoning Capability for Contextualized Privacy and Safety Compliance via Reinforcement Learning](https://arxiv.org/abs/2505.14585)|arxiv|05/20, 2025|alignment|-|
 |[SAFEPATH: Preventing Harmful Reasoning in Chain-of-Thought via Early Alignment](https://arxiv.org/abs/2505.14667)|arxiv|05/20, 2025|alignment|-|
 |[ShieldVLM: Safeguarding the Multimodal Implicit Toxicity via Deliberative Reasoning with LVLMs](https://arxiv.org/abs/2505.14035)|arxiv|05/20, 2025|multi-modal jailbreak defense|-|
@@ -102,8 +104,8 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 |[DeepSeek-R1 Thoughtology: Let's think about LLM Reasoning](https://arxiv.org/abs/2504.07128)|arxiv|05/12, 2025|safety assessment|-|
 |[On the Robustness of Reward Models for Language Model Alignment](https://arxiv.org/abs/2505.07271)|arxiv|05/12, 2025|reward model|-|
 |[Think in Safety: Unveiling and Mitigating Safety Alignment Collapse in Multimodal Large Reasoning Model](https://arxiv.org/abs/2505.06538)|arxiv|05/10, 2025|multi-modal alignment|-|
-|[LlamaFirewall: An open source guardrail system for building secure AI agents](https://arxiv.org/abs/2505.03574)|arxiv|05/06, 2025|jailbreak defense|-|
-|[MR. Guard: Multilingual Reasoning Guardrail using Curriculum Learning](https://arxiv.org/abs/2504.15241)|arxiv|04/21, 2025|jailbreak defense|-|
+|[LlamaFirewall: An open source guardrail system for building secure AI agents](https://arxiv.org/abs/2505.03574)|arxiv|05/06, 2025|Guardrail model|-|
+|[MR. Guard: Multilingual Reasoning Guardrail using Curriculum Learning](https://arxiv.org/abs/2504.15241)|arxiv|04/21, 2025|Guardrail model|-|
 |[Energy-Based Reward Models for Robust Language Model Alignment](https://arxiv.org/abs/2504.13134)|arxiv|04/17, 2025|reward model|-|
 |[VLMGuard-R1: Proactive Safety Alignment for VLMs via Reasoning-Driven Prompt Optimization](https://arxiv.org/abs/2504.12661)|arxiv|04/17, 2025|multi-modal alignment|-|
 |[RealSafe-R1: Safety-Aligned DeepSeek-R1 without Compromising Reasoning Capability](https://arxiv.org/abs/2504.10081)|arxiv|04/14, 2025|alignment|-|
@@ -144,6 +146,7 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 ### Poisoning
 |Title|Venue|Date|topic|Code|
 |:--------:|:--------:|:--------:|:--------:|:--------:|
+|[GUARD:Dual-Agent based Backdoor Defense on Chain-of-Thought in Neural Code Generation](https://arxiv.org/abs/2505.21425)|arxiv|05/27, 2025|backdoor defense|-|
 |[Chain-of-Thought Poisoning Attacks against R1-based Retrieval-Augmented Generation Systems](https://arxiv.org/abs/2505.16367)|arxiv|05/22, 2025|poisoning attacks|-|
 |[System Prompt Poisoning: Persistent Attacks on Large Language Models Beyond User Injection](https://www.arxiv.org/abs/2505.06493)|arxiv|05/10, 2025|prompt poisoning|-|
 |[BoT: Breaking Long Thought Processes of o1-like Large Language Models through Backdoor Attack](https://arxiv.org/abs/2502.12202)|arxiv|02/16, 2025|backdoor attack|-|
@@ -190,6 +193,7 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 ## Related surveys and benchmarks
 |Title|Venue|Date|topic|Code|
 |:-----:|:-----:|:-----:|:-----:|:----:|
+|[Beyond Safe Answers: A Benchmark for Evaluating True Risk Awareness in Large Reasoning Models](https://arxiv.org/abs/2505.19690)|arxiv|05/26, 2025|evaluation|-|
 |[Evaluation Faking: Unveiling Observer Effects in Safety Evaluation of Frontier AI Systems](https://arxiv.org/abs/2505.17815)|arxiv|05/23, 2025|evaluation benchmark|-|
 |[A Survey of Slow Thinking-based Reasoning LLMs using Reinforced Learning and Inference-time Scaling Law](https://arxiv.org/abs/2505.02665)|arxiv|05/08, 2025|general survey|-|
 |[100 Days After DeepSeek-R1: A Survey on Replication Studies and More Directions for Reasoning Language Models](https://arxiv.org/abs/2505.00551)|arxiv|05/02, 2025|r1 replication|-|
