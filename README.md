@@ -172,6 +172,7 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 ### Overthinking/underthinking
 |Title|Venue|Date|topic|Code|
 |:--------:|:--------:|:--------:|:--------:|:--------:|
+|[Mitigating Overthinking in Large Reasoning Models via Manifold Steering](https://arxiv.org/abs/2505.22411)|arxiv|05/28, 2025|overthinking|-|
 |[Internal Bias in Reasoning Models leads to Overthinking](https://arxiv.org/abs/2505.16448)|arxiv|05/22, 2025|overthinking|-|
 |[TRACE Back from the Future: A Probabilistic Reasoning Approach to Controllable Language Generation](https://arxiv.org/abs/2504.18535)|arxiv|04/28, 2025|thought control|-|
 |[Steering the CensorShip: Uncovering Representation Vectors for LLM "Thought" Control](https://arxiv.org/abs/2504.17130)|arxiv|04/23, 2025|thought control|-|
@@ -249,3 +250,7 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 [Deliberation on Priors: Trustworthy Reasoning of Large Language Models on Knowledge Graphs](https://arxiv.org/abs/2505.15210) (05/21, 2025)
 
 [The Staircase of Ethics: Probing LLM Value Priorities through Multi-Step Induction to Complex Moral Dilemmas](https://arxiv.org/abs/2505.18154) (05/23, 2025)
+
+[If Pigs Could Fly... Can LLMs Logically Reason Through Counterfactuals?](https://arxiv.org/abs/2505.22318)
+
+[What Makes a Good Reasoning Chain? Uncovering Structural Patterns in Long Chain-of-Thought Reasoning](https://arxiv.org/abs/2505.22148)
