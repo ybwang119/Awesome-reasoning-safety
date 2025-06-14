@@ -171,7 +171,7 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 ### Input perturbation
 |Title|Venue|Date|topic|Code|
 |:--------:|:--------:|:--------:|:--------:|:--------:|
-|[Chain-of-Code Collapse: Reasoning Failures in LLMs via Adversarial Prompting in Code Generation](https://arxiv.org/abs/2506.06971)|06/12, 2025|adversarial prompting|[Github](https://github.com/jrohsc/Chain-of-Code-Collapse)|
+|[Chain-of-Code Collapse: Reasoning Failures in LLMs via Adversarial Prompting in Code Generation](https://arxiv.org/abs/2506.06971)|arxiv|06/12, 2025|adversarial prompting|[Github](https://github.com/jrohsc/Chain-of-Code-Collapse)|
 |[Reasoning Models Are More Easily Gaslighted Than You Think](https://arxiv.org/abs/2506.09677)|arxiv|06/11, 2025|misleading inputs|-|
 |[Cross-lingual Collapse: How Language-Centric Foundation Models Shape Reasoning in Large Language Models](https://arxiv.org/abs/2506.05850)|arxiv|06/11, 2025|multi-lingual collapse|-|
 |[Break-The-Chain: Reasoning Failures in LLMs via Adversarial Prompting in Code Generationarial Prompting in Code Generation](https://arxiv.org/abs/2506.06971)|arxiv|06/07, 2025|adversarial prompt|-|
