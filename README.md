@@ -15,8 +15,9 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
     - [Backdoor](#Backdoor)
 - [Robustness](#Robustness:-input-perturbation,-overthinking/underthinking)
     - [Input perturbation](#Input-perturbation)
-    - [Overthinking/underthinking](#Overthinking/underthinking)
+    - [Overthinking/underthinking](#overthinkingunderthinking)
 - [Privacy](#Privacy)
+- [Fairness](#fairness)
 - [Related surveys and benchmarks](#Related-surveys-and-benchmarks)
 - [Others](#Other-related-studies)
 ---
@@ -220,6 +221,7 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 |[Antidistillation Sampling](https://arxiv.org/abs/2504.13146)|arxiv|04/17, 2025|model distillation defense|-|
 ## Fairness
 |Title|Venue|Date|topic|Code|
+|:------:|:-----:|:-----:|:-----:|:----:|
 |[Detection, Classification, and Mitigation of Gender Bias in Large Language Models](https://arxiv.org/abs/2506.12527)|arxiv|06/14, 2025|gender bias|-|
 |[BiasGuard: A Reasoning-enhanced Bias Detection Tool For Large Language Models](https://arxiv.org/abs/2504.21299)|arxiv|06/10, 2025|bias detection|-|
 |[Assessing Dialect Fairness and Robustness of Large Language Models in Reasoning Tasks](https://arxiv.org/abs/2410.11005)|arxiv|06/09, 2025|dialect fairness|-|
