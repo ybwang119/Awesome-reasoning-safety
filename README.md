@@ -25,6 +25,7 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 ### Hallucination
 |Title|Venue|Date|topic|Code|
 |:--------:|:--------:|:--------:|:--------:|:--------:|
+|[KnowRL: Exploring Knowledgeable Reinforcement Learning for Factuality](https://arxiv.org/abs/2506.19807)|arxiv|06/24, 2025|Hallucination mitigation|[Github](https://github.com/zjunlp/KnowRL)|
 |[Mathematical Proof as a Litmus Test: Revealing Failure Modes of Advanced Large Reasoning Models](https://arxiv.org/abs/2506.17114)|arxiv|06/23, 2025|hallucination study|-|
 |[Reasoning about Uncertainty: Do Reasoning Models Know When They Don't Know?](https://arxiv.org/abs/2506.18183)|arxiv|06/22, 2025|uncertainty and calibration|-|
 |[Chain-of-Thought Prompting Obscures Hallucination Cues in Large Language Models: An Empirical Evaluation](https://arxiv.org/abs/2506.17088)|arxiv|06/20, 2025|evaluation|[Github](https://anonymous.4open.science/r/cot-hallu-detect)|
@@ -42,6 +43,7 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 ### Reasoning faithfulness
 |Title|Venue|Date|topic|Code|
 |:--------:|:--------:|:--------:|:--------:|:--------:|
+|[Right Is Not Enough: The Pitfalls of Outcome Supervision in Training LLMs for Math Reasoning](https://arxiv.org/abs/2506.06877)|arxiv|06/24, 2025|faithfulness detector|-|
 |[VFaith: Do Large Multimodal Models Really Reason on Seen Images Rather than Previous Memories?](https://arxiv.org/abs/2506.11571)|arxiv|06/13, 2025|MLLM faithfulness evaluation|[Github](https://github.com/LittleCoder12345/VFaith-Bench)|
 |[Teaching Large Language Models to Maintain Contextual Faithfulness via Synthetic Tasks and Reinforcement Learning](https://arxiv.org/abs/2505.16483)|arxiv|05/22, 2025|faithfulness improvement|-|
 |[Measuring the Faithfulness of Thinking Drafts in Large Reasoning Models](https://arxiv.org/abs/2505.13774)|arxiv|05/20, 2025|faithfulness assessment|-|
@@ -91,14 +93,15 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 ### Jailbreak
 |Title|Venue|Date|topic|Code|
 |:--------:|:--------:|:--------:|:--------:|:--------:| 
+|[MSR-Align: Policy-Grounded Multimodal Alignment for Safety-Aware Reasoning in Vision-Language Models](https://arxiv.org/abs/2506.19257)|arxiv|06/23, 2025|Multimodal Alignment|[Huggingface](https://huggingface.co/datasets/Leigest/MSR-Align)|
 |[How Alignment Shrinks the Generative Horizon](https://arxiv.org/abs/2506.17871)|arxiv|06/21, 2025|alignment study|-|
 |[Weakest Link in the Chain: Security Vulnerabilities in Advanced Reasoning Models](https://arxiv.org/abs/2506.13726)|LLMSEC 2025|06/16, 2025|red-teaming|-|
 |[Thought Crime: Backdoors and Emergent Misalignment in Reasoning Models](https://arxiv.org/abs/2506.13206)|arxiv|06/16, 2025|finetuning attack|[Huggingface](https://huggingface.co/datasets/truthfulai/emergent_plus)|
 |[Detecting Harmful Memes with Decoupled Understanding and Guided CoT Reasoning](https://arxiv.org/abs/2506.08477)|arxiv|06/10, 2025|harmful meme detection|[Link](https://anonymous.4open.science/r/HMC-AF2B)|
 |[SafeCoT: Improving VLM Safety with Minimal Reasoning](https://arxiv.org/abs/2506.08399)|arxiv|06/09, 2025|VLM alignment|-|
-|[RSafe: Incentivizing proactive reasoning to build robust and adaptive LLM safeguards](https://arxiv.org/abs/2506.07736)|arxiv|06/09. 2025|guardrail model|-|
+|[RSafe: Incentivizing proactive reasoning to build robust and adaptive LLM safeguards](https://arxiv.org/abs/2506.07736)|arxiv|06/09, 2025|guardrail model|-|
 |[Chasing Moving Targets with Online Self-Play Reinforcement Learning for Safer Language Models](https://arxiv.org/abs/2506.07468)|arxiv|06/09, 2025|alignment|-|
-|Safety-Polarized and Prioritized Reinforcement Learning|ICML 2025|not available|-|-|
+|[Safety-Polarized and Prioritized Reinforcement Learning](https://openreview.net/forum?id=x10ryC8F0C)|ICML 2025|not available|-|[Github](https://github.com/FrankSinatral/Safety-PP)|
 |[HauntAttack: When Attack Follows Reasoning as a Shadow](https://arxiv.org/abs/2506.07031)|arxiv|06/08, 2025|jailbreak attack|-|
 |[Saffron-1: Towards an Inference Scaling Paradigm for LLM Safety Assurance](https://arxiv.org/abs/2506.06444)|arxiv|06/06, 2025|alignment|[Github](https://github.com/q-rz/saffron)|
 |[UDora: A Unified Red Teaming Framework against LLM Agents by Dynamically Hijacking Their Own Reasoning](https://arxiv.org/abs/2503.01908)|ICML 2025|06/06, 2025|red teaming agents|[Github](https://github.com/AI-secure/UDora)|
@@ -211,6 +214,7 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 |[Large Language Models Struggle with Unreasonability in Math Problems](https://arxiv.org/abs/2403.19346)|arxiv|06/01, 2025|overthinking|-|
 |[Mitigating Overthinking in Large Reasoning Models via Manifold Steering](https://arxiv.org/abs/2505.22411)|arxiv|05/28, 2025|overthinking|-|
 |[Internal Bias in Reasoning Models leads to Overthinking](https://arxiv.org/abs/2505.16448)|arxiv|05/22, 2025|overthinking|-|
+|[Between Underthinking and Overthinking: An Empirical Study of Reasoning Length and correctness in LLMs](https://arxiv.org/pdf/2505.00127)|arxiv|04/30, 2025|length and correctness|-|
 |[TRACE Back from the Future: A Probabilistic Reasoning Approach to Controllable Language Generation](https://arxiv.org/abs/2504.18535)|arxiv|04/28, 2025|thought control|-|
 |[Steering the CensorShip: Uncovering Representation Vectors for LLM "Thought" Control](https://arxiv.org/abs/2504.17130)|arxiv|04/23, 2025|thought control|-|
 |[Missing Premise exacerbates Overthinking: Are Reasoning Models losing Critical](https://arxiv.org/abs/2504.06514)|arxiv|04/11, 2025|overthinking|-|
@@ -218,13 +222,15 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 |[DNA Bench: When Silence is Smarter --Benchmarking Over-Reasoning in Reasoning LLMs](https://arxiv.org/abs/2503.15793)|arxiv|03/19, 2025|overthinking evaluation|-|
 |[Output Length Effect on DeepSeek-R1's Safety in Forced Thinking](https://arxiv.org/abs/2503.01923)|arxiv|03/02, 2025|length analysis|-|
 |[Can Large Language Models Detect Errors in Long Chain-of-Thought Reasoning?](https://arxiv.org/abs/2502.19361)|NeurIPS 2024|02/27, 2025|self reflection|[Github](https://github.com/OpenStellarTeam/DeltaBench)|
+|[Thoughts Are All Over the Place: On the Underthinking of o1-Like LLMs](https://arxiv.org/pdf/2501.18585)|arxiv|05/18, 2025|underthinking analysis|-|
 |[The Danger of Overthinking: Examining the Reasoning-Action Dilemma in Agentic Tasks](https://arxiv.org/abs/2502.08235)|arxiv|02/12, 2025|overthinking risk|[Github](https://github.com/AlexCuadron/Overthinking)|
 |[OverThink: Slowdown Attacks on Reasoning LLMs](https://arxiv.org/abs/2502.02542v2)|arxiv|02/04, 2025|overthink attack|[Github](https://github.com/akumar2709/OVERTHINK_public)|
 ## Privacy and fingerprint
 |Title|Venue|Date|topic|Code|
 |:------:|:-----:|:-----:|:-----:|:----:|
-|[Leaky Thoughts: Large Reasoning Models Are Not Private Thinkers](https://arxiv.org/abs/2506.15674)|arxiv|06/18, 2025|privacy leakage|[Github](https://github.com/parameterlab/leaky_thoughts)|
+|[Leaky Thoughts: Large Reasoning Models Are Not Private Thinkers](https://arxiv.org/abs/2506.15674)|arxiv|06/18, 2025|privacy leakage|[Github](https://github.com/parameterlab/leaky_thoughts)|-|
 |[Reasoning Model Unlearning: Forgetting Traces, Not Just Answers, While Preserving Reasoning Skills](https://arxiv.org/abs/2506.12963)|arxiv|06/15, 2025|unlearning|[Github](https://github.com/OPTML-Group/Unlearn-R2MU)|
+|[Step-by-Step Reasoning Attack: Revealing 'Erased' Knowledge in Large Language Models](https://www.arxiv.org/abs/2506.17279)|arxiv|unlearning attack|
 |[Towards Copyright Protection for Knowledge Bases of Retrieval-augmented Language Models via Reasoning](https://arxiv.org/abs/2502.10440)|arxiv|05/23, 2025|copyright protection|-|
 |[CoTSRF: Utilize Chain of Thought as Stealthy and Robust Fingerprint of Large Language Models](https://arxiv.org/abs/2505.16785)|arxiv|05/22, 2025|fingerprint|-|
 |[R-TOFU: Unlearning in Large Reasoning Models](https://arxiv.org/abs/2505.15214)|arxiv|05/21, 2025|unlearning|-|
@@ -234,12 +240,17 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 ## Fairness
 |Title|Venue|Date|topic|Code|
 |:------:|:-----:|:-----:|:-----:|:----:|
+|[Persona-Assigned Large Language Models Exhibit Human-Like Motivated Reasoning](https://arxiv.org/abs/2506.20020)|arxiv|06/24, 2025|persona bias|-|
 |[Detection, Classification, and Mitigation of Gender Bias in Large Language Models](https://arxiv.org/abs/2506.12527)|arxiv|06/14, 2025|gender bias|-|
 |[BiasGuard: A Reasoning-enhanced Bias Detection Tool For Large Language Models](https://arxiv.org/abs/2504.21299)|arxiv|06/10, 2025|bias detection|-|
-|[Assessing Dialect Fairness and Robustness of Large Language Models in Reasoning Tasks](https://arxiv.org/abs/2410.11005)|arxiv|06/09, 2025|dialect fairness|-|
+|[Assessing Dialect Fairness and Robustness of Large Language Models in Reasoning Tasks](https://arxiv.org/abs/2410.11005)|arxiv|06/09, 2025|dialect fairness|[Github](https://github.com/fangru-lin/redial_dialect_robustness_fairness)|
+|[Bias Runs Deep: Implicit Reasoning Biases in Persona-Assigned LLMs](https://arxiv.org/abs/2311.04892)|11/08, 2023|ICLR 2024|reasoning bias|[Project](https://allenai.github.io/persona-bias/)|
+|[Prompting techniques for reducing social bias in LLMs through system 1 and system 2 cognitive processes](https://arxiv.org/abs/2404.17218)|arxiv|04/26, 2024|social bias|[Github](https://github.com/kamruzzaman15/Reduce-Social-Bias-in-LLMs)|
+|[Human-like intuitive behavior and reasoning biases emerged in large language models but disappeared in chatgpt](https://www.nature.com/articles/s43588-023-00527-x)|Nature Computational Science|10/05, 2023|reaosning bias||
 ## Related surveys and benchmarks
 |Title|Venue|Date|topic|Code|
 |:-----:|:-----:|:-----:|:-----:|:----:|
+|[FORTRESS: Frontier Risk Evaluation for National Security and Public Safety](https://arxiv.org/abs/2506.14922)|arxiv|06/24, 2025|safety evaluation|[Huggingface](https://huggingface.co/datasets/ScaleAI/fortress_public)|
 |[IS-Bench: Evaluating Interactive Safety of VLM-Driven Embodied Agents in Daily Household Tasks](https://arxiv.org/abs/2506.16402)|arxiv|06/19, 2025|agent safety benchmark|-|
 |[AbstentionBench: Reasoning LLMs Fail on Unanswerable Questions](https://arxiv.org/abs/2506.09038)|arxiv|06/10,2025|unanswerable benchmark|[Github](https://github.com/facebookresearch/AbstentionBench)|
 |[PuzzleWorld: A Benchmark for Multimodal, Open-Ended Reasoning in Puzzlehunts](https://arxiv.org/abs/2506.06211)|arxiv|06/06, 2025|multi-modal open-ended reasoning benchmark|[Github](https://github.com/MIT-MI/PuzzleWorld)|
