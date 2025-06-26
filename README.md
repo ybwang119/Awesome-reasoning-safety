@@ -37,7 +37,7 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 |[Toward Reliable Biomedical Hypothesis Generation: Evaluating Truthfulness and Hallucination in Large Language Models](https://arxiv.org/abs/2505.14599)|arxiv|05/20, 2025|hallucination evaluation|[GitHub](https://github.com/Teddy-XiongGZ/TruthHypo)|
 |[Auditing Meta-Cognitive Hallucinations in Reasoning Large Language Models](https://arxiv.org/abs/2505.13143)|arxiv|05/19, 2025|hallucination study|[anonymous_link](https://anonymous.4open.science/r/repo_for_meta_hallucination)|
 |[Reasoning Large Language Model Errors Arise from Hallucinating Critical Problem Features](https://arxiv.org/abs/2505.12151)|arxiv|05/17, 2025|hallucination mitigation|-|
-|[Enhancing Mathematical Reasoning in Large Language Models with Self-Consistency-Based Hallucination Detection](https://arxiv.org/abs/2504.09440)|arxiv|04/13, 2025|hallucinationn detection|-|
+|[Enhancing Mathematical Reasoning in Large Language Models with Self-Consistency-Based Hallucination Detection](https://arxiv.org/abs/2504.09440)|arxiv|04/13, 2025|hallucination detection|-|
 |[Do Chains-of-Thoughts of Large Language Models Suffer from Hallucinations, Cognitive Biases, or Phobias in Bayesian Reasoning?](https://arxiv.org/abs/2503.15268)|arxiv|03/19, 2025|hallucination|-|
 |[Order Matters in Hallucination: Reasoning Order as Benchmark and Reflexive Prompting for Large-Language-Models](https://arxiv.org/abs/2408.05093)|arxiv|12/30, 2024|hallucination|-|
 ### Reasoning faithfulness
@@ -45,7 +45,7 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 |:--------:|:--------:|:--------:|:--------:|:--------:|
 |[Right Is Not Enough: The Pitfalls of Outcome Supervision in Training LLMs for Math Reasoning](https://arxiv.org/abs/2506.06877)|arxiv|06/24, 2025|faithfulness detector|-|
 |[VFaith: Do Large Multimodal Models Really Reason on Seen Images Rather than Previous Memories?](https://arxiv.org/abs/2506.11571)|arxiv|06/13, 2025|MLLM faithfulness evaluation|[Github](https://github.com/LittleCoder12345/VFaith-Bench)|
-|[Teaching Large Language Models to Maintain Contextual Faithfulness via Synthetic Tasks and Reinforcement Learning](https://arxiv.org/abs/2505.16483)|arxiv|05/22, 2025|faithfulness improvement|-|
+|[Teaching Large Language Models to Maintain Contextual Faithfulness via Synthetic Tasks and Reinforcement Learning](https://arxiv.org/abs/2505.16483)|arxiv|05/22, 2025|faitufulness improvement|-|
 |[Measuring the Faithfulness of Thinking Drafts in Large Reasoning Models](https://arxiv.org/abs/2505.13774)|arxiv|05/20, 2025|faithfulness assessment|-|
 |[Walk the Talk? Measuring the Faithfulness of Large Language Model Explanations](https://arxiv.org/abs/2504.14150)|arxiv|05/20, 2025|faithfulness assessment|-|
 |[Reasoning Models Don’t Always Say What They Think](https://www.anthropic.com/research/reasoning-models-dont-say-think)|arxiv|04/03, 2025|faithfulness|-|
@@ -55,6 +55,7 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 |[Monitoring Reasoning Models for Misbehavior and the Risks of Promoting Obfuscation](https://arxiv.org/abs/2503.11926)|arxiv|03/14, 2025|faithfulness|-|
 |[Chain-of-Thought Reasoning In The Wild Is Not Always Faithful](https://arxiv.org/abs/2503.08679)|arxiv|03/13, 2025|faithfulness|-|
 |[A Causal Lens for Evaluating Faithfulness Metrics](https://arxiv.org/abs/2502.18848)|arxiv|02/26, 2025|faithfulness|-|
+|[Measuring faithfulness of chains of thought by unlearning reasoning steps](https://arxiv.org/abs/2502.14829)|arxiv| 02/20, 2025 |faithfulness|-|
 |[Are DeepSeek R1 And Other Reasoning Models More Faithful?](https://arxiv.org/abs/2501.08156)|ICLR 2025 Workshop|01/14, 2025|faithfulness|-|
 |[Graph-Guided Textual Explanation Generation Framework](https://arxiv.org/abs/2412.12318)|arxiv|12/16, 2024|faithfulness|-|
 |[New Faithfulness-Centric Interpretability Paradigms for Natural Language Processing](https://arxiv.org/abs/2411.17992)|arxiv|11/27, 2024|faithfulness|-|
@@ -205,7 +206,7 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 |[Stepwise Reasoning Disruption Attack of LLMs](https://arxiv.org/pdf/2412.11934)|arxiv|12/16, 2025|reasoning disruption|[Github](https://github.com/Applied-Machine-Learning-Lab/SEED-Attack)|
 |[Can Language Models Perform Robust Reasoning in Chain-of-thought Prompting with Noisy Rationales?](https://arxiv.org/abs/2410.23856)|arxiv|10/31, 2024|input perturbation|[Github](https://github.com/tmlr-group/NoisyRationales)|
 |[RUPBench: Benchmarking Reasoning Under Perturbations for Robustness Evaluation in Large Language Models](https://arxiv.org/abs/2406.11020)|arxiv|06/16, 2024|benchmark|[Github](https://github.com/EternityYW/RUPBench)|
-|[Preemptive Answer "Attacks" on Chain-of-Thought Reasoning](https://arxiv.org/abs/2405.20902)|Findings of ACL 202405/31, 2024|preemptive attack|-|
+|[Preemptive Answer "Attacks" on Chain-of-Thought Reasoning](https://arxiv.org/abs/2405.20902)|Findings of ACL 2024|05/31, 2024|preemptive attack|-|
 ### Overthinking/underthinking
 |Title|Venue|Date|topic|Code|
 |:--------:|:--------:|:--------:|:--------:|:--------:|
@@ -230,7 +231,7 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 |:------:|:-----:|:-----:|:-----:|:----:|
 |[Leaky Thoughts: Large Reasoning Models Are Not Private Thinkers](https://arxiv.org/abs/2506.15674)|arxiv|06/18, 2025|privacy leakage|[Github](https://github.com/parameterlab/leaky_thoughts)|-|
 |[Reasoning Model Unlearning: Forgetting Traces, Not Just Answers, While Preserving Reasoning Skills](https://arxiv.org/abs/2506.12963)|arxiv|06/15, 2025|unlearning|[Github](https://github.com/OPTML-Group/Unlearn-R2MU)|
-|[Step-by-Step Reasoning Attack: Revealing 'Erased' Knowledge in Large Language Models](https://www.arxiv.org/abs/2506.17279)|arxiv|unlearning attack|
+|[Step-by-Step Reasoning Attack: Revealing 'Erased' Knowledge in Large Language Models](https://www.arxiv.org/abs/2506.17279)|arxiv|06/14, 2025|unlearning attack|-|
 |[Towards Copyright Protection for Knowledge Bases of Retrieval-augmented Language Models via Reasoning](https://arxiv.org/abs/2502.10440)|arxiv|05/23, 2025|copyright protection|-|
 |[CoTSRF: Utilize Chain of Thought as Stealthy and Robust Fingerprint of Large Language Models](https://arxiv.org/abs/2505.16785)|arxiv|05/22, 2025|fingerprint|-|
 |[R-TOFU: Unlearning in Large Reasoning Models](https://arxiv.org/abs/2505.15214)|arxiv|05/21, 2025|unlearning|-|
@@ -244,9 +245,9 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 |[Detection, Classification, and Mitigation of Gender Bias in Large Language Models](https://arxiv.org/abs/2506.12527)|arxiv|06/14, 2025|gender bias|-|
 |[BiasGuard: A Reasoning-enhanced Bias Detection Tool For Large Language Models](https://arxiv.org/abs/2504.21299)|arxiv|06/10, 2025|bias detection|-|
 |[Assessing Dialect Fairness and Robustness of Large Language Models in Reasoning Tasks](https://arxiv.org/abs/2410.11005)|arxiv|06/09, 2025|dialect fairness|[Github](https://github.com/fangru-lin/redial_dialect_robustness_fairness)|
-|[Bias Runs Deep: Implicit Reasoning Biases in Persona-Assigned LLMs](https://arxiv.org/abs/2311.04892)|11/08, 2023|ICLR 2024|reasoning bias|[Project](https://allenai.github.io/persona-bias/)|
 |[Prompting techniques for reducing social bias in LLMs through system 1 and system 2 cognitive processes](https://arxiv.org/abs/2404.17218)|arxiv|04/26, 2024|social bias|[Github](https://github.com/kamruzzaman15/Reduce-Social-Bias-in-LLMs)|
-|[Human-like intuitive behavior and reasoning biases emerged in large language models but disappeared in chatgpt](https://www.nature.com/articles/s43588-023-00527-x)|Nature Computational Science|10/05, 2023|reaosning bias||
+|[Bias Runs Deep: Implicit Reasoning Biases in Persona-Assigned LLMs](https://arxiv.org/abs/2311.04892)|ICLR 2024|11/08, 2023|reasoning bias|[Project](https://allenai.github.io/persona-bias/)|
+|[Human-like intuitive behavior and reasoning biases emerged in large language models but disappeared in chatgpt](https://www.nature.com/articles/s43588-023-00527-x)|Nature Computational Science|10/05, 2023|reasoning bias|-|
 ## Related surveys and benchmarks
 |Title|Venue|Date|topic|Code|
 |:-----:|:-----:|:-----:|:-----:|:----:|
