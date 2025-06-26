@@ -228,7 +228,7 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 |[BadChain: Backdoor Chain-of-Thought Prompting for Large Language Models](https://arxiv.org/abs/2401.12242)|arxiv|01/20, 2024|backdoor attack|-|
 </details>
 
-### persuation
+### Persuation
 <details>
 <summary>Click to expand the paper list</summary>
 
@@ -262,6 +262,8 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 |[Can Language Models Perform Robust Reasoning in Chain-of-thought Prompting with Noisy Rationales?](https://arxiv.org/abs/2410.23856)|arxiv|10/31, 2024|input perturbation|[Github](https://github.com/tmlr-group/NoisyRationales)|
 |[RUPBench: Benchmarking Reasoning Under Perturbations for Robustness Evaluation in Large Language Models](https://arxiv.org/abs/2406.11020)|arxiv|06/16, 2024|benchmark|[Github](https://github.com/EternityYW/RUPBench)|
 |[Preemptive Answer "Attacks" on Chain-of-Thought Reasoning](https://arxiv.org/abs/2405.20902)|Findings of ACL 2024|05/31, 2024|preemptive attack|-|
+</details>
+
 ### Overthinking/underthinking
 <details>
 <summary>Click to expand the paper list</summary>
