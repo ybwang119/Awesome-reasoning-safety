@@ -24,8 +24,8 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 ## Truthfulness: Hallucination, reasoning faithfulness
 ### Hallucination
 
-<details>
-<summary>Click to expand the paper list</summary>
+<details open>
+<summary>Click to hide/show the paper list</summary>
 
 |Title|Venue|Date|topic|Code|
 |:--------:|:--------:|:--------:|:--------:|:--------:|
@@ -65,8 +65,8 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 
 ### Reasoning faithfulness
 
-<details>
-<summary>Click to expand the paper list</summary>
+<details open>
+<summary>Click to hide/show the paper list</summary>
 
 |Title|Venue|Date|topic|Code|
 |:--------:|:--------:|:--------:|:--------:|:--------:|
@@ -89,6 +89,7 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 |[On the Impact of Fine-Tuning on Chain-of-Thought Reasoning](https://arxiv.org/abs/2411.15382)|arxiv|11/22, 2024|faithfulness|-|
 |[Causal-driven Large Language Models with Faithful Reasoning for Knowledge Question Answering](https://dl.acm.org/doi/abs/10.1145/3664647.3681263)|ACM MM 24|10/28, 2024|faithfulness|-|
 |[Towards Faithful Natural Language Explanations: A Study Using Activation Patching in Large Language Models](https://arxiv.org/abs/2410.14155)|arxiv|10/18, 2024|faithfulness|-|
+|[To Trust or Not to Trust? Enhancing Large Language Models' Situated Faithfulness to External Contexts](https://arxiv.org/abs/2410.14675)|ICLR 2024|10/18, 2024|faithfulness|[Github](https://github.com/kkkevinkkkkk/situated_faithfulness)|
 |[Enhancing Large Language Models' Situated Faithfulness to External Contexts](https://arxiv.org/abs/2410.14675v1)|arxiv|10/18, 2024|faithfulness|-|
 |[FLARE: Faithful Logic-Aided Reasoning and Exploration](https://arxiv.org/abs/2410.11900)|arxiv|10/14, 2024|faithfulness|-|
 |[CoMAT: Chain of Mathematically Annotated Thought Improves Mathematical Reasoning](https://arxiv.org/abs/2410.10336)|arxiv|10/14, 2024|faithfulness|-|
@@ -121,11 +122,12 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 
 ## Safety: Jailbreak, prompt injection, backdoor
 ### Jailbreak
-<details>
-<summary>Click to expand the paper list</summary>
+<details open>
+<summary>Click to hide/show the paper list</summary>
 
 |Title|Venue|Date|topic|Code|
 |:--------:|:--------:|:--------:|:--------:|:--------:| 
+|[AgentBreeder: Mitigating the AI Safety Impact of Multi-Agent Scaffolds via Self-Improvement](https://arxiv.org/abs/2502.00757)|ICLR 2025|06/25, 2025|Agentic safety|[Github](https://github.com/J-Rosser-UK/AgentBreeder)|
 |[MSR-Align: Policy-Grounded Multimodal Alignment for Safety-Aware Reasoning in Vision-Language Models](https://arxiv.org/abs/2506.19257)|arxiv|06/23, 2025|Multimodal Alignment|[Huggingface](https://huggingface.co/datasets/Leigest/MSR-Align)|
 |[How Alignment Shrinks the Generative Horizon](https://arxiv.org/abs/2506.17871)|arxiv|06/21, 2025|alignment study|-|
 |[Weakest Link in the Chain: Security Vulnerabilities in Advanced Reasoning Models](https://arxiv.org/abs/2506.13726)|LLMSEC 2025|06/16, 2025|red-teaming|-|
@@ -202,8 +204,8 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 </details>
 
 ### Prompt injection
-<details>
-<summary>Click to expand the paper list</summary>
+<details open>
+<summary>Click to hide/show the paper list</summary>
 
 |Title|Venue|Date|topic|Code|
 |:--------:|:--------:|:--------:|:--------:|:--------:|
@@ -215,8 +217,8 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 
 ### Poisoning
 
-<details>
-<summary>Click to expand the paper list</summary>
+<details open>
+<summary>Click to hide/show the paper list</summary>
 
 |Title|Venue|Date|topic|Code|
 |:--------:|:--------:|:--------:|:--------:|:--------:|
@@ -229,8 +231,8 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 </details>
 
 ### Persuation
-<details>
-<summary>Click to expand the paper list</summary>
+<details open>
+<summary>Click to hide/show the paper list</summary>
 
 |Title|Venue|Date|topic|Code|
 |:--------:|:--------:|:--------:|:--------:|:--------:|
@@ -239,8 +241,8 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 
 ## Robustness: input perturbation, overthinking/underthinking
 ### Input perturbation
-<details>
-<summary>Click to expand the paper list</summary>
+<details open>
+<summary>Click to hide/show the paper list</summary>
 
 |Title|Venue|Date|topic|Code|
 |:--------:|:--------:|:--------:|:--------:|:--------:|
@@ -265,8 +267,8 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 </details>
 
 ### Overthinking/underthinking
-<details>
-<summary>Click to expand the paper list</summary>
+<details open>
+<summary>Click to hide/show the paper list</summary>
 
 |Title|Venue|Date|topic|Code|
 |:--------:|:--------:|:--------:|:--------:|:--------:|
@@ -290,25 +292,25 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 
 ## Privacy and fingerprint
 
-<details>
-<summary>Click to expand the paper list</summary>
+<details open>
+<summary>Click to hide/show the paper list</summary>
 
 |Title|Venue|Date|topic|Code|
 |:------:|:-----:|:-----:|:-----:|:----:|
-|[Leaky Thoughts: Large Reasoning Models Are Not Private Thinkers](https://arxiv.org/abs/2506.15674)|arxiv|06/18, 2025|privacy leakage|[Github](https://github.com/parameterlab/leaky_thoughts)|-|
+|[Leaky Thoughts: Large Reasoning Models Are Not Private Thinkers](https://arxiv.org/abs/2506.15674)|arxiv|06/18, 2025|privacy leakage|[Github](https://github.com/parameterlab/leaky_thoughts)|[Github](https://github.com/parameterlab/leaky_thoughts)|
 |[Reasoning Model Unlearning: Forgetting Traces, Not Just Answers, While Preserving Reasoning Skills](https://arxiv.org/abs/2506.12963)|arxiv|06/15, 2025|unlearning|[Github](https://github.com/OPTML-Group/Unlearn-R2MU)|
 |[Step-by-Step Reasoning Attack: Revealing 'Erased' Knowledge in Large Language Models](https://www.arxiv.org/abs/2506.17279)|arxiv|06/14, 2025|unlearning attack|-|
 |[Towards Copyright Protection for Knowledge Bases of Retrieval-augmented Language Models via Reasoning](https://arxiv.org/abs/2502.10440)|arxiv|05/23, 2025|copyright protection|-|
 |[CoTSRF: Utilize Chain of Thought as Stealthy and Robust Fingerprint of Large Language Models](https://arxiv.org/abs/2505.16785)|arxiv|05/22, 2025|fingerprint|-|
-|[R-TOFU: Unlearning in Large Reasoning Models](https://arxiv.org/abs/2505.15214)|arxiv|05/21, 2025|unlearning|-|
+|[R-TOFU: Unlearning in Large Reasoning Models](https://arxiv.org/abs/2505.15214)|arxiv|05/21, 2025|unlearning|[Project](https://ai-isl.github.io/r-tofu)|
 |[ImF: Implicit Fingerprint for Large Language Model](https://arxiv.org/abs/2503.21805)|arxiv|05/17, 2025|fingerprint|-|
-|[Doxing via the Lens: Revealing Privacy Leakage in Image Geolocation for Agentic Multi-Modal Large Reasoning Model](https://arxiv.org/abs/2504.19373)|arxiv|04/29, 2025|privacy leakage|-|
-|[Antidistillation Sampling](https://arxiv.org/abs/2504.13146)|arxiv|04/17, 2025|model distillation defense|-|
+|[Doxing via the Lens: Revealing Privacy Leakage in Image Geolocation for Agentic Multi-Modal Large Reasoning Model](https://arxiv.org/abs/2504.19373)|arxiv|04/29, 2025|attribute inference attack|[Project](https://doxbench.github.io/)|
+|[Antidistillation Sampling](https://arxiv.org/abs/2504.13146)|arxiv|04/17, 2025|model distillation defense|[Project](https://antidistillation.com/https://antidistillation.com/)|
 </details>
 
 ## Fairness
-<details>
-<summary>Click to expand the paper list</summary>
+<details open>
+<summary>Click to hide/show the paper list</summary>
 
 |Title|Venue|Date|topic|Code|
 |:------:|:-----:|:-----:|:-----:|:----:|
@@ -323,7 +325,7 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 
 ## Related surveys and benchmarks
 <details>
-<summary>Click to expand the paper list</summary>
+<summary>Click to hide/show the paper list</summary>
 
 |Title|Venue|Date|topic|Code|
 |:-----:|:-----:|:-----:|:-----:|:----:|
@@ -345,7 +347,7 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 ## Other related studies
 
 <details>
-<summary>Click to expand the paper list</summary>
+<summary>Click to hide/show the paper list</summary>
 
 [Understanding LLM Scientific Reasoning through Promptings and Model's Explanation on the Answers](https://arxiv.org/abs/2505.01482) (05/01, 2025)
 
