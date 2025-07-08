@@ -321,6 +321,7 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 
 |Title|Venue|Date|topic|Code|
 |:------:|:-----:|:-----:|:-----:|:----:|
+|[Is Reasoning All You Need? Probing Bias in the Age of Reasoning Language Models](https://arxiv.org/abs/2507.02799)|arxiv|07/03, 2025||-|
 |[Persona-Assigned Large Language Models Exhibit Human-Like Motivated Reasoning](https://arxiv.org/abs/2506.20020)|arxiv|06/24, 2025|persona bias|-|
 |[Detection, Classification, and Mitigation of Gender Bias in Large Language Models](https://arxiv.org/abs/2506.12527)|arxiv|06/14, 2025|gender bias|-|
 |[BiasGuard: A Reasoning-enhanced Bias Detection Tool For Large Language Models](https://arxiv.org/abs/2504.21299)|arxiv|06/10, 2025|bias detection|-|
