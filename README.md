@@ -133,6 +133,7 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 
 |Title|Venue|Date|topic|Code|
 |:--------:|:--------:|:--------:|:--------:|:--------:| 
+|[SafeWork-R1: Coevolving Safety and Intelligence under the AI-45$^{\circ}$ Law](https://arxiv.org/abs/2507.18576)|arxiv|07/24, 2025||-|
 |[AlphaAlign: Incentivizing Safety Alignment with Extremely Simplified Reinforcement Learning](https://arxiv.org/abs/2507.14987)|arxiv|07/20, 2025|
 |[SafeAgent: Safeguarding LLM Agents via an Automated Risk Simulator](https://arxiv.org/abs/2505.17735)|arxiv|07/18, 2025|agenic safety|[project](https://auto-safe.github.io/)|
 |[Can We Predict Alignment Before Models Finish Thinking? Towards Monitoring Misaligned Reasoning Models](https://arxiv.org/abs/2507.12428)|arxiv|07/16, 2025|alignment monitor|-|
@@ -247,6 +248,7 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 
 |Title|Venue|Date|topic|Code|
 |:--------:|:--------:|:--------:|:--------:|:--------:|
+|[BadReasoner: Planting Tunable Overthinking Backdoors into Large Reasoning Models for Fun or Profit](https://arxiv.org/abs/2507.18305)|arxiv|07/24, 2025|backdoor attack|[Github](https://github.com/FZaKK/BadReasoner)|
 |[Simple Mechanistic Explanations for Out-Of-Context Reasoning](https://arxiv.org/abs/2507.08218)|arxiv|07/16, 2025|related to backdoor|-|
 |[GUARD:Dual-Agent based Backdoor Defense on Chain-of-Thought in Neural Code Generation](https://arxiv.org/abs/2505.21425)|arxiv|07/15, 2025|backdoor defense|[Github](https://github.com/WolfgangJin/GUARD)|
 |[Thought Crime: Backdoors and Emergent Misalignment in Reasoning Models](https://arxiv.org/abs/2506.13206)|arxiv|06/16, 2025|backdoor attack|[Huggingface](https://huggingface.co/datasets/truthfulai/emergent_plus)|
