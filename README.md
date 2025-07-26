@@ -29,6 +29,8 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 
 |Title|Venue|Date|topic|Code|
 |:--------:|:--------:|:--------:|:--------:|:--------:|
+|[Deliberative Searcher: Improving LLM Reliability via Reinforcement Learning with constraints](https://arxiv.org/abs/2507.16727)|arxiv|07/22, 2025|calibration improvement|-|
+|[Beyond Binary Rewards: Training LMs to Reason About Their Uncertainty](https://arxiv.org/abs/2507.16806)|arxiv|07/22, 2025|calibration improvement|-|
 |[KnowRL: Exploring Knowledgeable Reinforcement Learning for Factuality](https://arxiv.org/abs/2506.19807)|arxiv|06/24, 2025|Hallucination mitigation|[Github](https://github.com/zjunlp/KnowRL)|
 |[Mathematical Proof as a Litmus Test: Revealing Failure Modes of Advanced Large Reasoning Models](https://arxiv.org/abs/2506.17114)|arxiv|06/23, 2025|hallucination study|-|
 |[Reasoning about Uncertainty: Do Reasoning Models Know When They Don't Know?](https://arxiv.org/abs/2506.18183)|arxiv|06/22, 2025|uncertainty and calibration|-|
@@ -70,6 +72,8 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 
 |Title|Venue|Date|topic|Code|
 |:--------:|:--------:|:--------:|:--------:|:--------:|
+|[VFaith: Do Large Multimodal Models Really Reason on Seen Images Rather than Previous Memories?](https://arxiv.org/abs/2506.11571)|arxiv|07/18, 2025|multi-modal faithfulness benchmark|[Github](https://github.com/LittleCoder12345/VFaith-Bench)|
+|[Truthful or Fabricated? Using Causal Attribution to Mitigate Reward Hacking in Explanations](https://arxiv.org/abs/2504.05294)|ICML 2025 Workshop on Actionable Interpretability|07/15, 2025|faithfulness improvement|[Github](https://github.com/PedroMLF/Reward-Hacking-in-Explanations)|
 |[Teaching Models to Verbalize Reward Hacking in Chain-of-Thought Reasoning](https://arxiv.org/abs/2506.22777)|arxiv|07/13, 2025|reward hacking mitigation|[Project](https://scale.com/research/verbalize_cot_reasoning)|
 |[Teaching Models to Verbalize Reward Hacking in Chain-of-Thought Reasoning](https://arxiv.org/abs/2506.22777)|arxiv|06/28, 2025|faithfulness improvement|-|
 |[Right Is Not Enough: The Pitfalls of Outcome Supervision in Training LLMs for Math Reasoning](https://arxiv.org/abs/2506.06877)|arxiv|06/24, 2025|faithfulness detector|-|
@@ -129,10 +133,13 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 
 |Title|Venue|Date|topic|Code|
 |:--------:|:--------:|:--------:|:--------:|:--------:| 
+|[AlphaAlign: Incentivizing Safety Alignment with Extremely Simplified Reinforcement Learning](https://arxiv.org/abs/2507.14987)|arxiv|07/20, 2025|
+|[SafeAgent: Safeguarding LLM Agents via an Automated Risk Simulator](https://arxiv.org/abs/2505.17735)|arxiv|07/18, 2025|agenic safety|[project](https://auto-safe.github.io/)|
+|[Can We Predict Alignment Before Models Finish Thinking? Towards Monitoring Misaligned Reasoning Models](https://arxiv.org/abs/2507.12428)|arxiv|07/16, 2025|alignment monitor|-|
+|[Chain of Thought Monitorability: A New and Fragile Opportunity for AI Safety](https://arxiv.org/abs/2507.11473)|arxiv|07/15, 2025|Cot Monitor|-|
 |[ARMOR: Aligning Secure and Safe Large Language Models via Meticulous Reasoning](https://arxiv.org/abs/2507.11500)|arxiv|07/14, 2025|alignment with CoT techniques|[Project](https://safolab-wisc.github.io/llm-armor/)|
 |[Evaluating LLM Agent Adherence to Hierarchical Safety Principles: A Lightweight Benchmark for Probing Foundational Controllability Components](https://arxiv.org/abs/2506.02357)|ICML 2025 TAIG workshop|07/10, 2025|Agenic Safety|-|
 |[When Chain of Thought is Necessary, Language Models Struggle to Evade Monitors](https://arxiv.org/abs/2507.05246)|arxiv|07/07, 2025|Cot Monitor|-|
-|[Can We Predict Alignment Before Models Finish Thinking? Towards Monitoring Misaligned Reasoning Models](https://arxiv.org/abs/2507.12428)|arxiv|07/16, 2025|alignment monitor|-|
 |[Aligning Frozen LLMs by Reinforcement Learning: An Iterative Reweight-then-Optimize Approach](https://arxiv.org/abs/2506.17828)|arxiv|07/03, 2025|Alignment|[Github](https://github.com/OptimAI-Lab/IRO)|
 |[AdamMeme: Adaptively Probe the Reasoning Capacity of Multimodal Large Language Models on Harmfulness](https://arxiv.org/abs/2507.01702)|arxiv|07/02, 2025|MLLM alignment|[Github](https://github.com/Lbotirx/AdamMeme)|
 |[Adversarial Manipulation of Reasoning Models using Internal Representations](https://openreview.net/forum?id=TYKp5HCb99)|ICML 2025 R2-FM Workshop|07/01, 2025|White-box attack|[Github](https://github.com/ky295/reasoning-manipulation)|
@@ -171,7 +178,7 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 |[Think Twice Before You Act: Enhancing Agent Behavioral Safety with Thought Correction](https://arxiv.org/abs/2505.11063)|arxiv|05/19, 2025|agent alignment|-|
 |[AutoRAN: Weak-to-Strong Jailbreaking of Large Reasoning Models](https://arxiv.org/abs/2505.10846)|arxiv|05/16, 2025|Jailbreak attack|[Github](https://github.com/JACKPURCELL/AutoRAN-public)|
 |[GuardReasoner-VL: Safeguarding VLMs via Reinforced Reasoning](https://arxiv.org/abs/2505.11049)|arxiv|05/16, 2025|guardrail model|-|[Github](https://github.com/yueliu1999/GuardReasoner-VL)|
-|[FalseReject: A Resource for Improving Contextual Safety and Mitigating Over-Refusals in LLMs via Structured Reasoning](https://arxiv.org/abs/2505.08054)|arxiv|05/12, 2025|alignment (over reject mitigation)|-|
+|[FalseReject: A Resource for Improving Contextual Safety and Mitigating Over-Refusals in LLMs via Structured Reasoning](https://arxiv.org/abs/2505.08054)|CoLM 2025|05/12, 2025|alignment (over reject mitigation)|[Project](https://false-reject.github.io/)|
 |[DeepSeek-R1 Thoughtology: Let's think about LLM Reasoning](https://arxiv.org/abs/2504.07128)|arxiv|05/12, 2025|safety assessment|-|
 |[On the Robustness of Reward Models for Language Model Alignment](https://arxiv.org/abs/2505.07271)|arxiv|05/12, 2025|reward model|-|
 |[Think in Safety: Unveiling and Mitigating Safety Alignment Collapse in Multimodal Large Reasoning Model](https://arxiv.org/abs/2505.06538)|arxiv|05/10, 2025|multi-modal alignment|-|
@@ -241,6 +248,7 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 |Title|Venue|Date|topic|Code|
 |:--------:|:--------:|:--------:|:--------:|:--------:|
 |[Simple Mechanistic Explanations for Out-Of-Context Reasoning](https://arxiv.org/abs/2507.08218)|arxiv|07/16, 2025|related to backdoor|-|
+|[GUARD:Dual-Agent based Backdoor Defense on Chain-of-Thought in Neural Code Generation](https://arxiv.org/abs/2505.21425)|arxiv|07/15, 2025|backdoor defense|[Github](https://github.com/WolfgangJin/GUARD)|
 |[Thought Crime: Backdoors and Emergent Misalignment in Reasoning Models](https://arxiv.org/abs/2506.13206)|arxiv|06/16, 2025|backdoor attack|[Huggingface](https://huggingface.co/datasets/truthfulai/emergent_plus)|
 |[GUARD:Dual-Agent based Backdoor Defense on Chain-of-Thought in Neural Code Generation](https://arxiv.org/abs/2505.21425)|arxiv|05/27, 2025|backdoor defense|-|
 |[Chain-of-Thought Poisoning Attacks against R1-based Retrieval-Augmented Generation Systems](https://arxiv.org/abs/2505.16367)|arxiv|05/22, 2025|poisoning attacks|-|
@@ -267,6 +275,7 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 
 |Title|Venue|Date|topic|Code|
 |:--------:|:--------:|:--------:|:--------:|:--------:|
+|[When LLMs Copy to Think: Uncovering Copy-Guided Attacks in Reasoning LLMs](https://arxiv.org/abs/2507.16773)|arxiv|07/22, 2025|adversarial attack|-|
 |[An Empirical Study of LLM-as-a-Judge: How Design Choices Impact Evaluation Reliability](https://arxiv.org/abs/2506.13639)|arxiv|06/16, 2025|LLM-as-a-judge|-|
 |[Reasoning Models Are More Easily Gaslighted Than You Think](https://arxiv.org/abs/2506.09677)|arxiv|06/11, 2025|misleading inputs|-|
 |[Chain-of-Code Collapse: Reasoning Failures in LLMs via Adversarial Prompting in Code Generation](https://arxiv.org/abs/2506.06971)|arxiv|06/07, 2025|adversarial prompting|[Github](https://github.com/jrohsc/Chain-of-Code-Collapse)|
@@ -337,6 +346,8 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 
 |Title|Venue|Date|topic|Code|
 |:------:|:-----:|:-----:|:-----:|:----:|
+|[The Emperor&#39;s New Chain-of-Thought: Probing Reasoning Theater Bias in Large Reasoning Models](https://arxiv.org/abs/2507.13758)|arxiv|07/18, 2025|fairness evaluation|-|
+|[Guiding LLM Decision-Making with Fairness Reward Models](https://arxiv.org/abs/2507.11344)|arxiv|07/15, 2025|fairness improvement|[Github](https://github.com/zarahall/fairness-prms)|
 |[Is Reasoning All You Need? Probing Bias in the Age of Reasoning Language Models](https://arxiv.org/abs/2507.02799)|arxiv|07/03, 2025|Bias benchmark|-|
 |[Persona-Assigned Large Language Models Exhibit Human-Like Motivated Reasoning](https://arxiv.org/abs/2506.20020)|arxiv|06/24, 2025|persona bias|-|
 |[Detection, Classification, and Mitigation of Gender Bias in Large Language Models](https://arxiv.org/abs/2506.12527)|arxiv|06/14, 2025|gender bias|-|
