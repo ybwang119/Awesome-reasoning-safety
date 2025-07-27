@@ -250,9 +250,8 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 |:--------:|:--------:|:--------:|:--------:|:--------:|
 |[BadReasoner: Planting Tunable Overthinking Backdoors into Large Reasoning Models for Fun or Profit](https://arxiv.org/abs/2507.18305)|arxiv|07/24, 2025|backdoor attack|[Github](https://github.com/FZaKK/BadReasoner)|
 |[Simple Mechanistic Explanations for Out-Of-Context Reasoning](https://arxiv.org/abs/2507.08218)|arxiv|07/16, 2025|related to backdoor|-|
-|[GUARD:Dual-Agent based Backdoor Defense on Chain-of-Thought in Neural Code Generation](https://arxiv.org/abs/2505.21425)|arxiv|07/15, 2025|backdoor defense|[Github](https://github.com/WolfgangJin/GUARD)|
 |[Thought Crime: Backdoors and Emergent Misalignment in Reasoning Models](https://arxiv.org/abs/2506.13206)|arxiv|06/16, 2025|backdoor attack|[Huggingface](https://huggingface.co/datasets/truthfulai/emergent_plus)|
-|[GUARD:Dual-Agent based Backdoor Defense on Chain-of-Thought in Neural Code Generation](https://arxiv.org/abs/2505.21425)|arxiv|05/27, 2025|backdoor defense|-|
+|[GUARD:Dual-Agent based Backdoor Defense on Chain-of-Thought in Neural Code Generation](https://arxiv.org/abs/2505.21425)|arxiv|05/27, 2025|backdoor defense|[Github](https://github.com/WolfgangJin/GUARD)|
 |[Chain-of-Thought Poisoning Attacks against R1-based Retrieval-Augmented Generation Systems](https://arxiv.org/abs/2505.16367)|arxiv|05/22, 2025|poisoning attacks|-|
 |[System Prompt Poisoning: Persistent Attacks on Large Language Models Beyond User Injection](https://www.arxiv.org/abs/2505.06493)|arxiv|05/10, 2025|prompt poisoning|-|
 |[ShadowCoT: Cognitive Hijacking for Stealthy Reasoning Backdoors in LLMs](https://arxiv.org/abs/2504.05605)|arxiv|04/08, 2025|CoT poisoning|-|
