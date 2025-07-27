@@ -256,7 +256,9 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 |[System Prompt Poisoning: Persistent Attacks on Large Language Models Beyond User Injection](https://www.arxiv.org/abs/2505.06493)|arxiv|05/10, 2025|prompt poisoning|-|
 |[ShadowCoT: Cognitive Hijacking for Stealthy Reasoning Backdoors in LLMs](https://arxiv.org/abs/2504.05605)|arxiv|04/08, 2025|CoT poisoning|-|
 |[To Think or Not to Think: Exploring the Unthinking Vulnerability in Large Reasoning Models](https://arxiv.org/abs/2502.12202)|arxiv|02/16, 2025|backdoor attack|[Github](https://github.com/zihao-ai/unthinking_vulnerability)|
+|[DarkMind: Latent Chain-of-Thought Backdoor in Customized LLMs](https://arxiv.org/abs/2501.18617)|arxiv|01/24, 2025|backdoor atttack|-|
 |[Chain-of-Scrutiny: Detecting Backdoor Attacks for Large Language Models](https://arxiv.org/abs/2406.05948)|arxiv|12/20, 2024|backdoor defense|-|
+|[SABER: Model-agnostic Backdoor Attack on Chain-of-Thought in Neural Code Generation](https://arxiv.org/abs/2412.05829)|12/08, 2025|backdoor attack|-|
 |[BadChain: Backdoor Chain-of-Thought Prompting for Large Language Models](https://arxiv.org/abs/2401.12242)|arxiv|01/20, 2024|backdoor attack|-|
 </details>
 
