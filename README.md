@@ -28,7 +28,15 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 <summary>Click to hide/show the paper list</summary>
 
 |Title|Venue|Date|topic|Code|
+|[Uncertainty Under the Curve: A Sequence-Level Entropy Area Metric for Reasoning LLM](https://arxiv.org/abs/2508.20384)|arxiv|08/27, 2025|Uncertainty modeling|-|
+|[Quantized but Deceptive? A Multi-Dimensional Truthfulness Evaluation of Quantized LLMs](https://arxiv.org/abs/2508.19432)|arxiv|08/26, 2025|quantized LLM|[Github](https://github.com/ClarkFu007/TruthfulnessEval/tree/main)|
 |:--------:|:--------:|:--------:|:--------:|:--------:|
+|[Sycophancy under Pressure: Evaluating and Mitigating Sycophantic Bias via Adversarial Dialogues in Scientific QA](https://arxiv.org/abs/2508.13743)|arxiv|08/19, 2025|hallucination mitigation|-|
+|[Mitigating Hallucinations in Large Language Models via Causal Reasoning](https://arxiv.org/abs/2508.12495)|arxiv|08/17, 2025|Hallucination mitigation|[Github](https://github.com/MrLYG/CDCR-SFT)|
+|[Hop, Skip, and Overthink: Diagnosing Why Reasoning Models Fumble during Multi-Hop Analysis](https://arxiv.org/abs/2508.04699)|arxiv|08/06, 2025|Hallucination study|-|
+|[ViFP: A Framework for Visual False Positive Detection to Enhance Reasoning Reliability in VLMs](https://arxiv.org/abs/2508.04201)|arxiv|08/06, 2025|reliability improvement|-|
+|[Trustworthy Reasoning: Evaluating and Enhancing Factual Accuracy in LLM Intermediate Thought Processes](https://arxiv.org/abs/2507.22940)|arxiv|08/02, 2025|factual accuracy enhancement|-|
+|[Mathematical Proof as a Litmus Test: Revealing Failure Modes of Advanced Large Reasoning Models](https://arxiv.org/abs/2506.17114)|arxiv|07/31, 2025|evaluation|[Github](https://github.com/guodadi/RFMDataset)|
 |[Deliberative Searcher: Improving LLM Reliability via Reinforcement Learning with constraints](https://arxiv.org/abs/2507.16727)|arxiv|07/22, 2025|calibration improvement|-|
 |[Beyond Binary Rewards: Training LMs to Reason About Their Uncertainty](https://arxiv.org/abs/2507.16806)|arxiv|07/22, 2025|calibration improvement|-|
 |[KnowRL: Exploring Knowledgeable Reinforcement Learning for Factuality](https://arxiv.org/abs/2506.19807)|arxiv|06/24, 2025|Hallucination mitigation|[Github](https://github.com/zjunlp/KnowRL)|
@@ -72,7 +80,7 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 
 |Title|Venue|Date|topic|Code|
 |:--------:|:--------:|:--------:|:--------:|:--------:|
-|[VFaith: Do Large Multimodal Models Really Reason on Seen Images Rather than Previous Memories?](https://arxiv.org/abs/2506.11571)|arxiv|07/18, 2025|multi-modal faithfulness benchmark|[Github](https://github.com/LittleCoder12345/VFaith-Bench)|
+|[IntentionReasoner: Facilitating Adaptive LLM Safeguards through Intent Reasoning and Selective Query Refinement](https://arxiv.org/abs/2508.20151)|arxiv|08/27, 2025|guardrail model|-|
 |[Truthful or Fabricated? Using Causal Attribution to Mitigate Reward Hacking in Explanations](https://arxiv.org/abs/2504.05294)|ICML 2025 Workshop on Actionable Interpretability|07/15, 2025|faithfulness improvement|[Github](https://github.com/PedroMLF/Reward-Hacking-in-Explanations)|
 |[Teaching Models to Verbalize Reward Hacking in Chain-of-Thought Reasoning](https://arxiv.org/abs/2506.22777)|arxiv|07/13, 2025|reward hacking mitigation|[Project](https://scale.com/research/verbalize_cot_reasoning)|
 |[Teaching Models to Verbalize Reward Hacking in Chain-of-Thought Reasoning](https://arxiv.org/abs/2506.22777)|arxiv|06/28, 2025|faithfulness improvement|-|
@@ -133,8 +141,26 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 
 |Title|Venue|Date|topic|Code|
 |:--------:|:--------:|:--------:|:--------:|:--------:| 
-|[SafeWork-R1: Coevolving Safety and Intelligence under the AI-45$^{\circ}$ Law](https://arxiv.org/abs/2507.18576)|arxiv|07/24, 2025||-|
-|[AlphaAlign: Incentivizing Safety Alignment with Extremely Simplified Reinforcement Learning](https://arxiv.org/abs/2507.14987)|arxiv|07/20, 2025|
+|[PRISM: Robust VLM Alignment with Principled Reasoning for Integrated Safety in Multimodality](https://arxiv.org/abs/2508.18649)|arxiv|08/25, 2025|VLM alignment|[Github](https://github.com/SaFoLab-WISC/PRISM)|
+|[Steering Dialogue Dynamics for Robustness against Multi-turn Jailbreaking Attacks](https://arxiv.org/abs/2503.00187)|arxiv|08/25, 2025|Jailbreak defense|[Project](https://sites.google.com/view/llm-nbf/home)|
+|[Pragmatic Inference Chain (PIC) Improving LLMs&#39; Reasoning of Authentic Implicit Toxic Language](https://arxiv.org/abs/2503.01539)|arxiv|08/21, 2025|toxic content detection|-|
+|[Unveiling Trust in Multimodal Large Language Models: Evaluation, Analysis, and Mitigation](https://arxiv.org/abs/2508.15370)|arxiv|08/21, 2025|jailbreak defense|-|
+|[SDGO: Self-Discrimination-Guided Optimization for Consistent Safety in Large Language Models](https://arxiv.org/abs/2508.15648)|EMNLP 2025|08/21, 2025|alignment|[Github](https://github.com/NJUNLP/SDGO)|
+|[Reward-Shifted Speculative Sampling Is An Efficient Test-Time Weak-to-Strong Aligner](https://arxiv.org/abs/2508.15044)|arxiv|08/20, 2025|Inference-time alignment|-|
+|[FuSaR: A Fuzzification-Based Method for LRM Safety-Reasoning Balance](https://arxiv.org/abs/2508.12897)|arxiv|08/18, 2025|safety alignment|[Github](https://arxiv.org/abs/2508.12897)|
+|[Slow Tuning and Low-Entropy Masking for Safe Chain-of-Thought Distillation](https://arxiv.org/abs/2508.09666)|arxiv|08/15, 2025|safe data distillation|-|
+|[ORFuzz: Fuzzing the "Other Side" of LLM Safety -- Testing Over-Refusal](https://arxiv.org/abs/2508.11222)|arxiv|08/15, 2025|Over-refusal|[Github](https://github.com/HotBento/ORFuzz)|
+|[Jailbreaking Commercial Black-Box LLMs with Explicitly Harmful Prompts](https://arxiv.org/abs/2508.10390)|arxiv|08/14, 2025|Jailbreak attack|[Github](https://github.com/AlienZhang1996/DH-CoT)|
+|[Safe Semantics, Unsafe Interpretations: Tackling Implicit Reasoning Safety in Large Vision-Language Models](https://arxiv.org/abs/2508.08926)|MM 2025|08/12, 2025|dataset|[Github](https://github.com/cwtpu/SSUI)|
+|[Turning Logic Against Itself : Probing Model Defenses Through Contrastive Questions](https://arxiv.org/abs/2501.01872)|arxiv|08/08, 2025|Jailbreak defense|[Github](https://github.com/UKPLab/arxiv2025-poate-attack)|
+|[AURA: Affordance-Understanding and Risk-aware Alignment Technique for Large Language Models](https://arxiv.org/abs/2508.06124)|arxiv|08/08, 2025|alignment with reasoning techniques|[Github](https://github.com/sayantan11995/AURA)|
+|[The Emotional Baby Is Truly Deadly: Does your Multimodal Large Reasoning Model Have Emotional Flattery towards Humans?](https://arxiv.org/abs/2508.03986)|arxiv|08/05, 2025|multi-modal jailbreak attack|-|
+|[ReasoningGuard: Safeguarding Large Reasoning Models with Inference-time Safety Aha Moments](https://arxiv.org/abs/2508.04204)|arxiv|08/06, 2025|guardrail model|-|
+|[Eliciting and Analyzing Emergent Misalignment in State-of-the-Art Large Language Models](https://arxiv.org/abs/2508.04196)|arxiv|08/06, 2025|alignment benchmark|[Github](https://github.com/AIM-Intelligence/)|
+|[R1-ACT: Efficient Reasoning Model Safety Alignment by Activating Safety Knowledge](https://arxiv.org/abs/2508.00324)|arxiv|08/01, 2025|efficient safety alignment|[Github](https://github.com/yeonjun-in/R1-Act)|
+|[UnsafeChain: Enhancing Reasoning Model Safety via Hard Cases](https://arxiv.org/abs/2507.21652)|arxiv|07/29, 2025|safety alignment|[Github](https://github.com/mbzuai-nlp/UnsafeChain)|
+|[SafeWork-R1: Coevolving Safety and Intelligence under the AI-45$^{\circ}$ Law](https://arxiv.org/abs/2507.18576)|arxiv|07/24, 2025|safety alignment|-|
+|[AlphaAlign: Incentivizing Safety Alignment with Extremely Simplified Reinforcement Learning](https://arxiv.org/abs/2507.14987)|arxiv|07/20, 2025|safety alignment|[Github](https://github.com/zy20031230/AlphaAlign)|
 |[SafeAgent: Safeguarding LLM Agents via an Automated Risk Simulator](https://arxiv.org/abs/2505.17735)|arxiv|07/18, 2025|agenic safety|[project](https://auto-safe.github.io/)|
 |[Can We Predict Alignment Before Models Finish Thinking? Towards Monitoring Misaligned Reasoning Models](https://arxiv.org/abs/2507.12428)|arxiv|07/16, 2025|alignment monitor|-|
 |[Chain of Thought Monitorability: A New and Fragile Opportunity for AI Safety](https://arxiv.org/abs/2507.11473)|arxiv|07/15, 2025|Cot Monitor|-|
@@ -143,7 +169,7 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 |[When Chain of Thought is Necessary, Language Models Struggle to Evade Monitors](https://arxiv.org/abs/2507.05246)|arxiv|07/07, 2025|Cot Monitor|-|
 |[Aligning Frozen LLMs by Reinforcement Learning: An Iterative Reweight-then-Optimize Approach](https://arxiv.org/abs/2506.17828)|arxiv|07/03, 2025|Alignment|[Github](https://github.com/OptimAI-Lab/IRO)|
 |[AdamMeme: Adaptively Probe the Reasoning Capacity of Multimodal Large Language Models on Harmfulness](https://arxiv.org/abs/2507.01702)|arxiv|07/02, 2025|MLLM alignment|[Github](https://github.com/Lbotirx/AdamMeme)|
-|[Adversarial Manipulation of Reasoning Models using Internal Representations](https://openreview.net/forum?id=TYKp5HCb99)|ICML 2025 R2-FM Workshop|07/01, 2025|White-box attack|[Github](https://github.com/ky295/reasoning-manipulation)|
+|[Adversarial Manipulation of Reasoning Models using Internal Representations](https://arxiv.org/abs/2507.03167)|ICML 2025 R2-FM Workshop|07/01, 2025|White-box attack|[Github](https://github.com/ky295/reasoning-manipulation)|
 |[Reasoning as an Adaptive Defense for Safety](https://arxiv.org/abs/2507.00971)|arxiv|07/01, 2025|jailbreak defense|[Project](https://training-adaptive-reasoners-safety.github.io/)|
 |[AgentBreeder: Mitigating the AI Safety Impact of Multi-Agent Scaffolds via Self-Improvement](https://arxiv.org/abs/2502.00757)|ICLR 2025|06/25, 2025|Agentic safety|[Github](https://github.com/J-Rosser-UK/AgentBreeder)|
 |[MSR-Align: Policy-Grounded Multimodal Alignment for Safety-Aware Reasoning in Vision-Language Models](https://arxiv.org/abs/2506.19257)|arxiv|06/23, 2025|Multimodal Alignment|[Huggingface](https://huggingface.co/datasets/Leigest/MSR-Align)|
@@ -152,7 +178,7 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 |[Detecting Harmful Memes with Decoupled Understanding and Guided CoT Reasoning](https://arxiv.org/abs/2506.08477)|arxiv|06/10, 2025|harmful meme detection|[Link](https://anonymous.4open.science/r/HMC-AF2B)|
 |[SafeCoT: Improving VLM Safety with Minimal Reasoning](https://arxiv.org/abs/2506.08399)|arxiv|06/09, 2025|VLM alignment|-|
 |[RSafe: Incentivizing proactive reasoning to build robust and adaptive LLM safeguards](https://arxiv.org/abs/2506.07736)|arxiv|06/09, 2025|guardrail model|[Github](https://github.com/SophieZheng998/RSafe)|
-|[Chasing Moving Targets with Online Self-Play Reinforcement Learning for Safer Language Models](https://arxiv.org/abs/2506.07468)|arxiv|06/09, 2025|alignment|-|
+|[Chasing Moving Targets with Online Self-Play Reinforcement Learning for Safer Language Models](https://arxiv.org/abs/2506.07468)|arxiv|06/09, 2025|alignment|[Github](https://github.com/mickelliu/selfplay-redteaming)|
 |[Safety-Polarized and Prioritized Reinforcement Learning](https://openreview.net/forum?id=x10ryC8F0C)|ICML 2025|06/09, 2025|-|[Github](https://github.com/FrankSinatral/Safety-PP)|
 |[HauntAttack: When Attack Follows Reasoning as a Shadow](https://arxiv.org/abs/2506.07031)|arxiv|06/08, 2025|jailbreak attack|-|
 |[Saffron-1: Towards an Inference Scaling Paradigm for LLM Safety Assurance](https://arxiv.org/abs/2506.06444)|arxiv|06/06, 2025|alignment|[Github](https://github.com/q-rz/saffron)|
@@ -236,27 +262,29 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 |:--------:|:--------:|:--------:|:--------:|:--------:|
 |[Thought Purity: Defense Paradigm For Chain-of-Thought Attack](https://arxiv.org/abs/2507.12314)|arxiv|07/16, 2025|injection defense|-|
 |[Practical Reasoning Interruption Attacks on Reasoning Large Language Models](https://arxiv.org/abs/2505.06643)|arxiv|05/10, 2025|prompt injection attack|-|
+|[System Prompt Poisoning: Persistent Attacks on Large Language Models Beyond User Injection](https://www.arxiv.org/abs/2505.06493)|arxiv|05/10, 2025|prompt poisoning|-|
 |[Token-Efficient Prompt Injection Attack: Provoking Cessation in LLM Reasoning via Adaptive Token Compression](https://arxiv.org/abs/2504.20493)|arxiv|04/29, 2025|prompt injection attack|-|
 |[Harnessing Chain-of-Thought Metadata for Task Routing and Adversarial Prompt Detection](https://arxiv.org/abs/2503.21464)|arxiv|03/27, 2025|prompt injection defense|-|
+|[DarkMind: Latent Chain-of-Thought Backdoor in Customized LLMs](https://arxiv.org/abs/2501.18617)|arxiv|01/24, 2025|system prompt injection|-|
 
 </details>
 
-### Poisoning
+### Backdoor
 
 <details open>
 <summary>Click to hide/show the paper list</summary>
 
 |Title|Venue|Date|topic|Code|
 |:--------:|:--------:|:--------:|:--------:|:--------:|
+|[SLIP: Soft Label Mechanism and Key-Extraction-Guided CoT-based Defense Against Instruction Backdoor in APIs](https://arxiv.org/abs/2508.06153)|injection defense|08/08, 2025||[Github](https://github.com/CAU-ISS-Lab/Backdoor-Attack-Defense-LLMs/tree/main/SLIP)|
+|[Defend LLMs Through Self-Consciousness](https://arxiv.org/abs/2508.02961)|KDD 2025 Workshop|08/04, 2025|prompt injection|-|
 |[BadReasoner: Planting Tunable Overthinking Backdoors into Large Reasoning Models for Fun or Profit](https://arxiv.org/abs/2507.18305)|arxiv|07/24, 2025|backdoor attack|[Github](https://github.com/FZaKK/BadReasoner)|
 |[Simple Mechanistic Explanations for Out-Of-Context Reasoning](https://arxiv.org/abs/2507.08218)|arxiv|07/16, 2025|related to backdoor|-|
 |[Thought Crime: Backdoors and Emergent Misalignment in Reasoning Models](https://arxiv.org/abs/2506.13206)|arxiv|06/16, 2025|backdoor attack|[Huggingface](https://huggingface.co/datasets/truthfulai/emergent_plus)|
 |[GUARD:Dual-Agent based Backdoor Defense on Chain-of-Thought in Neural Code Generation](https://arxiv.org/abs/2505.21425)|arxiv|05/27, 2025|backdoor defense|[Github](https://github.com/WolfgangJin/GUARD)|
 |[Chain-of-Thought Poisoning Attacks against R1-based Retrieval-Augmented Generation Systems](https://arxiv.org/abs/2505.16367)|arxiv|05/22, 2025|poisoning attacks|-|
-|[System Prompt Poisoning: Persistent Attacks on Large Language Models Beyond User Injection](https://www.arxiv.org/abs/2505.06493)|arxiv|05/10, 2025|prompt poisoning|-|
 |[ShadowCoT: Cognitive Hijacking for Stealthy Reasoning Backdoors in LLMs](https://arxiv.org/abs/2504.05605)|arxiv|04/08, 2025|CoT poisoning|-|
 |[To Think or Not to Think: Exploring the Unthinking Vulnerability in Large Reasoning Models](https://arxiv.org/abs/2502.12202)|arxiv|02/16, 2025|backdoor attack|[Github](https://github.com/zihao-ai/unthinking_vulnerability)|
-|[DarkMind: Latent Chain-of-Thought Backdoor in Customized LLMs](https://arxiv.org/abs/2501.18617)|arxiv|01/24, 2025|backdoor atttack|-|
 |[Chain-of-Scrutiny: Detecting Backdoor Attacks for Large Language Models](https://arxiv.org/abs/2406.05948)|arxiv|12/20, 2024|backdoor defense|-|
 |[SABER: Model-agnostic Backdoor Attack on Chain-of-Thought in Neural Code Generation](https://arxiv.org/abs/2412.05829)|12/08, 2025|backdoor attack|-|
 |[BadChain: Backdoor Chain-of-Thought Prompting for Large Language Models](https://arxiv.org/abs/2401.12242)|arxiv|01/20, 2024|backdoor attack|-|
@@ -268,6 +296,7 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 
 |Title|Venue|Date|topic|Code|
 |:--------:|:--------:|:--------:|:--------:|:--------:|
+|[It's the Thought that Counts: Evaluating the Attempts of Frontier LLMs to Persuade on Harmful Topics](https://arxiv.org/abs/2506.02873)|arxiv|08/18, 2025|evaluation|[Github](github.com/AlignmentResearch/AttemptPersuadeEval)|
 |[Persuasion and Safety in the Era of Generative AI](https://arxiv.org/abs/2505.12248)|arxiv|05/18, 2025|study|-|
 </details>
 
@@ -278,26 +307,33 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 
 |Title|Venue|Date|topic|Code|
 |:--------:|:--------:|:--------:|:--------:|:--------:|
+|[Measuring Sycophancy of Language Models in Multi-turn Dialogues](https://arxiv.org/abs/2505.23840)|arxiv|08/25, 2025|sycophancy evaluation|[Github](https://github.com/JiseungHong/SYCON-Bench)|
+|[Error Reflection Prompting: Can Large Language Models Successfully Understand Errors?](https://arxiv.org/abs/2508.16729)|NAACL 2025|08/22, 2025|Error correction|-|
+|[Refining Critical Thinking in LLM Code Generation: A Faulty Premise-based Evaluation Framework](https://arxiv.org/abs/2508.03622)|arxiv|08/05, 2025|wrong premise|-|
+|[MoHoBench: Assessing Honesty of Multimodal Large Language Models via Unanswerable Visual Questions](https://arxiv.org/abs/2507.21503)|arxiv|07/29, 2025|unanswerable question|[Github](https://github.com/DSTTSD/MoHoBench)|
 |[When LLMs Copy to Think: Uncovering Copy-Guided Attacks in Reasoning LLMs](https://arxiv.org/abs/2507.16773)|arxiv|07/22, 2025|adversarial attack|-|
-|[An Empirical Study of LLM-as-a-Judge: How Design Choices Impact Evaluation Reliability](https://arxiv.org/abs/2506.13639)|arxiv|06/16, 2025|LLM-as-a-judge|-|
 |[Reasoning Models Are More Easily Gaslighted Than You Think](https://arxiv.org/abs/2506.09677)|arxiv|06/11, 2025|misleading inputs|-|
 |[Chain-of-Code Collapse: Reasoning Failures in LLMs via Adversarial Prompting in Code Generation](https://arxiv.org/abs/2506.06971)|arxiv|06/07, 2025|adversarial prompting|[Github](https://github.com/jrohsc/Chain-of-Code-Collapse)|
+|[Hidden in Plain Sight: Reasoning in Underspecified and Misspecified Scenarios for Multimodal LLMs](https://arxiv.org/abs/2506.00258)|arxiv|05/30, 2025|Failure analysis|-|
 |[CodeCrash: Stress Testing LLM Reasoning under Structural and Semantic Perturbations](https://arxiv.org/abs/2504.14119)|arxiv|05/23, 2025|adversarial attack|[GitHub](https://cuhk-arise.github.io/CodeCrash)|
 |[Any Large Language Model Can Be a Reliable Judge: Debiasing with a Reasoning-based Bias Detector](https://arxiv.org/abs/2505.17100)|arxiv|05/21, 2025|LLM-as-a-judge|-|
+|[Steering the CensorShip: Uncovering Representation Vectors for LLM "Thought" Control](https://arxiv.org/abs/2504.17130)|arxiv|04/23, 2025|jailbreak defense study|[Github](https://github.com/hannahxchen/llm-censorship-steering)|
 |[Chain-of-Defensive-Thought: Structured Reasoning Elicits Robustness in Large Language Models against Reference Corruption](https://arxiv.org/abs/2504.20769)|arxiv|04/29, 2025|adversarial defense|-|
 |[Assessing Judging Bias in Large Reasoning Models: An Empirical Study](https://arxiv.org/abs/2504.09946)|arxiv|04/18, 2025|bias|-|
 |[Recitation over Reasoning: How Cutting-Edge Language Models Can Fail on Elementary School-Level Reasoning Problems?](https://arxiv.org/abs/2504.00509)|arxiv|04/01, 2025|recitation|[Huggingface](https://huggingface.co/datasets/kaiyan289/RoR-Bench)|
 |[Process or Result? Manipulated Ending Tokens Can Mislead Reasoning LLMs to Ignore the Correct Reasoning Steps](https://arxiv.org/abs/2503.19326)|arxiv|03/25, 2025|token manipulation|-|
 |[A Frustratingly Simple Yet Highly Effective Attack Baseline: Over 90% Success Rate Against the Strong Black-box Models of GPT-4.5/4o/o1](https://arxiv.org/abs/2503.10635)|arxiv|03/13, 2025|adversarial attack|[Github](https://github.com/VILA-Lab/M-Attack)|
 |[Benchmarking Reasoning Robustness in Large Language Models](https://arxiv.org/abs/2503.04550)|arxiv|03/06, 2025|evaluation|-|
-|[Cats Confuse Reasoning LLM: Query Agnostic Adversarial Triggers for Reasoning Models](https://arxiv.org/abs/2503.01781)|arxiv|03/03, 2025|adversarial attack|[Huggingface](https://huggingface.co/datasets/collinear-ai/cat-attack-adversarial-triggers)|
-|[A Closer Look at System Prompt Robustness](https://arxiv.org/abs/2502.12197)|arxiv|02/15, 2025|system prompt robustness|-|
+|[Cats Confuse Reasoning LLM: Query Agnostic Adversarial Triggers for Reasoning Models](https://arxiv.org/abs/2503.01781)|COLM 2025|03/03, 2025|adversarial attack|[Huggingface](https://huggingface.co/datasets/collinear-ai/cat-attack-adversarial-triggers)|
+|[A Closer Look at System Prompt Robustness](https://arxiv.org/abs/2502.12197)|arxiv|02/15, 2025|system prompt robustness|[Github](https://github.com/normster/RealGuardrails)|
+|[MATH-Perturb: Benchmarking LLMs' Math Reasoning Abilities against Hard Perturbations](https://arxiv.org/abs/2502.06453)|arxiv|02/10, 2025|perturb in math|-|
 |[Trading Inference-Time Compute for Adversarial Robustness](https://arxiv.org/abs/2501.18841)|arxiv|01/31, 2025|input perturbation|-|
 |[Understanding the Dark Side of LLMs' Intrinsic Self-Correction](https://arxiv.org/abs/2412.14959)|arxiv|12/19, 2024|self reflection|[Github](https://github.com/qingjiesjtu/USC)|
-|[Stepwise Reasoning Disruption Attack of LLMs](https://arxiv.org/pdf/2412.11934)|arxiv|12/16, 2025|reasoning disruption|[Github](https://github.com/Applied-Machine-Learning-Lab/SEED-Attack)|
+|[Stepwise Reasoning Disruption Attack of LLMs](https://arxiv.org/pdf/2412.11934)|ACL 2025|12/16, 2024|reasoning disruption|[Github](https://github.com/Applied-Machine-Learning-Lab/SEED-Attack)|
 |[Can Language Models Perform Robust Reasoning in Chain-of-thought Prompting with Noisy Rationales?](https://arxiv.org/abs/2410.23856)|arxiv|10/31, 2024|input perturbation|[Github](https://github.com/tmlr-group/NoisyRationales)|
 |[RUPBench: Benchmarking Reasoning Under Perturbations for Robustness Evaluation in Large Language Models](https://arxiv.org/abs/2406.11020)|arxiv|06/16, 2024|benchmark|[Github](https://github.com/EternityYW/RUPBench)|
 |[Preemptive Answer "Attacks" on Chain-of-Thought Reasoning](https://arxiv.org/abs/2405.20902)|Findings of ACL 2024|05/31, 2024|preemptive attack|-|
+|[Self-Polish: Enhance Reasoning in Large Language Models via Problem Refinement](https://arxiv.org/abs/2305.14497)|EMNLP 2023 Findings|05/23, 2023|reasoning enhancement|[Github](https://github.com/WooooDyy/Self-Polish)|
 </details>
 
 ### Overthinking/underthinking
@@ -306,31 +342,33 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 
 |Title|Venue|Date|topic|Code|
 |:--------:|:--------:|:--------:|:--------:|:--------:|
+|[Don't Think Twice! Over-Reasoning Impairs Confidence Calibration](https://arxiv.org/abs/2508.15050)|ICML 2025 Workshop|08/20, 2025|overthinking study|-|
+|[OptimalThinkingBench: Evaluating Over and Underthinking in LLMs](https://arxiv.org/abs/2508.13141)|arxiv|08/18, 2025|Benchmark|[Github](https://github.com/facebookresearch/RAM/tree/main/projects/otb)|
 |[Excessive Reasoning Attack on Reasoning LLMs](https://arxiv.org/abs/2506.14374)|arxiv|06/17, 2025|overthinking  attack|-|
-|[ThinkEdit: Interpretable Weight Editing to Mitigate Overly Short Thinking in Reasoning Models](https://arxiv.org/abs/2503.22048)|arxiv|06/06, 2025|underthink|[Github](https://github.com/Trustworthy-ML-Lab/ThinkEdit)|
-|[Large Language Models Struggle with Unreasonability in Math Problems](https://arxiv.org/abs/2403.19346)|arxiv|06/01, 2025|overthinking|-|
 |[Mitigating Overthinking in Large Reasoning Models via Manifold Steering](https://arxiv.org/abs/2505.22411)|arxiv|05/28, 2025|overthinking|-|
+|[ThinkEdit: Interpretable Weight Editing to Mitigate Overly Short Thinking in Reasoning Models](https://arxiv.org/abs/2503.22048)|arxiv|05/27, 2025|underthink|[Github](https://github.com/Trustworthy-ML-Lab/ThinkEdit)|
 |[Internal Bias in Reasoning Models leads to Overthinking](https://arxiv.org/abs/2505.16448)|arxiv|05/22, 2025|overthinking|-|
 |[Between Underthinking and Overthinking: An Empirical Study of Reasoning Length and correctness in LLMs](https://arxiv.org/pdf/2505.00127)|arxiv|04/30, 2025|length and correctness|-|
-|[TRACE Back from the Future: A Probabilistic Reasoning Approach to Controllable Language Generation](https://arxiv.org/abs/2504.18535)|arxiv|04/28, 2025|thought control|-|
-|[Steering the CensorShip: Uncovering Representation Vectors for LLM "Thought" Control](https://arxiv.org/abs/2504.17130)|arxiv|04/23, 2025|thought control|-|
 |[Missing Premise exacerbates Overthinking: Are Reasoning Models losing Critical](https://arxiv.org/abs/2504.06514)|arxiv|04/11, 2025|overthinking|-|
-|[Trade-offs in Large Reasoning Models: An Empirical Analysis of Deliberative and Adaptive Reasoning over Foundational Capabilities](https://arxiv.org/abs/2503.17979)|arxiv|03/23, 2025|reasoning length analysis|-|
+|[Trade-offs in Large Reasoning Models: An Empirical Analysis of Deliberative and Adaptive Reasoning over Foundational Capabilities](https://arxiv.org/abs/2503.17979)|arxiv|03/23, 2025|reasoning length analysis|[Guthub](https://github.com/SCIR-SC-Qiaoban-Team/FreeEvalLM)|
 |[DNA Bench: When Silence is Smarter --Benchmarking Over-Reasoning in Reasoning LLMs](https://arxiv.org/abs/2503.15793)|arxiv|03/19, 2025|overthinking evaluation|-|
 |[Output Length Effect on DeepSeek-R1's Safety in Forced Thinking](https://arxiv.org/abs/2503.01923)|arxiv|03/02, 2025|length analysis|-|
 |[Can Large Language Models Detect Errors in Long Chain-of-Thought Reasoning?](https://arxiv.org/abs/2502.19361)|NeurIPS 2024|02/27, 2025|self reflection|[Github](https://github.com/OpenStellarTeam/DeltaBench)|
-|[Thoughts Are All Over the Place: On the Underthinking of o1-Like LLMs](https://arxiv.org/pdf/2501.18585)|arxiv|05/18, 2025|underthinking analysis|-|
 |[The Danger of Overthinking: Examining the Reasoning-Action Dilemma in Agentic Tasks](https://arxiv.org/abs/2502.08235)|arxiv|02/12, 2025|overthinking risk|[Github](https://github.com/AlexCuadron/Overthinking)|
 |[OverThink: Slowdown Attacks on Reasoning LLMs](https://arxiv.org/abs/2502.02542v2)|arxiv|02/04, 2025|overthink attack|[Github](https://github.com/akumar2709/OVERTHINK_public)|
+|[Thoughts Are All Over the Place: On the Underthinking of o1-Like LLMs](https://arxiv.org/abs/2501.18585)|arxiv|01/30, 2025|underthinking analysis|-|
+|[Large Language Models Struggle with Unreasonability in Math Problems](https://arxiv.org/abs/2403.19346)|arxiv|03/28, 2024|overthinking|-|
 </details>
 
-## Privacy and fingerprint
+## Privacy
 
 <details open>
 <summary>Click to hide/show the paper list</summary>
 
 |Title|Venue|Date|topic|Code|
 |:------:|:-----:|:-----:|:-----:|:----:|
+|[Evaluating Language Model Reasoning about Confidential Information](https://arxiv.org/abs/2508.19980)|arxiv|08/27, 2025|confidential info reasoning|[Github](https://github.com/locuslab/confidential_llms)|
+|[1-2-3 Check: Enhancing Contextual Privacy in LLM via Multi-Agent Reasoning](https://arxiv.org/abs/2508.07667)|arxiv|08/11, 2025|privacy improvement|-|
 |[Privacy-Preserving LLM Interaction with Socratic Chain-of-Thought Reasoning and Homomorphically Encrypted Vector Databases](https://arxiv.org/abs/2506.17336)|arxiv|07/01, 2025|privacy-preserving llm interaction|-|
 |[Leaky Thoughts: Large Reasoning Models Are Not Private Thinkers](https://arxiv.org/abs/2506.15674)|arxiv|06/18, 2025|privacy leakage|[Github](https://github.com/parameterlab/leaky_thoughts)|[Github](https://github.com/parameterlab/leaky_thoughts)|
 |[Reasoning Model Unlearning: Forgetting Traces, Not Just Answers, While Preserving Reasoning Skills](https://arxiv.org/abs/2506.12963)|arxiv|06/15, 2025|unlearning|[Github](https://github.com/OPTML-Group/Unlearn-R2MU)|
@@ -349,13 +387,16 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 
 |Title|Venue|Date|topic|Code|
 |:------:|:-----:|:-----:|:-----:|:----:|
-|[The Emperor&#39;s New Chain-of-Thought: Probing Reasoning Theater Bias in Large Reasoning Models](https://arxiv.org/abs/2507.13758)|arxiv|07/18, 2025|fairness evaluation|-|
+|[Bridging the Culture Gap: A Framework for LLM-Driven Socio-Cultural Localization of Math Word Problems in Low-Resource Languages](https://arxiv.org/abs/2508.14913)|arxiv|08/22, 2025|multi-lingual bias|-|
+|[Do Biased Models Have Biased Thoughts?](https://arxiv.org/abs/2508.06671)|COLM 2025|08/08, 2025|study|-|
+|[FairReason: Balancing Reasoning and Social Bias in MLLMs](https://arxiv.org/abs/2507.23067)|arxiv|07/30, 2025|Fairness improvement|[Github](https://github.com/Yutongzhang20080108/FairReason-Balancing-Reasoning-and-Social-Bias-in-MLLMs)|
+|[The Emperor's New Chain-of-Thought: Probing Reasoning Theater Bias in Large Reasoning Models](https://arxiv.org/abs/2507.13758)|arxiv|07/18, 2025|fairness evaluation|-|
 |[Guiding LLM Decision-Making with Fairness Reward Models](https://arxiv.org/abs/2507.11344)|arxiv|07/15, 2025|fairness improvement|[Github](https://github.com/zarahall/fairness-prms)|
 |[Is Reasoning All You Need? Probing Bias in the Age of Reasoning Language Models](https://arxiv.org/abs/2507.02799)|arxiv|07/03, 2025|Bias benchmark|-|
-|[Persona-Assigned Large Language Models Exhibit Human-Like Motivated Reasoning](https://arxiv.org/abs/2506.20020)|arxiv|06/24, 2025|persona bias|-|
+|[Persona-Assigned Large Language Models Exhibit Human-Like Motivated Reasoning](https://arxiv.org/abs/2506.20020)|arxiv|06/24, 2025|persona bias|[Github](https://github.com/ameliereymond/motivated-reasoning/)|
 |[Detection, Classification, and Mitigation of Gender Bias in Large Language Models](https://arxiv.org/abs/2506.12527)|arxiv|06/14, 2025|gender bias|-|
-|[BiasGuard: A Reasoning-enhanced Bias Detection Tool For Large Language Models](https://arxiv.org/abs/2504.21299)|arxiv|06/10, 2025|bias detection|-|
 |[Assessing Dialect Fairness and Robustness of Large Language Models in Reasoning Tasks](https://arxiv.org/abs/2410.11005)|arxiv|06/09, 2025|dialect fairness|[Github](https://github.com/fangru-lin/redial_dialect_robustness_fairness)|
+|[BiasGuard: A Reasoning-enhanced Bias Detection Tool For Large Language Models](https://arxiv.org/abs/2504.21299)|ACL 2025 Findings|04/30, 2025|bias detection|-|
 |[Prompting techniques for reducing social bias in LLMs through system 1 and system 2 cognitive processes](https://arxiv.org/abs/2404.17218)|arxiv|04/26, 2024|social bias|[Github](https://github.com/kamruzzaman15/Reduce-Social-Bias-in-LLMs)|
 |[Bias Runs Deep: Implicit Reasoning Biases in Persona-Assigned LLMs](https://arxiv.org/abs/2311.04892)|ICLR 2024|11/08, 2023|reasoning bias|[Project](https://allenai.github.io/persona-bias/)|
 |[Human-like intuitive behavior and reasoning biases emerged in large language models but disappeared in chatgpt](https://www.nature.com/articles/s43588-023-00527-x)|Nature Computational Science|10/05, 2023|reasoning bias|-|
@@ -443,8 +484,8 @@ This repo is for the trustworthy topics in reasoning-related technique, includin
 
 [Defending Against Prompt Injection With a Few DefensiveTokens](https://arxiv.org/abs/2507.07974) (07/10, 2025)
 
-|[Representation Bending for Large Language Model Safety](https://arxiv.org/abs/2504.01550) (07/14, 2025)
+[Representation Bending for Large Language Model Safety](https://arxiv.org/abs/2504.01550) (07/14, 2025)
+
+[The Scales of Justitia: A Comprehensive Survey on Safety Evaluation of LLMs](https://arxiv.org/abs/2506.11094) (06/06, 2025)
 
 </details>
-The Scales of Justitia: A Comprehensive Survey on Safety Evaluation of LLMs
-Any Large Language Model Can Be a Reliable Judge: Debiasing with a Reasoning-based Bias Detector
