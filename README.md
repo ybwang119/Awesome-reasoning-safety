@@ -6,12 +6,12 @@
 
 This repo is for the trustworthy topics in reasoning-related technique, including but not limited to attacks, defenses, studies and benchmarks related to CoT, reasoning and RL. Data are mainly from arxiv. 
 
-## 🚀 Our Survey
+<!-- ## 🚀 Our Survey
 
 📢 **Check out our survey paper: [Title of Survey](link-to-survey)**  
-We provide a comprehensive review of existing works, summarize key challenges, and point out future directions.  
+We provide a comprehensive review of existing works, summarize key challenges, and point out future directions.   -->
 
-### 📖 Citation
+<!-- ### 📖 Citation
 
 If you find our survey useful, please cite it as:
 
@@ -24,13 +24,13 @@ If you find our survey useful, please cite it as:
   url     = {link-to-survey}
 }
 ```
----
+--- -->
 
 ## 🤝 Contribute
 
 We welcome contributions from the community! 🎉  
 
-- Found a missing paper, dataset, or tool?  
+- Found a missing paper?  
 - Have suggestions to improve this list?  
 
 👉 Feel free to **open an [issue](../../issues)** or **submit a [pull request](../../pulls)**.  
