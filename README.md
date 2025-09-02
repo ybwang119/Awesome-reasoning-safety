@@ -48,9 +48,9 @@ If you like this project, don’t forget to **⭐️ star** it — it helps more
     - [Jailbreak](#jailbreak)
     - [Alignment](#alignment)
     - [Backdoor](#backdoor)
-- [Robustness](#robustness-input-perturbation-overthinkingunderthinking)
-    - [Input perturbation](#input-perturbation)
-    - [Overthinking/underthinking](#overthinkingunderthinking)
+- [Robustness](#robustness-evaluation-and-attack-improvement-overthinking-underthinking)
+    - [Robustness evalutaion and attack](#evaluation-and-attack)
+    - [Overthinking/underthinking](#overthinking-and-underthinking)
 - [Fairness](#fairness)
 - [Privacy](#privacy)
 - [Related surveys and benchmarks](#related-surveys-and-benchmarks)
@@ -64,47 +64,42 @@ If you like this project, don’t forget to **⭐️ star** it — it helps more
 
 |Title|Venue|Date|topic|Code|
 |:--------:|:--------:|:--------:|:--------:|:--------:|
-|[Uncertainty Under the Curve: A Sequence-Level Entropy Area Metric for Reasoning LLM](https://arxiv.org/abs/2508.20384)|arxiv|08/27, 2025|Uncertainty modeling|-|
-|[Quantized but Deceptive? A Multi-Dimensional Truthfulness Evaluation of Quantized LLMs](https://arxiv.org/abs/2508.19432)|arxiv|08/26, 2025|quantized LLM|[Github](https://github.com/ClarkFu007/TruthfulnessEval/tree/main)|
-|[Sycophancy under Pressure: Evaluating and Mitigating Sycophantic Bias via Adversarial Dialogues in Scientific QA](https://arxiv.org/abs/2508.13743)|arxiv|08/19, 2025|hallucination mitigation|-|
-|[Mitigating Hallucinations in Large Language Models via Causal Reasoning](https://arxiv.org/abs/2508.12495)|arxiv|08/17, 2025|Hallucination mitigation|[Github](https://github.com/MrLYG/CDCR-SFT)|
-|[Hop, Skip, and Overthink: Diagnosing Why Reasoning Models Fumble during Multi-Hop Analysis](https://arxiv.org/abs/2508.04699)|arxiv|08/06, 2025|Hallucination study|-|
-|[ViFP: A Framework for Visual False Positive Detection to Enhance Reasoning Reliability in VLMs](https://arxiv.org/abs/2508.04201)|arxiv|08/06, 2025|reliability improvement|-|
-|[Trustworthy Reasoning: Evaluating and Enhancing Factual Accuracy in LLM Intermediate Thought Processes](https://arxiv.org/abs/2507.22940)|arxiv|08/02, 2025|factual accuracy enhancement|-|
-|[Mathematical Proof as a Litmus Test: Revealing Failure Modes of Advanced Large Reasoning Models](https://arxiv.org/abs/2506.17114)|arxiv|07/31, 2025|evaluation|[Github](https://github.com/guodadi/RFMDataset)|
-|[Deliberative Searcher: Improving LLM Reliability via Reinforcement Learning with constraints](https://arxiv.org/abs/2507.16727)|arxiv|07/22, 2025|calibration improvement|-|
-|[Beyond Binary Rewards: Training LMs to Reason About Their Uncertainty](https://arxiv.org/abs/2507.16806)|arxiv|07/22, 2025|calibration improvement|-|
-|[KnowRL: Exploring Knowledgeable Reinforcement Learning for Factuality](https://arxiv.org/abs/2506.19807)|arxiv|06/24, 2025|Hallucination mitigation|[Github](https://github.com/zjunlp/KnowRL)|
-|[Mathematical Proof as a Litmus Test: Revealing Failure Modes of Advanced Large Reasoning Models](https://arxiv.org/abs/2506.17114)|arxiv|06/23, 2025|hallucination study|-|
-|[Reasoning about Uncertainty: Do Reasoning Models Know When They Don't Know?](https://arxiv.org/abs/2506.18183)|arxiv|06/22, 2025|uncertainty and calibration|-|
-|[Chain-of-Thought Prompting Obscures Hallucination Cues in Large Language Models: An Empirical Evaluation](https://arxiv.org/abs/2506.17088)|arxiv|06/20, 2025|evaluation|[Github](https://anonymous.4open.science/r/cot-hallu-detect)|
-|[Uncertainty-o: One Model-agnostic Framework for Unveiling Uncertainty in Large Multimodal Models](https://arxiv.org/abs/2506.07527)|arxiv|06/09, 2025|hallucination estimation|-|
-|[Joint Evaluation of Answer and Reasoning Consistency for Hallucination Detection in Large Reasoning Models](https://arxiv.org/abs/2506.04832)|arxiv|06/05, 2025|evaluation|-|
-|[More Thinking, Less Seeing? Assessing Amplified Hallucination in Multimodal Reasoning Models](https://arxiv.org/abs/2505.21523)|arxiv|05/23, 2025|evaluation|[Project](https://mlrm-halu.github.io/)|
-|[TreeCut: A Synthetic Unanswerable Math Word Problem Dataset for LLM Hallucination Evaluation](https://arxiv.org/abs/2502.13442)|arxiv|05/20, 2025|hallucination evaluation|[GitHub](https://github.com/j-bagel/treecut-math)|
-|[The Hallucination Tax of Reinforcement Finetuning](https://arxiv.org/abs/2505.13988)|arxiv|05/20, 2025|hallucination|-|
-|[Toward Reliable Biomedical Hypothesis Generation: Evaluating Truthfulness and Hallucination in Large Language Models](https://arxiv.org/abs/2505.14599)|arxiv|05/20, 2025|hallucination evaluation|[GitHub](https://github.com/Teddy-XiongGZ/TruthHypo)|
-|[Auditing Meta-Cognitive Hallucinations in Reasoning Large Language Models](https://arxiv.org/abs/2505.13143)|arxiv|05/19, 2025|hallucination study|[anonymous_link](https://anonymous.4open.science/r/repo_for_meta_hallucination)|
-|[Reasoning Large Language Model Errors Arise from Hallucinating Critical Problem Features](https://arxiv.org/abs/2505.12151)|arxiv|05/17, 2025|hallucination mitigation|-|
-|[Enhancing Mathematical Reasoning in Large Language Models with Self-Consistency-Based Hallucination Detection](https://arxiv.org/abs/2504.09440)|arxiv|04/13, 2025|hallucination detection|-|
-|[Do Chains-of-Thoughts of Large Language Models Suffer from Hallucinations, Cognitive Biases, or Phobias in Bayesian Reasoning?](https://arxiv.org/abs/2503.15268)|arxiv|03/19, 2025|hallucination|-|
-|[Order Matters in Hallucination: Reasoning Order as Benchmark and Reflexive Prompting for Large-Language-Models](https://arxiv.org/abs/2408.05093)|arxiv|12/30, 2024|hallucination|-|
-|[CLATTER: Comprehensive Entailment Reasoning for Hallucination Detection](https://arxiv.org/abs/2506.05243)|arxiv|06/05, 2025|evaluation|-|
-|[The Hallucination Dilemma: Factuality-Aware Reinforcement Learning for Large Reasoning Models](https://arxiv.org/abs/2505.24630)|arxiv|05/30, 2025|evaluation|-|
-|[MIRAGE: Assessing Hallucination in Multimodal Reasoning Chains of MLLM](https://arxiv.org/abs/2505.24238)|arxiv|05/30, 2025|evaluation|-|
-|[Are Reasoning Models More Prone to Hallucination?](https://arxiv.org/abs/2505.23646)|arxiv|05/29, 2025|evaluation|-|
-|[Analyzing Logical Fallacies in Large Language Models: A Study on Hallucination in Mathematical Reasoning](https://link.springer.com/chapter/10.1007/978-981-96-7071-0_12)|JSAI-isAI 2025|05/23, 2025|evaluation|[Project](https://mlrm-halu.github.io/)|
-|[The Hallucination Tax of Reinforcement Finetuning](https://arxiv.org/abs/2505.13988)|arxiv|05/20, 2025|hallucination|-|
-|[Detection and Mitigation of Hallucination in Large Reasoning Models: A Mechanistic Perspective](https://arxiv.org/abs/2505.12886)|arxiv|05/19, 2025|hallucination study|[anonymous_link](https://anonymous.4open.science/r/repo_for_meta_hallucination)|
-|[Don't Let It Hallucinate: Premise Verification via Retrieval-Augmented Logical Reasoning](https://arxiv.org/abs/2504.06438)|arxiv|04/08, 2025|  hallucinationn detection|-|
-|[Grounded Chain-of-Thought for Multimodal Large Language Models](https://arxiv.org/abs/2503.12799)|arxiv|03/17, 2025|hallucination|-|
-|[Mitigating reasoning hallucination through Multi-agent Collaborative Filtering](https://www.sciencedirect.com/science/article/pii/S0957417424025909)|ESWA 2025|03/05, 2025|hallucination|-|
-|[DeepSeek on a Trip: Inducing Targeted Visual Hallucinations via Representation Vulnerabilities](https://arxiv.org/abs/2502.07905)|arxiv|02/11, 2025|hallucination|-|
-|[Think More, Hallucinate Less: Mitigating Hallucinations via Dual Process of Fast and Slow Thinking](https://arxiv.org/abs/2501.01306)|arxiv|01/02, 2025|hallucination|-|
-|[Thinking Before Looking: Improving Multimodal LLM Reasoning via Mitigating Visual Hallucination]( https://arxiv.org/abs/2411.12591)|arxiv|11/15, 2024|hallucination|-|
-|[HalluMeasure: Fine-grained Hallucination Measurement Using Chain-of-Thought Reasoning](https://aclanthology.org/2024.emnlp-main.837/)|EMNLP 2024|11/12, 2024|hallucination|-|
-|[FG-PRM: Fine-grained Hallucination Detection and Mitigation in Language Model Mathematical Reasoning](https://arxiv.org/abs/2410.06304)|arxiv|10/08, 2024|hallucination|-|
-|[CoMT: Chain-of-Medical-Thought Reduces Hallucination in Medical Report Generation](https://arxiv.org/abs/2406.11451)|arxiv|06/17, 2024|hallucination|-|
+|[Uncertainty Under the Curve: A Sequence-Level Entropy Area Metric for Reasoning LLM](https://arxiv.org/abs/2508.20384)|arxiv|08/27, 2025|hallucination study of LRM|-|
+|[Quantized but Deceptive? A Multi-Dimensional Truthfulness Evaluation of Quantized LLMs](https://arxiv.org/abs/2508.19432)|arxiv|08/26, 2025|evaluation of quantized LLM|[Github](https://github.com/ClarkFu007/TruthfulnessEval/tree/main)|
+|[Sycophancy under Pressure: Evaluating and Mitigating Sycophantic Bias via Adversarial Dialogues in Scientific QA](https://arxiv.org/abs/2508.13743)|arxiv|08/19, 2025|hallucination mitigation with reasoning|-|
+|[Mitigating Hallucinations in Large Language Models via Causal Reasoning](https://arxiv.org/abs/2508.12495)|arxiv|08/17, 2025|hallucination mitigation with reasoning|[Github](https://github.com/MrLYG/CDCR-SFT)|
+|[Hop, Skip, and Overthink: Diagnosing Why Reasoning Models Fumble during Multi-Hop Analysis](https://arxiv.org/abs/2508.04699)|arxiv|08/06, 2025|hallucination study of LRM|-|
+|[ViFP: A Framework for Visual False Positive Detection to Enhance Reasoning Reliability in VLMs](https://arxiv.org/abs/2508.04201)|arxiv|08/06, 2025|hallucination mitigation with reasoning|-|
+|[Trustworthy Reasoning: Evaluating and Enhancing Factual Accuracy in LLM Intermediate Thought Processes](https://arxiv.org/abs/2507.22940)|arxiv|08/02, 2025|hallucination mitigation with reasoning|-|
+|[Deliberative Searcher: Improving LLM Reliability via Reinforcement Learning with constraints](https://arxiv.org/abs/2507.16727)|arxiv|07/22, 2025|calibration improvement with reasoning|-|
+|[Beyond Binary Rewards: Training LMs to Reason About Their Uncertainty](https://arxiv.org/abs/2507.16806)|arxiv|07/22, 2025|calibration improvement with reasoning|-|
+|[KnowRL: Exploring Knowledgeable Reinforcement Learning for Factuality](https://arxiv.org/abs/2506.19807)|arxiv|06/24, 2025|hallucination mitigation with reasoning|[Github](https://github.com/zjunlp/KnowRL)|
+|[Mathematical Proof as a Litmus Test: Revealing Failure Modes of Advanced Large Reasoning Models](https://arxiv.org/abs/2506.17114)|arxiv|06/23, 2025|evaluation on math of LRM|[Github](https://github.com/guodadi/RFMDataset)|
+|[Reasoning about Uncertainty: Do Reasoning Models Know When They Don't Know?](https://arxiv.org/abs/2506.18183)|arxiv|06/22, 2025|evaluation on uncertainty of LRM|-|
+|[Chain-of-Thought Prompting Obscures Hallucination Cues in Large Language Models: An Empirical Evaluation](https://arxiv.org/abs/2506.17088)|arxiv|06/20, 2025|evaluation on hallucination detection|[Github](https://anonymous.4open.science/r/cot-hallu-detect)|
+|[CLATTER: Comprehensive Entailment Reasoning for Hallucination Detection](https://arxiv.org/abs/2506.05243)|arxiv|06/05, 2025|evaluation on detection with reasoning|-|
+|[Joint Evaluation of Answer and Reasoning Consistency for Hallucination Detection in Large Reasoning Models](https://arxiv.org/abs/2506.04832)|arxiv|06/05, 2025|evaluation on hallucination detection of LRM|[Github](https://github.com/bebr2/RACE)|
+|[The Hallucination Dilemma: Factuality-Aware Reinforcement Learning for Large Reasoning Models](https://arxiv.org/abs/2505.24630)|arxiv|05/30, 2025|evaluation of LRM|-|
+|[MIRAGE: Assessing Hallucination in Multimodal Reasoning Chains of MLLM](https://arxiv.org/abs/2505.24238)|arxiv|05/30, 2025|evaluation and mitigation with reaosning|-|
+|[Are Reasoning Models More Prone to Hallucination?](https://arxiv.org/abs/2505.23646)|arxiv|05/29, 2025|evaluation of LRM|-|
+|[More Thinking, Less Seeing? Assessing Amplified Hallucination in Multimodal Reasoning Models](https://arxiv.org/abs/2505.21523)|arxiv|05/23, 2025|evaluation of MLRM|[Project](https://mlrm-halu.github.io/)|
+|[Analyzing Logical Fallacies in Large Language Models: A Study on Hallucination in Mathematical Reasoning](https://link.springer.com/chapter/10.1007/978-981-96-7071-0_12)|JSAI-isAI 2025|05/23, 2025|evaluation on math with reasoning|[Project](https://mlrm-halu.github.io/)|
+|[TreeCut: A Synthetic Unanswerable Math Word Problem Dataset for LLM Hallucination Evaluation](https://arxiv.org/abs/2502.13442)|arxiv|05/20, 2025|unanswerable dataset|[GitHub](https://github.com/j-bagel/treecut-math)|
+|[The Hallucination Tax of Reinforcement Finetuning](https://arxiv.org/abs/2505.13988)|arxiv|05/20, 2025|hallucination study with RL|[Huggingface](https://huggingface.co/datasets/lime-nlp/Synthetic_Unanswerable_Math)|
+|[Toward Reliable Biomedical Hypothesis Generation: Evaluating Truthfulness and Hallucination in Large Language Models](https://arxiv.org/abs/2505.14599)|arxiv|05/20, 2025|hallucination detection with reasoning|[GitHub](https://github.com/Teddy-XiongGZ/TruthHypo)|
+|[Detection and Mitigation of Hallucination in Large Reasoning Models: A Mechanistic Perspective](https://arxiv.org/abs/2505.12886)|arxiv|05/19, 2025|hallucination study of LRM|[Anonymous](https://anonymous.4open.science/r/repo_for_meta_hallucination)|
+|[Auditing Meta-Cognitive Hallucinations in Reasoning Large Language Models](https://arxiv.org/abs/2505.13143)|arxiv|05/19, 2025|hallucination study of LRM|[Anonymous](https://anonymous.4open.science/r/repo_for_meta_hallucination)|
+|[Reasoning Large Language Model Errors Arise from Hallucinating Critical Problem Features](https://arxiv.org/abs/2505.12151)|arxiv|05/17, 2025|hallucination study of LRM|-|
+|[Enhancing Mathematical Reasoning in Large Language Models with Self-Consistency-Based Hallucination Detection](https://arxiv.org/abs/2504.09440)|arxiv|04/13, 2025|hallucination detection with reasoning|-|
+|[Don't Let It Hallucinate: Premise Verification via Retrieval-Augmented Logical Reasoning](https://arxiv.org/abs/2504.06438)|arxiv|04/08, 2025|hallucinationn detection with reasoning|-|
+|[Do Chains-of-Thoughts of Large Language Models Suffer from Hallucinations, Cognitive Biases, or Phobias in Bayesian Reasoning?](https://arxiv.org/abs/2503.15268)|arxiv|03/19, 2025|hallucination study with reasoning|-|
+|[Grounded Chain-of-Thought for Multimodal Large Language Models](https://arxiv.org/abs/2503.12799)|arxiv|03/17, 2025|hallucination study with reasoning|[Github](https://github.com/DoubtedSteam/MM-GCoT)|
+|[Mitigating reasoning hallucination through Multi-agent Collaborative Filtering](https://www.sciencedirect.com/science/article/pii/S0957417424025909)|ESWA 2025|03/05, 2025|hallucination mitigation with reasoning|-|
+|[Think More, Hallucinate Less: Mitigating Hallucinations via Dual Process of Fast and Slow Thinking](https://arxiv.org/abs/2501.01306)|arxiv|01/02, 2025|hallucination mitigation with reasoning|-|
+|[Thinking Before Looking: Improving Multimodal LLM Reasoning via Mitigating Visual Hallucination](https://arxiv.org/abs/2411.12591)|arxiv|11/15, 2024|hallucination mitigation with reasoning|[Github](https://github.com/Terry-Xu-666/visual_inference_chain)|
+|[HalluMeasure: Fine-grained Hallucination Measurement Using Chain-of-Thought Reasoning](https://aclanthology.org/2024.emnlp-main.837/)|EMNLP 2024|11/12, 2024|hallucination measurement with reasoning|-|
+|[FG-PRM: Fine-grained Hallucination Detection and Mitigation in Language Model Mathematical Reasoning](https://arxiv.org/abs/2410.06304)|arxiv|10/08, 2024|hallucination detection with reasoning|[Anonymous](https://anonymous.4open.science/r/FG-PRM-75BB/)|
+|[CoMT: Chain-of-Medical-Thought Reduces Hallucination in Medical Report Generation](https://arxiv.org/abs/2406.11451)|arxiv|06/17, 2024|hallucination mitigation with reasoning|[Github](https://github.com/FRENKIE-CHIANG/CoMT)|
 
 </details>
 
@@ -115,70 +110,70 @@ If you like this project, don’t forget to **⭐️ star** it — it helps more
 
 |Title|Venue|Date|topic|Code|
 |:--------:|:--------:|:--------:|:--------:|:--------:|
-|[IntentionReasoner: Facilitating Adaptive LLM Safeguards through Intent Reasoning and Selective Query Refinement](https://arxiv.org/abs/2508.20151)|arxiv|08/27, 2025|guardrail model|-|
 |[Truthful or Fabricated? Using Causal Attribution to Mitigate Reward Hacking in Explanations](https://arxiv.org/abs/2504.05294)|ICML 2025 Workshop on Actionable Interpretability|07/15, 2025|faithfulness improvement|[Github](https://github.com/PedroMLF/Reward-Hacking-in-Explanations)|
-|[Teaching Models to Verbalize Reward Hacking in Chain-of-Thought Reasoning](https://arxiv.org/abs/2506.22777)|arxiv|07/13, 2025|reward hacking mitigation|[Project](https://scale.com/research/verbalize_cot_reasoning)|
+|[Teaching Models to Verbalize Reward Hacking in Chain-of-Thought Reasoning](https://arxiv.org/abs/2506.22777)|arxiv|07/13, 2025|faithfulness improvement|[Project](https://scale.com/research/verbalize_cot_reasoning)|
 |[Teaching Models to Verbalize Reward Hacking in Chain-of-Thought Reasoning](https://arxiv.org/abs/2506.22777)|arxiv|06/28, 2025|faithfulness improvement|-|
-|[Right Is Not Enough: The Pitfalls of Outcome Supervision in Training LLMs for Math Reasoning](https://arxiv.org/abs/2506.06877)|arxiv|06/24, 2025|faithfulness detector|-|
+|[Right Is Not Enough: The Pitfalls of Outcome Supervision in Training LLMs for Math Reasoning](https://arxiv.org/abs/2506.06877)|arxiv|06/24, 2025|faithfulness understanding|-|
 |[VFaith: Do Large Multimodal Models Really Reason on Seen Images Rather than Previous Memories?](https://arxiv.org/abs/2506.11571)|arxiv|06/13, 2025|MLLM faithfulness evaluation|[Github](https://github.com/LittleCoder12345/VFaith-Bench)|
 |[Teaching Large Language Models to Maintain Contextual Faithfulness via Synthetic Tasks and Reinforcement Learning](https://arxiv.org/abs/2505.16483)|arxiv|05/22, 2025|faitufulness improvement|-|
-|[Measuring the Faithfulness of Thinking Drafts in Large Reasoning Models](https://arxiv.org/abs/2505.13774)|arxiv|05/20, 2025|faithfulness assessment|-|
-|[Walk the Talk? Measuring the Faithfulness of Large Language Model Explanations](https://arxiv.org/abs/2504.14150)|arxiv|05/20, 2025|faithfulness assessment|-|
-|[Reasoning Models Don’t Always Say What They Think](https://www.anthropic.com/research/reasoning-models-dont-say-think)|arxiv|04/03, 2025|faithfulness|-|
-|[Reasoning Inconsistencies and How to Mitigate Them in Deep Learning](https://arxiv.org/abs/2504.02577)|arxiv|04/03, 2025|faithfulness|-|
-|[Landscape of Thoughts: Visualizing the Reasoning Process of Large Language Models](https://arxiv.org/abs/2503.22165)|arxiv|03/28, 2025|faithfulness|-|
-|[Policy Frameworks for Transparent Chain-of-Thought Reasoning in Large Language Models](https://arxiv.org/abs/2503.14521)|arxiv|03/14, 2025|faithfulness|-|
-|[Monitoring Reasoning Models for Misbehavior and the Risks of Promoting Obfuscation](https://arxiv.org/abs/2503.11926)|arxiv|03/14, 2025|faithfulness|-|
-|[Chain-of-Thought Reasoning In The Wild Is Not Always Faithful](https://arxiv.org/abs/2503.08679)|arxiv|03/13, 2025|faithfulness|-|
-|[A Causal Lens for Evaluating Faithfulness Metrics](https://arxiv.org/abs/2502.18848)|arxiv|02/26, 2025|faithfulness|-|
-|[Measuring faithfulness of chains of thought by unlearning reasoning steps](https://arxiv.org/abs/2502.14829)|arxiv| 02/20, 2025 |faithfulness|-|
-|[Are DeepSeek R1 And Other Reasoning Models More Faithful?](https://arxiv.org/abs/2501.08156)|ICLR 2025 Workshop|01/14, 2025|faithfulness|-|
-|[Graph-Guided Textual Explanation Generation Framework](https://arxiv.org/abs/2412.12318)|arxiv|12/16, 2024|faithfulness|-|
-|[New Faithfulness-Centric Interpretability Paradigms for Natural Language Processing](https://arxiv.org/abs/2411.17992)|arxiv|11/27, 2024|faithfulness|-|
-|[On the Impact of Fine-Tuning on Chain-of-Thought Reasoning](https://arxiv.org/abs/2411.15382)|arxiv|11/22, 2024|faithfulness|-|
-|[Causal-driven Large Language Models with Faithful Reasoning for Knowledge Question Answering](https://dl.acm.org/doi/abs/10.1145/3664647.3681263)|ACM MM 24|10/28, 2024|faithfulness|-|
-|[Towards Faithful Natural Language Explanations: A Study Using Activation Patching in Large Language Models](https://arxiv.org/abs/2410.14155)|arxiv|10/18, 2024|faithfulness|-|
-|[To Trust or Not to Trust? Enhancing Large Language Models' Situated Faithfulness to External Contexts](https://arxiv.org/abs/2410.14675)|ICLR 2024|10/18, 2024|faithfulness|[Github](https://github.com/kkkevinkkkkk/situated_faithfulness)|
-|[Enhancing Large Language Models' Situated Faithfulness to External Contexts](https://arxiv.org/abs/2410.14675v1)|arxiv|10/18, 2024|faithfulness|-|
-|[FLARE: Faithful Logic-Aided Reasoning and Exploration](https://arxiv.org/abs/2410.11900)|arxiv|10/14, 2024|faithfulness|-|
-|[CoMAT: Chain of Mathematically Annotated Thought Improves Mathematical Reasoning](https://arxiv.org/abs/2410.10336)|arxiv|10/14, 2024|faithfulness|-|
-|[On the Difficulty of Faithful Chain-of-Thought Reasoning in Large Language Models](https://openreview.net/forum?id=3h0kZdPhAC)|ICML 2024 Workshop|06/19, 2024|faithfulness|-|
-|[On the Hardness of Faithful Chain-of-Thought Reasoning in Large Language Models](https://arxiv.org/abs/2406.10625)|arxiv|06/15, 2024|faithfulness|-|
-|[XPrompt:Explaining Large Language Model's Generation via Joint Prompt Attribution](https://arxiv.org/abs/2405.20404)|arxiv|05/30, 2024|faithfulness|-|
-|[Faithful Logical Reasoning via Symbolic Chain-of-Thought](https://arxiv.org/abs/2405.18357)|ACL 2024|05/28, 2024|faithfulness|-|
-|[Dissociation of Faithful and Unfaithful Reasoning in LLMs](https://arxiv.org/abs/2405.15092)|arxiv|05/23, 2024|faithfulness|-|
-|[FiDeLiS: Faithful Reasoning in Large Language Model for Knowledge Graph Question Answering](https://arxiv.org/abs/2405.13873)|arxiv|05/22, 2024|faithfulness|-|
-|[Faithful Reasoning over Scientific Claims](https://ojs.aaai.org/index.php/AAAI-SS/article/view/31209)|AAAI 2024|05/20, 2024|faithfulness|-|
-|[Towards Faithful Chain-of-Thought: Large Language Models are Bridging ReasonersPreprint](https://ui.adsabs.harvard.edu/abs/2024arXiv240518915L/abstract)|arxiv|05/18, 2024|faithfulness|-|
-|[Markovian Transformers for Informative Language Modeling](https://arxiv.org/abs/2404.18988)|arxiv|04/29, 2024|faithfulness|-|
-|[Fact :Teaching MLLMs with Faithful, Concise and Transferable Rationales](https://arxiv.org/abs/2404.11129)|ACM MM 2024|04/17, 2024|faithfulness|-|
-|[Argumentative Large Language Models for Explainable and Contestable Claim Verification](https://ojs.aaai.org/index.php/AAAI/article/view/33637)|AAAI 2025|04/11, 2024|faithfulness|-|
-|[Recent Developments on Accountability and Explainability for Complex Reasoning Tasks](https://link.springer.com/chapter/10.1007/978-3-031-51518-7_9)|Springer|04/06, 2024|faithfulness|-|
-|[The Probabilities Also Matter: A More Faithful Metric for Faithfulness of Free-Text Explanations in Large Language Models](https://arxiv.org/abs/2404.03189)|arxiv|04/04, 2024|faithfulness|-|
-|[How Likely Do LLMs with CoT Mimic Human Reasoning?](https://arxiv.org/abs/2402.16048)|arxiv|02/25, 2024|faithfulness|-|
-|[Chain-of-Thought Unfaithfulness as Disguised Accuracy](https://arxiv.org/abs/2402.14897)|TMLR|02/22, 2024|faithfulness|-|
-|[Making Reasoning Matter: Measuring and Improving Faithfulness of Chain-of-Thought Reasoning](https://arxiv.org/abs/2402.13950)|EMNLP 2024 Findings|02/21, 2024|faithfulness|[Github](https://github.com/debjitpaul/Causal_CoT)|
-|[How Interpretable are Reasoning Explanations from Prompting Large Language Models?](https://arxiv.org/abs/2402.11863)|NAACL 2024 Findings|02/19, 2024|faithfulness|[Github](https://github.com/SenticNet/CoT_interpretability)|
-|[FaithLM: Towards Faithful Explanations for Large Language Models](https://arxiv.org/abs/2402.04678)|EMNLP 2024 Findings|02/07, 2024|faithfulness||
-|[Faithfulness vs. Plausibility: On the (Un)Reliability of Explanations from Large Language Models](https://arxiv.org/abs/2402.04614)|arxiv|02/07, 2024|faithfulness||
-|[Reasoning on Graphs: Faithful and Interpretable Large Language Model Reasoning](https://arxiv.org/abs/2310.01061)|ICLR 2024|10/02, 2023|faithfulness|[Github](https://github.com/RManLuo/reasoning-on-graphs)|
-|[Measuring Faithfulness in Chain-of-Thought Reasoning](https://arxiv.org/abs/2307.13702)|arxiv|07/17, 2023|faithfulness|-|
-|[Logic-LM: Empowering Large Language Models with Symbolic Solvers for Faithful Logical Reasoning](https://openreview.net/forum?id=nWXMv949ZH)|EMNLP 2023 Findings|05/20, 2023|faithfulness|-|
-|[Language Models Don’t Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting](https://arxiv.org/abs/2305.04388)|arxiv|05/07, 2023|faithfulness|-|
-|[Faithful Chain-of-Thought Reasoning](https://arxiv.org/abs/2301.13379)|IJCNLP-AACL 2023|01/31, 2023|faithfulness|[Github](https://github.com/veronica320/Faithful-COT)|
+|[Measuring the Faithfulness of Thinking Drafts in Large Reasoning Models](https://arxiv.org/abs/2505.13774)|arxiv|05/20, 2025|faithfulness measurement|[Github](https://github.com/polaris-73/faithful-thinking-draft)|
+|[Walk the Talk? Measuring the Faithfulness of Large Language Model Explanations](https://arxiv.org/abs/2504.14150)|arxiv|05/20, 2025|faithfulness measurement|-|
+|[Reasoning Models Don’t Always Say What They Think](https://www.anthropic.com/research/reasoning-models-dont-say-think)|website|04/03, 2025|faithfulness understanding|-|
+|[Reasoning Inconsistencies and How to Mitigate Them in Deep Learning](https://arxiv.org/abs/2504.02577)|arxiv|04/03, 2025|faithfulness improvement|-|
+|[Landscape of Thoughts: Visualizing the Reasoning Process of Large Language Models](https://arxiv.org/abs/2503.22165)|arxiv|03/28, 2025|faithfulness understanding|[Github](https://github.com/tmlr-group/landscape-of-thoughts)|
+|[Policy Frameworks for Transparent Chain-of-Thought Reasoning in Large Language Models](https://arxiv.org/abs/2503.14521)|arxiv|03/14, 2025|faithfulness improvement|-|
+|[Chain-of-Thought Reasoning In The Wild Is Not Always Faithful](https://arxiv.org/abs/2503.08679)|arxiv|03/13, 2025|faithfulness understanding|-|
+|[A Causal Lens for Evaluating Faithfulness Metrics](https://arxiv.org/abs/2502.18848)|arxiv|02/26, 2025|faithfulness measurement|-|
+|[Measuring faithfulness of chains of thought by unlearning reasoning steps](https://arxiv.org/abs/2502.14829)|arxiv| 02/20, 2025 |faithfulness measurement|[Github](https://github.com/%20technion-cs-nlp/parametric-faithfulness)|
+|[Are DeepSeek R1 And Other Reasoning Models More Faithful?](https://arxiv.org/abs/2501.08156)|ICLR 2025 Workshop|01/14, 2025|faithfulness understanding|-|
+|[Graph-Guided Textual Explanation Generation Framework](https://arxiv.org/abs/2412.12318)|arxiv|12/16, 2024|faithfulness improvement|-|
+|[New Faithfulness-Centric Interpretability Paradigms for Natural Language Processing](https://arxiv.org/abs/2411.17992)|arxiv|11/27, 2024|faithfulness understanding|-|
+|[On the Impact of Fine-Tuning on Chain-of-Thought Reasoning](https://arxiv.org/abs/2411.15382)|arxiv|11/22, 2024|faithfulness understanding|-|
+|[Causal-driven Large Language Models with Faithful Reasoning for Knowledge Question Answering](https://dl.acm.org/doi/abs/10.1145/3664647.3681263)|ACM MM 24|10/28, 2024|faithfulness improvement|-|
+|[Towards Faithful Natural Language Explanations: A Study Using Activation Patching in Large Language Models](https://arxiv.org/abs/2410.14155)|arxiv|10/18, 2024|faithfulness improvement|-|
+|[To Trust or Not to Trust? Enhancing Large Language Models' Situated Faithfulness to External Contexts](https://arxiv.org/abs/2410.14675)|ICLR 2024|10/18, 2024|faithfulness improvement|[Github](https://github.com/kkkevinkkkkk/situated_faithfulness)|
+|[Enhancing Large Language Models' Situated Faithfulness to External Contexts](https://arxiv.org/abs/2410.14675)|arxiv|10/18, 2024|faithfulness improvement|-|
+|[FLARE: Faithful Logic-Aided Reasoning and Exploration](https://arxiv.org/abs/2410.11900)|arxiv|10/14, 2024|faithfulness improvement|-|
+|[CoMAT: Chain of Mathematically Annotated Thought Improves Mathematical Reasoning](https://arxiv.org/abs/2410.10336)|arxiv|10/14, 2024|faithfulness improvement|[Github](https://github.com/joshuaongg21/CoMAT)|
+|[On the Hardness of Faithful Chain-of-Thought Reasoning in Large Language Models](https://arxiv.org/abs/2406.10625)|ICML 2024 Workshop|06/15, 2024|faithfulness understanding|-|
+|[XPrompt:Explaining Large Language Model's Generation via Joint Prompt Attribution](https://arxiv.org/abs/2405.20404)|arxiv|05/30, 2024|faithfulness understanding|-|
+|[Faithful Logical Reasoning via Symbolic Chain-of-Thought](https://arxiv.org/abs/2405.18357)|ACL 2024|05/28, 2024|faithfulness improvement|-|
+|[Dissociation of Faithful and Unfaithful Reasoning in LLMs](https://arxiv.org/abs/2405.15092)|arxiv|05/23, 2024|faithfulness understanding|[Github](https://github.com/CoTErrorRecovery/CoTErrorRecovery)|
+|[FiDeLiS: Faithful Reasoning in Large Language Model for Knowledge Graph Question Answering](https://arxiv.org/abs/2405.13873)|ACL 2025|05/22, 2024|faithfulness improvenment|[Github](https://github.com/Y-Sui/FiDeLiS)|
+|[Faithful Reasoning over Scientific Claims](https://ojs.aaai.org/index.php/AAAI-SS/article/view/31209)|AAAI 2024|05/20, 2024|faithfulness improvement|-|
+|[Towards Better Chain-of-Thought: A Reflection on Effectiveness and Faithfulness](https://arxiv.org/abs/2405.18915)|ACL 2025 Findings|05/29, 2024|faithfulness improvement|[Github](https://github.com/BugMakerzzz/better_cot)|
+|[Markovian Transformers for Informative Language Modeling](https://arxiv.org/abs/2404.18988)|arxiv|04/29, 2024|faithfulness improvement|-|
+|[Fact: Teaching MLLMs with Faithful, Concise and Transferable Rationales](https://arxiv.org/abs/2404.11129)|ACM MM 2024|04/17, 2024|faithfulness improvement|-|
+|[Argumentative Large Language Models for Explainable and Contestable Claim Verification](https://arxiv.org/abs/2405.02079)|AAAI 2025|04/11, 2024|faithfulness improvement|[Github](https://github.com/CLArg-group/argumentative-llms)|
+|[Recent Developments on Accountability and Explainability for Complex Reasoning Tasks](https://link.springer.com/chapter/10.1007/978-3-031-51518-7_9)|Springer|04/06, 2024|faithfulness improvement|-|
+|[The Probabilities Also Matter: A More Faithful Metric for Faithfulness of Free-Text Explanations in Large Language Models](https://arxiv.org/abs/2404.03189)|ACL 2024|04/04, 2024|faithfulness measurement|-|
+|[How Likely Do LLMs with CoT Mimic Human Reasoning?](https://arxiv.org/abs/2402.16048)|arxiv|02/25, 2024|faithfulness understanding|[Github](https://github.com/StevenZHB/CoT_Causal_Analysis)|
+|[Chain-of-Thought Unfaithfulness as Disguised Accuracy](https://arxiv.org/abs/2402.14897)|TMLR|02/22, 2024|faithfulness understanding|-|
+|[Making Reasoning Matter: Measuring and Improving Faithfulness of Chain-of-Thought Reasoning](https://arxiv.org/abs/2402.13950)|EMNLP 2024 Findings|02/21, 2024|faithfulness improvement|[Github](https://github.com/debjitpaul/Causal_CoT)|
+|[How Interpretable are Reasoning Explanations from Prompting Large Language Models?](https://arxiv.org/abs/2402.11863)|NAACL 2024 Findings|02/19, 2024|faithfulness understanding|[Github](https://github.com/SenticNet/CoT_interpretability)|
+|[FaithLM: Towards Faithful Explanations for Large Language Models](https://arxiv.org/abs/2402.04678)|EMNLP 2024 Findings|02/07, 2024|faithfulness improvement|-|
+|[Faithfulness vs. Plausibility: On the (Un)Reliability of Explanations from Large Language Models](https://arxiv.org/abs/2402.04614)|arxiv|02/07, 2024|faithfulness understanding|-|
+|[Reasoning on Graphs: Faithful and Interpretable Large Language Model Reasoning](https://arxiv.org/abs/2310.01061)|ICLR 2024|10/02, 2023|faithfulness improvement|[Github](https://github.com/RManLuo/reasoning-on-graphs)|
+|[Measuring Faithfulness in Chain-of-Thought Reasoning](https://arxiv.org/abs/2307.13702)|arxiv|07/17, 2023|faithfulness measurement|-|
+|[Question Decomposition Improves the Faithfulness of Model-Generated Reasoning](https://arxiv.org/abs/2307.11768)|arxiv|07/17, 2023|faithfulness improvement|[Github](https://github.com/anthropics/DecompositionFaithfulnessPaper)|
+|[Logic-LM: Empowering Large Language Models with Symbolic Solvers for Faithful Logical Reasoning](https://arxiv.org/abs/2305.12295)|EMNLP 2023 Findings|05/20, 2023|faithfulness improvement|[Github](https://github.com/teacherpeterpan/Logic-LLM)|
+|[Language Models Don’t Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting](https://arxiv.org/abs/2305.04388)|arxiv|05/07, 2023|faithfulness understanding|-|
+|[Faithful Chain-of-Thought Reasoning](https://arxiv.org/abs/2301.13379)|IJCNLP-AACL 2023|01/31, 2023|faithfulness improvement|[Github](https://github.com/veronica320/Faithful-COT)|
 
 </details>
 
 ## Safety: Assessment, Jailbreak, Alignment, Backdoor
-### Vulnerability Assessment
+### Vulnerability assessment
 |Title|Venue|Date|topic|Code|
 |:--------:|:--------:|:--------:|:--------:|:--------:| 
 |[ORFuzz: Fuzzing the "Other Side" of LLM Safety -- Testing Over-Refusal](https://arxiv.org/abs/2508.11222)|arxiv|08/15, 2025|over-refusal evaluation|[Github](https://github.com/HotBento/ORFuzz)|
 |[Safe Semantics, Unsafe Interpretations: Tackling Implicit Reasoning Safety in Large Vision-Language Models](https://arxiv.org/abs/2508.08926)|MM 2025|08/12, 2025|dataset|[Github](https://github.com/cwtpu/SSUI)|
 |[Eliciting and Analyzing Emergent Misalignment in State-of-the-Art Large Language Models](https://arxiv.org/abs/2508.04196)|arxiv|08/06, 2025|content-safety evaluation|[Github](https://github.com/AIM-Intelligence/)|
 |[Evaluating LLM Agent Adherence to Hierarchical Safety Principles: A Lightweight Benchmark for Probing Foundational Controllability Components](https://arxiv.org/abs/2506.02357)|ICML 2025 TAIG workshop|07/10, 2025|agenic safety evaluation|-|
+|[FORTRESS: Frontier Risk Evaluation for National Security and Public Safety](https://arxiv.org/abs/2506.14922)|arxiv|06/24, 2025|safety evaluation|[Huggingface](https://huggingface.co/datasets/ScaleAI/fortress_public)|
 |[Weakest Link in the Chain: Security Vulnerabilities in Advanced Reasoning Models](https://arxiv.org/abs/2506.13726)|LLMSEC 2025|06/16, 2025|content-safety evaluation|-|
 |[UDora: A Unified Red Teaming Framework against LLM Agents by Dynamically Hijacking Their Own Reasoning](https://arxiv.org/abs/2503.01908)|ICML 2025|06/06, 2025|agenic safety evaluation|[Github](https://github.com/AI-secure/UDora)|
+|[Beyond Safe Answers: A Benchmark for Evaluating True Risk Awareness in Large Reasoning Models](https://arxiv.org/abs/2505.19690)|arxiv|05/26, 2025|content-safety evaluation|[Github](https://github.com/OpenStellarTeam/BSA)|
 |[RRTL: Red Teaming Reasoning Large Language Models in Tool Learning](https://arxiv.org/abs/2505.17106)|arxiv|05/21, 2025|tool-learning safety evaluation|-|
 |[DeepSeek-R1 Thoughtology: Let's think about LLM Reasoning](https://arxiv.org/abs/2504.07128)|arxiv|04/02, 2025|content-safety evaluation|-|
 |[Towards Understanding the Safety Boundaries of DeepSeek Models: Evaluation and Findings](https://arxiv.org/abs/2503.15092)|arxiv|03/19, 2025|content-safety evaluation|-|
@@ -217,6 +212,7 @@ If you like this project, don’t forget to **⭐️ star** it — it helps more
 #### Jailbreak defense
 |Title|Venue|Date|topic|Code|
 |:--------:|:--------:|:--------:|:--------:|:--------:|
+|[IntentionReasoner: Facilitating Adaptive LLM Safeguards through Intent Reasoning and Selective Query Refinement](https://arxiv.org/abs/2508.20151)|arxiv|08/27, 2025|guardrail model|-|
 |[Pragmatic Inference Chain (PIC) Improving LLMs' Reasoning of Authentic Implicit Toxic Language](https://arxiv.org/abs/2503.01539)|arxiv|08/21, 2025|toxicity detection with CoT|-|
 |[Turning Logic Against Itself : Probing Model Defenses Through Contrastive Questions](https://arxiv.org/abs/2501.01872)|arxiv|08/08, 2025|Jailbreak defense|[Github](https://github.com/UKPLab/arxiv2025-poate-attack)|
 |[ReasoningGuard: Safeguarding Large Reasoning Models with Inference-time Safety Aha Moments](https://arxiv.org/abs/2508.04204)|arxiv|08/06, 2025|guardrail model|-|
@@ -278,7 +274,7 @@ If you like this project, don’t forget to **⭐️ star** it — it helps more
 |[FalseReject: A Resource for Improving Contextual Safety and Mitigating Over-Refusals in LLMs via Structured Reasoning](https://arxiv.org/abs/2505.08054)|CoLM 2025|05/12, 2025|over reject mitigation with reasoning|[Project](https://false-reject.github.io/)|
 |[Think in Safety: Unveiling and Mitigating Safety Alignment Collapse in Multimodal Large Reasoning Model](https://arxiv.org/abs/2505.06538)|arxiv|05/10, 2025|alignment of MLRM|[Github](https://github.com/xinyuelou/Think-in-Safety)|
 |[Energy-Based Reward Models for Robust Language Model Alignment](https://arxiv.org/abs/2504.13134)|COLM 2025|04/17, 2025|reward model improvement|[Github](https://github.com/AnamikaLochab/EBRM)|
-|[Monitoring reasoning models for misbehavior and the risks of promoting obfuscation](https://arxiv.org/abs/2503.11926)|arxiv|04/17, 2025|CoT monitor in alignment of LRM|-|
+|[Monitoring Reasoning Models for Misbehavior and the Risks of Promoting Obfuscation](https://arxiv.org/abs/2503.11926)|arxiv|04/17, 2025|CoT monitor in alignment of LRM|-|
 |[RealSafe-R1: Safety-Aligned DeepSeek-R1 without Compromising Reasoning Capability](https://arxiv.org/abs/2504.10081)|arxiv|04/14, 2025|alignment of LRM|[Huggingface](https://huggingface.co/RealSafe)|
 |[SaRO: Enhancing LLM Safety through Reasoning-based Alignment](https://arxiv.org/abs/2504.09420)|arxiv|04/13, 2025|alignment with reasoning|[Github](https://github.com/MurrayTom/SaRO)|
 |[SafeMLRM: Demystifying Safety in Multi-modal Large Reasoning Models](https://arxiv.org/abs/2504.08813)|arxiv|04/09, 2025|alignment of MLRM|[Github](https://github.com/fangjf1/OpenSafeMLRM)|
@@ -334,9 +330,11 @@ data poisoning|[Huggingface](https://huggingface.co/datasets/truthfulai/emergent
 |[MoHoBench: Assessing Honesty of Multimodal Large Language Models via Unanswerable Visual Questions](https://arxiv.org/abs/2507.21503)|arxiv|07/29, 2025|evaluation on unanswerable question|[Github](https://github.com/DSTTSD/MoHoBench)|
 |[When LLMs Copy to Think: Uncovering Copy-Guided Attacks in Reasoning LLMs](https://arxiv.org/abs/2507.16773)|arxiv|07/22, 2025|adversarial attack|-|
 |[Reasoning Models Are More Easily Gaslighted Than You Think](https://arxiv.org/abs/2506.09677)|arxiv|06/11, 2025|evaluation on misleading inputs|-|
+|[AbstentionBench: Reasoning LLMs Fail on Unanswerable Questions](https://arxiv.org/abs/2506.09038)|arxiv|06/10,2025|evaluation on unanswerable question|[Github](https://github.com/facebookresearch/AbstentionBench)|
 |[Chain-of-Code Collapse: Reasoning Failures in LLMs via Adversarial Prompting in Code Generation](https://arxiv.org/abs/2506.06971)|arxiv|06/07, 2025|evaluation on adversarial prompting|[Github](https://github.com/jrohsc/Chain-of-Code-Collapse)|
 |[Hidden in Plain Sight: Reasoning in Underspecified and Misspecified Scenarios for Multimodal LLMs](https://arxiv.org/abs/2506.00258)|arxiv|05/30, 2025|Failure analysis|-|
 |[CodeCrash: Stress Testing LLM Reasoning under Structural and Semantic Perturbations](https://arxiv.org/abs/2504.14119)|arxiv|05/23, 2025|evalution on code comprehension|[GitHub](https://cuhk-arise.github.io/CodeCrash)|
+|[PolyMath: Evaluating Mathematical Reasoning in Multilingual Contexts](https://arxiv.org/abs/2504.18428)|arxiv|04/28, 2025|evaluation on math|[Github](https://github .com/QwenLM/PolyMath)|
 |[Process or Result? Manipulated Ending Tokens Can Mislead Reasoning LLMs to Ignore the Correct Reasoning Steps](https://arxiv.org/abs/2503.19326)|arxiv|03/25, 2025|adversarial attack|-|
 |[A Frustratingly Simple Yet Highly Effective Attack Baseline: Over 90% Success Rate Against the Strong Black-box Models of GPT-4.5/4o/o1](https://arxiv.org/abs/2503.10635)|arxiv|03/13, 2025|adversarial attack|[Github](https://github.com/VILA-Lab/M-Attack)|
 |[Benchmarking Reasoning Robustness in Large Language Models](https://arxiv.org/abs/2503.04550)|arxiv|03/06, 2025|evaluation|-|
@@ -435,22 +433,18 @@ data poisoning|[Huggingface](https://huggingface.co/datasets/truthfulai/emergent
 |:-----:|:-----:|:-----:|:-----:|:----:|
 |[Lost in Pronunciation: Detecting Chinese Offensive Language Disguised by Phonetic Cloaking Replacement](https://arxiv.org/abs/2507.07640)|arxiv|07/10, 2025|Offensive Language detection benchmark|[Huggingface](https://huggingface.co/datasets/UTSNLPGroup/PCR-ToxiCN)|
 |[Towards Understanding the Cognitive Habits of Large Reasoning Models](https://arxiv.org/abs/2506.21571)|arxiv|07/05, 2025|cognitive habits|[Github](https://github.com/jianshuod/CogTest)|
-|[FORTRESS: Frontier Risk Evaluation for National Security and Public Safety](https://arxiv.org/abs/2506.14922)|arxiv|06/24, 2025|safety evaluation|[Huggingface](https://huggingface.co/datasets/ScaleAI/fortress_public)|
 |[IS-Bench: Evaluating Interactive Safety of VLM-Driven Embodied Agents in Daily Household Tasks](https://arxiv.org/abs/2506.16402)|arxiv|06/19, 2025|agent safety benchmark|-|
-|[AbstentionBench: Reasoning LLMs Fail on Unanswerable Questions](https://arxiv.org/abs/2506.09038)|arxiv|06/10,2025|unanswerable benchmark|[Github](https://github.com/facebookresearch/AbstentionBench)|
 |[PuzzleWorld: A Benchmark for Multimodal, Open-Ended Reasoning in Puzzlehunts](https://arxiv.org/abs/2506.06211)|arxiv|06/06, 2025|multi-modal open-ended reasoning benchmark|[Github](https://github.com/MIT-MI/PuzzleWorld)|
-|[Beyond Safe Answers: A Benchmark for Evaluating True Risk Awareness in Large Reasoning Models](https://arxiv.org/abs/2505.19690)|arxiv|05/26, 2025|evaluation|[Github](https://github.com/OpenStellarTeam/BSA)|
 |[Evaluation Faking: Unveiling Observer Effects in Safety Evaluation of Frontier AI Systems](https://arxiv.org/abs/2505.17815)|arxiv|05/23, 2025|evaluation benchmark|-|
 |[A Survey of Slow Thinking-based Reasoning LLMs using Reinforced Learning and Inference-time Scaling Law](https://arxiv.org/abs/2505.02665)|arxiv|05/08, 2025|general survey|-|
 |[100 Days After DeepSeek-R1: A Survey on Replication Studies and More Directions for Reasoning Language Models](https://arxiv.org/abs/2505.00551)|arxiv|05/02, 2025|r1 replication|-|
-|[PolyMath: Evaluating Mathematical Reasoning in Multilingual Contexts](https://arxiv.org/abs/2504.18428)|arxiv|04/28, 2025|multilingual math performance|-|
 |[Safety in Large Reasoning Models: A Survey](https://arxiv.org/abs/2504.17704)|arxiv|04/25, 2025|safety|-|
 |[Harnessing the Reasoning Economy: A Survey of Efficient Reasoning for Large Language Models](https://arxiv.org/abs/2503.24377)|arxiv|03/31, 2025|efficient reasoning|-|
 |[Challenging the Boundaries of Reasoning: An Olympiad-Level Math Benchmark for Large Language Models](https://arxiv.org/abs/2503.21380)|arxiv|03/28, 2025|math performance|-|
 
 </details>
 
-## Other related studies
+<!-- ## Other related studies
 
 <details>
 <summary>Click to hide/show the paper list</summary>
@@ -458,6 +452,7 @@ data poisoning|[Huggingface](https://huggingface.co/datasets/truthfulai/emergent
 |Title|Venue|Date|topic|Code|
 |:-----:|:-----:|:-----:|:-----:|:----:|
 |[Linear Control of Test Awareness Reveals Differential Compliance in Reasoning Models](https://arxiv.org/pdf/2505.14617)|arxiv|05/20, 2025|alignment study|[GitHub](https://github.com/microsoft/Test_Awareness_Steering)|
+|[Order Matters in Hallucination: Reasoning Order as Benchmark and Reflexive Prompting for Large-Language-Models](https://arxiv.org/abs/2408.05093)|arxiv|12/30, 2024|hallucination study|-|
 |[Slow Tuning and Low-Entropy Masking for Safe Chain-of-Thought Distillation](https://arxiv.org/abs/2508.09666)|arxiv|08/15, 2025|safe data distillation|-|
 
 [Corrupted by Reasoning: Reasoning Language Models Become Free-Riders in Public Goods Games](https://arxiv.org/abs/2506.23276) (06/29, 2025)
@@ -485,8 +480,6 @@ data poisoning|[Huggingface](https://huggingface.co/datasets/truthfulai/emergent
 [Collab: Controlled Decoding using Mixture of Agents for LLM Alignment](https://arxiv.org/abs/2503.21720) (03/27, 2025)
 
 [AgentSpec: Customizable Runtime Enforcement for Safe and Reliable LLM Agents](https://arxiv.org/abs/2503.18666) (03/24, 2025)
-
-[DeepSeek-R1 Thoughtology: Let's think about LLM Reasoning](https://arxiv.org/abs/2504.07128) (04/02, 2025)
 
 [Modular Machine Learning: An Indispensable Path towards New-Generation Large Language Models](https://arxiv.org/abs/2504.20020) (04/29, 2025)
 
@@ -527,4 +520,4 @@ data poisoning|[Huggingface](https://huggingface.co/datasets/truthfulai/emergent
 |:--------:|:--------:|:--------:|:--------:|:--------:|
 |[It's the Thought that Counts: Evaluating the Attempts of Frontier LLMs to Persuade on Harmful Topics](https://arxiv.org/abs/2506.02873)|arxiv|08/18, 2025|evaluation|[Github](github.com/AlignmentResearch/AttemptPersuadeEval)|
 |[Persuasion and Safety in the Era of Generative AI](https://arxiv.org/abs/2505.12248)|arxiv|05/18, 2025|study|-|
-</details>
+</details> -->
