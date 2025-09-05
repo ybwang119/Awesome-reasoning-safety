@@ -163,6 +163,10 @@ If you like this project, don’t forget to **⭐️ star** it — it helps more
 
 ## Safety: Assessment, Jailbreak, Alignment, Backdoor
 ### Vulnerability assessment
+
+<details open>
+<summary>Click to hide/show the paper list</summary>
+
 |Title|Venue|Date|topic|Code|
 |:--------:|:--------:|:--------:|:--------:|:--------:| 
 |[ORFuzz: Fuzzing the "Other Side" of LLM Safety -- Testing Over-Refusal](https://arxiv.org/abs/2508.11222)|arxiv|08/15, 2025|over-refusal evaluation|[Github](https://github.com/HotBento/ORFuzz)|
@@ -183,11 +187,13 @@ If you like this project, don’t forget to **⭐️ star** it — it helps more
 |[Are Smarter LLMs Safer? Exploring Safety-Reasoning Trade-offs in Prompting and Fine-Tuning](https://arxiv.org/abs/2502.09673)|arxiv|02/21, 2025|content-safety evaluation|-|
 |[o3-mini vs DeepSeek-R1: Which One is Safer?](https://arxiv.org/abs/2501.18438v1)|arxiv|01/30, 2025|content-safety evaluation|-|
 |[Challenges in Ensuring AI Safety in DeepSeek-R1 Models: The Shortcomings of Reinforcement Learning Strategies](https://arxiv.org/pdf/2501.17030)|arxiv|01/28, 2025|content-safety evaluation|-|
+</details>
+
 ### Jailbreak
+#### Jailbreak attack
+
 <details open>
 <summary>Click to hide/show the paper list</summary>
-
-#### Jailbreak attack
 
 |Title|Venue|Date|topic|Code|
 |:--------:|:--------:|:--------:|:--------:|:--------:| 
@@ -208,8 +214,12 @@ If you like this project, don’t forget to **⭐️ star** it — it helps more
 |[H-CoT: Hijacking the Chain-of-Thought Safety Reasoning Mechanism to Jailbreak Large Reasoning Models, Including OpenAI o1/o3, DeepSeek-R1, and Gemini 2.0 Flash Thinking](https://arxiv.org/abs/2502.12893v1)|arxiv|02/18, 2025|jailbreak attack|-|
 |[Adversarial Reasoning at Jailbreaking Time](https://arxiv.org/abs/2502.01633)|arxiv|02/03, 2025|jailbreak with CoT|-|
 |[The dark deep side of DeepSeek: Fine-tuning attacks against the safety alignment of CoT-enabled models](https://arxiv.org/abs/2502.01225)|arxiv|02/03, 2025|finetuning attack|-|
+</details>
 
 #### Jailbreak defense
+<details open>
+<summary>Click to hide/show the paper list</summary>
+
 |Title|Venue|Date|topic|Code|
 |:--------:|:--------:|:--------:|:--------:|:--------:|
 |[IntentionReasoner: Facilitating Adaptive LLM Safeguards through Intent Reasoning and Selective Query Refinement](https://arxiv.org/abs/2508.20151)|arxiv|08/27, 2025|guardrail model|-|
@@ -242,6 +252,9 @@ If you like this project, don’t forget to **⭐️ star** it — it helps more
 </details>
 
 ### Alignment
+<details open>
+<summary>Click to hide/show the paper list</summary>
+
 |Title|Venue|Date|topic|Code|
 |:--------:|:--------:|:--------:|:--------:|:--------:|
 |[PRISM: Robust VLM Alignment with Principled Reasoning for Integrated Safety in Multimodality](https://arxiv.org/abs/2508.18649)|arxiv|08/25, 2025|VLM alignment with reasoning|[Github](https://github.com/SaFoLab-WISC/PRISM)|
@@ -292,6 +305,8 @@ If you like this project, don’t forget to **⭐️ star** it — it helps more
 |[Enhancing Model Defense Against Jailbreaks with Proactive Safety Reasoning](https://arxiv.org/abs/2501.19180)|arxiv|01/31, 2025|alignment with reasoning|[anonymous](https://anonymous.4open.science/r/SCoT-D4D9)|
 |[Backtracking Improves Generation Safety](https://arxiv.org/abs/2409.14586)|ICLR 2025 Oral|09/22, 2024|alignment with reasoning|-|
 
+</details>
+
 ### Backdoor
 
 <details open>
@@ -321,6 +336,7 @@ data poisoning|[Huggingface](https://huggingface.co/datasets/truthfulai/emergent
 
 ## Robustness: evaluation and attack, improvement, overthinking, underthinking
 ### Evaluation and attack
+
 <details open>
 <summary>Click to hide/show the paper list</summary>
 
@@ -351,6 +367,9 @@ data poisoning|[Huggingface](https://huggingface.co/datasets/truthfulai/emergent
 </details>
 
 ### Improvement
+<details open>
+<summary>Click to hide/show the paper list</summary>
+
 |Title|Venue|Date|topic|Code|
 |:--------:|:--------:|:--------:|:--------:|:--------:|
 |[Error Reflection Prompting: Can Large Language Models Successfully Understand Errors?](https://arxiv.org/abs/2508.16729)|NAACL 2025|08/22, 2025|robustness improvement|-|
@@ -360,6 +379,9 @@ data poisoning|[Huggingface](https://huggingface.co/datasets/truthfulai/emergent
 |[Recitation over Reasoning: How Cutting-Edge Language Models Can Fail on Elementary School-Level Reasoning Problems?](https://arxiv.org/abs/2504.00509)|arxiv|04/01, 2025|robustness imporvement|[Huggingface](https://huggingface.co/datasets/kaiyan289/RoR-Bench)|
 |[Trading Inference-Time Compute for Adversarial Robustness](https://arxiv.org/abs/2501.18841)|arxiv|01/31, 2025|robustness improvement|-|
 |[Self-Polish: Enhance Reasoning in Large Language Models via Problem Refinement](https://arxiv.org/abs/2305.14497)|EMNLP 2023 Findings|05/23, 2023|reasoning enhancement|[Github](https://github.com/WooooDyy/Self-Polish)|
+
+</details>
+
 ### Overthinking and underthinking
 <details open>
 <summary>Click to hide/show the paper list</summary>
