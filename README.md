@@ -109,6 +109,7 @@ If you like this project, don’t forget to **⭐️ star** it — it helps more
 
 |Title|Venue|Date|topic|Code|
 |:--------:|:--------:|:--------:|:--------:|:--------:|
+|[Risky Business: Measuring The Faithfulness-Safety Tension](https://arxiv.org/abs/2608.03745)|EMNLP 2026|08/04, 2026|faithfulness-safety tension, evaluation and steering|-|
 |[Truthful or Fabricated? Using Causal Attribution to Mitigate Reward Hacking in Explanations](https://arxiv.org/abs/2504.05294)|ICML 2025 Workshop on Actionable Interpretability|07/15, 2025|faithfulness improvement|[Github](https://github.com/PedroMLF/Reward-Hacking-in-Explanations)|
 |[Teaching Models to Verbalize Reward Hacking in Chain-of-Thought Reasoning](https://arxiv.org/abs/2506.22777)|arxiv|07/13, 2025|faithfulness improvement|[Project](https://scale.com/research/verbalize_cot_reasoning)|
 |[Teaching Models to Verbalize Reward Hacking in Chain-of-Thought Reasoning](https://arxiv.org/abs/2506.22777)|arxiv|06/28, 2025|faithfulness improvement|-|
